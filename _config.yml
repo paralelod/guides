@@ -2,7 +2,7 @@
 title: Advanced Webdesign + Static Websites with Jekyll
 tag_text: Advanced Webdesign + Static Websites with Jekyll
 description: A responsive template for publishing single-page websites, articles that are easy on the eyes
-url: "http://127.0.0.1:4000"
+url: "http://lab.diogorusso.com/guides/"
 baseurl: ""
 
 font-awesome-include: true # make this false if you don't need font-awesome
