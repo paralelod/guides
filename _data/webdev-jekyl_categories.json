@@ -1,0 +1,19 @@
+[
+    {
+        "idcategory": "local-env",
+        "title": "setup local environment",
+        "description": "install and config a bunch of dev and design tools. All the dev tools are free and open source, most of the design tools are paid."
+    },
+    {
+        "idcategory": "webdesign",
+        "title": "overview of design and code tools"
+    },
+    {
+        "idcategory": "jekyll",
+        "title": "jekyll "
+    },
+    {
+        "idcategory": "deploy",
+        "title": "deploy "
+    }
+]
