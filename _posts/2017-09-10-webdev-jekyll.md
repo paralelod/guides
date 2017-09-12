@@ -4,15 +4,14 @@ title: Advanced Webdesign + Static Websites with Jekyll
 ---
 
 <h2>Index</h2>
-<ol type="1">
+<ul>
     {% for category in site.data.webdev-jekyl_categories %}
         <li>
-            <br>
             <h3><a href="#{{ category.idcategory }}">{{ category.title }}</a></h3>
             <p>{{ category.description }}</p>
         </li>
     {% endfor %}
-</ol>
+</ul>
 <br><br><br>
 <h2>Get Started</h2>
 
