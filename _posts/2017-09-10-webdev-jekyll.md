@@ -15,12 +15,6 @@ title: Advanced Webdesign + Static Websites with Jekyll
 <br><br><br>
 <h2>Get Started</h2>
 
-Há muita informação aqui e, embora possa se sentir avassaladora ao ver tudo apresentado dessa maneira, recomendamos baixar um PDF desse guia para que você possa imprimi-lo e mantê-lo em sua mesa.
-<br>
-<br>
-Ou pegue esta postagem no blog na nossa planilha fácil de digitalizar com todos os recursos 225+ em um só lugar
-<br><br>
-
 {% for category in site.data.webdev-jekyl_categories %}
   <a name="{{ category.idcategory }}"></a>
   <h3>{{ category.title }}</h3>
