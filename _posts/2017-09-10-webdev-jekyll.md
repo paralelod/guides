@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Advanced Webdesign + Static Websites with Jekyll
 ---
 
 <h2>Index</h2>
