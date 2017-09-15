@@ -39,7 +39,7 @@ Ou pegue esta postagem no blog na nossa planilha fácil de digitalizar com todos
         <li>
             <p>
               <a href="{{ item.url }}" target="blank">{{ item.linktitle }}</a>
-               :: {{ item.description | truncate: 99 }}
+               :: {{ item.descriptionsrc | truncate: 99 }}
             </p>
         </li>
       {% endif %}
