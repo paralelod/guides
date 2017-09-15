@@ -5,7 +5,7 @@ published: true
 ---
 
 <h2>Index</h2>
-<ul type="1">
+<ul>
     {% for section in site.data.webdev-jekyl_sections %}
         <li>
             <h3><a href="#{{ section.idsection }}">{{ section.title }}</a></h3>
