@@ -12,12 +12,10 @@ published: true
             <h3><a href="#{{ section.idsection }}">{{ section.title }}</a></h3>
             <p>{{ section.description }}</p>
           	{% for category in site.data.webdev-jekyl_categories %}
-              {% if category.idcategory == section.idsection %}
-                <li>
+              {% if category.idsection == section.idsection %}
                     <p>
-                      <a href="{{ item.url }}" target="blank">{{ category.title }}</a>
+                      <a href="#{{ category.idcategory }}" target="blank">{{ category.title }}</a>
                     </p>
-                </li>
               {% endif %}
             {% endfor %}
         </li>
