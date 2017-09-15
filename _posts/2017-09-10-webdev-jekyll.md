@@ -8,11 +8,10 @@ published: true
 <ul type="1">
     {% for section in site.data.webdev-jekyl_sections %}
         <li>
-            <br>
             <h3><a href="#{{ section.idsection }}">{{ section.title }}</a></h3>
             <p>{{ section.description }}</p>
           	{% for category in site.data.webdev-jekyl_categories %}
-              {% if category.idsection == section.idsection %}
+              {% if category.sectionid == section.idsection %}
                     <p>
                       <a href="#{{ category.idcategory }}" target="blank">{{ category.title }}</a>
                     </p>
