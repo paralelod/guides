@@ -1,17 +1,18 @@
 ---
 layout: post
+published: true
 ---
 
 <h2>Index</h2>
-<ol type="1">
-    {% for category in site.data.webdev-jekyl_categories %}
+<ul type="1">
+    {% for section in site.data.webdev-jekyl_sections %}
         <li>
             <br>
             <h3><a href="#{{ category.idcategory }}">{{ category.title }}</a></h3>
             <p>{{ category.description }}</p>
         </li>
     {% endfor %}
-</ol>
+</ul>
 <br><br><br>
 <h2>Get Started</h2>
 
