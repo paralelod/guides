@@ -18,7 +18,7 @@ title: Advanced Webdesign + Static Websites with Jekyll
 {% for category in site.data.webdev-jekyl_categories %}
   <a name="{{ category.idcategory }}"></a>
   <h3>{{ category.title }}</h3>
-  <img src="{{ site.url }}/images/hello.svg" alt="sample image">
+  <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
   <ul>
     {% for item in site.data.webdev-jekyl_links %}
       {% if category.idcategory == item.categoryid %}
