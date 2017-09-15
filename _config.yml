@@ -3,7 +3,7 @@ title: Resources
 tag_text: D! Creative Learning Guides
 description: Learning guides with a large list of links and resources
 url: "http://lab.diogorusso.com/guides/"
-baseurl: "/guides"
+# baseurl: "/guides"
 
 font-awesome-include: true # make this false if you don't need font-awesome
 

@@ -1,0 +1,22 @@
+[
+    {
+        "idsection": "dev-env",
+        "title": "dev-env"
+    },
+    {
+        "idsection": "design",
+        "title": "design"
+    },
+    {
+        "idsection": "html",
+        "title": "html"
+    },
+    {
+        "idsection": "style",
+        "title": "style"
+    },
+    {
+        "idsection": "javascript",
+        "title": "javascript"
+    }
+]

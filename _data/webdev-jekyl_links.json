@@ -1,1255 +1,1359 @@
 [
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "VSCode Tutorial - Getting started with VSCode",
-        "description": "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts.",
-        "url": "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+        "url": "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T",
+        "descriptionsrc": "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "A Collection of Useful Extensions for VSCode",
-        "description": "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions.",
-        "url": "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
+        "url": "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/",
+        "descriptionsrc": "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "Xcode Command Line Tools",
-        "description": "Xcode is a large suite of software development tools and libraries from Apple.",
-        "url": "http://railsapps.github.io/xcode-command-line-tools.html"
+        "url": "http://railsapps.github.io/xcode-command-line-tools.html",
+        "descriptionsrc": "Xcode is a large suite of software development tools and libraries from Apple."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "Introduction to the Mac OS X Command Line",
-        "description": "This is a command line tutorial primarily conducted in in the OS X command line. Because of OSX’s unix heritage, much of the info here is also useful in other unix inspired systems, like the Linux command line.",
-        "url": "http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line"
+        "url": "http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line",
+        "descriptionsrc": "This is a command line tutorial primarily conducted in in the OS X command line. Because of OSX’s unix heritage, much of the info here is also useful in other unix inspired systems, like the Linux command line."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "How to get started with shell scripts",
-        "description": " In a shell script, you will put the commands you would normally type at your shell prompt in the same order. This will enable you to execute all those commands at any time by only issuing one command: starting the script.",
-        "url": "https://www.vscentrum.be/cluster-doc/using-linux/how-to-get-started-with-shell-scripts"
+        "url": "https://www.vscentrum.be/cluster-doc/using-linux/how-to-get-started-with-shell-scripts",
+        "descriptionsrc": " In a shell script, you will put the commands you would normally type at your shell prompt in the same order. This will enable you to execute all those commands at any time by only issuing one command: starting the script."
     },
     {
+        "categoryid": "env-basics",
         "linktitle": "Makeheads101: Makefiles for Dummies",
-        "description": "In this video I demonstrate how to use a Makefile to easily compile a dummy C project. This tutorial is mainly targeted at those of you who have experience with C or C++ but who have never used Makefiles before.",
-        "url": "https://www.youtube.com/watch?v=Q1Lnp_Xx7z4"
+        "url": "https://www.youtube.com/watch?v=Q1Lnp_Xx7z4",
+        "descriptionsrc": "In this video I demonstrate how to use a Makefile to easily compile a dummy C project. This tutorial is mainly targeted at those of you who have experience with C or C++ but who have never used Makefiles before."
     },
     {
+        "categoryid": "env-basics",
         "linktitle": "Automator for Mac OS X: Tutorial and Examples",
-        "description": "As a software developer, there are a bunch of repetitive and tedious tasks you have to do almost every day. Wouldn’t it be great if there was a way to automate them?\nWell, there is – by using the app Automator that is built right into Mac OX X.",
-        "url": "https://www.raywenderlich.com/58986/automator-for-mac-tutorial-and-examples"
+        "url": "https://www.raywenderlich.com/58986/automator-for-mac-tutorial-and-examples",
+        "descriptionsrc": "As a software developer, there are a bunch of repetitive and tedious tasks you have to do almost every day. Wouldn’t it be great if there was a way to automate them?\nWell, there is – by using the app Automator that is built right into Mac OX X."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "MY MAC OSX BASH PROFILE",
-        "description": "There is a hidden file in your Mac’s user directory named .bash_profile. This file is loaded before Terminal loads your shell environment and contains all the startup configuration and preferences for your command line interface. Within it you can change your terminal prompt, change the colors of text, add aliases to functions you use all the time, and so much more.",
-        "url": "https://natelandau.com/my-mac-osx-bash_profile/"
+        "url": "https://natelandau.com/my-mac-osx-bash_profile/",
+        "descriptionsrc": "There is a hidden file in your Mac’s user directory named .bash_profile. This file is loaded before Terminal loads your shell environment and contains all the startup configuration and preferences for your command line interface. Within it you can change your terminal prompt, change the colors of text, add aliases to functions you use all the time, and so much more."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "Homebrew Package Manager",
-        "description": "Homebrew, the missing package manager for macOS",
-        "url": "https://brew.sh/"
+        "url": "https://brew.sh/",
+        "descriptionsrc": "Homebrew, the missing package manager for macOS"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
         "linktitle": "homebrew get started",
-        "description": "In this tutorial we will learn how to install Homebrew(https://www.brew.sh).  We will also learn how to browse the different packages that are available via the command line.In the end we will install a package via Homebrew, and we will learn how to uninstall it as well. ",
-        "url": "https://www.youtube.com/watch?v=TyDqlbXRU5g"
+        "url": "https://www.youtube.com/watch?v=TyDqlbXRU5g",
+        "descriptionsrc": "In this tutorial we will learn how to install Homebrew(https://www.brew.sh).  We will also learn how to browse the different packages that are available via the command line.In the end we will install a package via Homebrew, and we will learn how to uninstall it as well. "
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-basics",
+        "linktitle": "Homebrew CASK"
+    },
+    {
+        "categoryid": "env-basics",
         "linktitle": "Starting and Stopping Background Services with Homebrew",
-        "description": "I love Homebrew, but sometimes it really gets me down, you know? Especially when I have to deal with launchctl.",
-        "url": "https://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew"
+        "url": "https://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew",
+        "descriptionsrc": "I love Homebrew, but sometimes it really gets me down, you know? Especially when I have to deal with launchctl."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-install",
         "linktitle": "How to install Xcode, Homebrew, Git, RVM, Ruby & Rails on Mac OS X ",
-        "description": "After following many outdated and incomplete instructions for setting up a web development environment on a Mac (back in March 2012), and spending a lot of time finding solutions to the problems I encountered along the way, I decided to put together this detailed tutorial.",
-        "url": "https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/"
+        "url": "https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/",
+        "descriptionsrc": "After following many outdated and incomplete instructions for setting up a web development environment on a Mac (back in March 2012), and spending a lot of time finding solutions to the problems I encountered along the way, I decided to put together this detailed tutorial."
     },
     {
+        "categoryid": "env-install",
         "linktitle": "A shell script which turns your Mac into an awesome web development machine.",
-        "description": "Laptop is a script to set up an OS X computer for web development, and to keep it up to date.\n\nIt can be run multiple times on the same machine safely. It installs, upgrades, or skips packages based on what is already installed on the machine.",
-        "url": "https://github.com/monfresh/laptop"
+        "url": "https://github.com/monfresh/laptop",
+        "descriptionsrc": "Laptop is a script to set up an OS X computer for web development, and to keep it up to date.\n\nIt can be run multiple times on the same machine safely. It installs, upgrades, or skips packages based on what is already installed on the machine."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-install",
+        "linktitle": "Mac OS X Setup Guide",
+        "url": "http://sourabhbajaj.com/mac-setup/",
+        "descriptionsrc": "This guide covers the basics of setting up a development environment on a new Mac. Whether you are an experienced programmer or not, this guide is intended for everyone to use as a reference for setting up your environment or installing a languages/libraries."
+    },
+    {
+        "categoryid": "env-install",
         "linktitle": "Get Started with Git",
-        "description": "If you’re a designer or developer, you’ve probably heard about Git, and you might know that it has become immensely popular, especially among the open source community. ",
-        "url": "https://alistapart.com/article/get-started-with-git"
+        "url": "https://alistapart.com/article/get-started-with-git",
+        "descriptionsrc": "If you’re a designer or developer, you’ve probably heard about Git, and you might know that it has become immensely popular, especially among the open source community. "
     },
     {
+        "categoryid": "env-install",
         "linktitle": "Git 101: Git and GitHub for Beginners",
-        "description": "HubSpot Software Engineer Meghan Nelson created this intro to git and GitHub for a Women Who Code meetup.",
-        "url": "https://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners"
+        "url": "https://www.slideshare.net/HubSpot/git-101-git-and-github-for-beginners",
+        "descriptionsrc": "HubSpot Software Engineer Meghan Nelson created this intro to git and GitHub for a Women Who Code meetup."
     },
     {
+        "categoryid": "env-install",
         "linktitle": "An Intro to Git and GitHub for Beginners (Tutorial)",
-        "description": "follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the master branch.",
-        "url": "http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners"
+        "url": "http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
+        "descriptionsrc": "follow the steps below to get comfortable making changes to the code base, opening up a pull request (PR), and merging code into the master branch."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-install",
         "linktitle": "Github Desktop",
-        "description": "Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize.",
-        "url": "https://desktop.github.com/"
+        "url": "https://desktop.github.com/",
+        "descriptionsrc": "Extend your GitHub workflow beyond your browser with our Desktop Beta, completely redesigned with Electron. Get a unified cross-platform experience that’s completely open source and ready to customize."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "Python Tutorial for Beginners 1: Install and Setup for Mac and Windows",
-        "description": "In this Python Beginner Tutorial, we will start with the basics of how to install and setup Python for Mac and Windows. We will also take a look at the interactive prompt, as well as creating and running our first script. Let's get started.",
-        "url": "https://www.youtube.com/watch?v=YYXdXT2l-Gg"
+        "url": "https://www.youtube.com/watch?v=YYXdXT2l-Gg",
+        "descriptionsrc": "In this Python Beginner Tutorial, we will start with the basics of how to install and setup Python for Mac and Windows. We will also take a look at the interactive prompt, as well as creating and running our first script. Let's get started."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
+        "linktitle": "install PIP"
+    },
+    {
+        "categoryid": "env-python-ruby",
+        "linktitle": "Manage versions with Py..."
+    },
+    {
+        "categoryid": "env-python-ruby",
         "linktitle": "Python For Beginners",
-        "description": "we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in!",
-        "url": "https://www.python.org/about/gettingstarted/"
+        "url": "https://www.python.org/about/gettingstarted/",
+        "descriptionsrc": "we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in!"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "Ruby in Twenty Minutes",
-        "description": "This is a small Ruby tutorial that should take no more than 20 minutes to complete. It makes the assumption that you already have Ruby installed.",
-        "url": "https://www.ruby-lang.org/en/documentation/quickstart/"
+        "url": "https://www.ruby-lang.org/en/documentation/quickstart/",
+        "descriptionsrc": "This is a small Ruby tutorial that should take no more than 20 minutes to complete. It makes the assumption that you already have Ruby installed."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "Getting Started with Rails",
-        "description": "This guide covers getting up and running with Ruby on Rails.After reading this guide, you will know:\nHow to install Rails, create a new Rails application, and connect your application to a database.\nThe general layout of a Rails application.\nThe basic principles of MVC (Model, View, Controller) and RESTful design.\nHow to quickly generate the starting pieces of a Rails application.",
-        "url": "http://guides.rubyonrails.org/getting_started.html"
+        "url": "http://guides.rubyonrails.org/getting_started.html",
+        "descriptionsrc": "This guide covers getting up and running with Ruby on Rails.After reading this guide, you will know:\nHow to install Rails, create a new Rails application, and connect your application to a database.\nThe general layout of a Rails application.\nThe basic principles of MVC (Model, View, Controller) and RESTful design.\nHow to quickly generate the starting pieces of a Rails application."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "What Are Ruby Gems?",
-        "description": "In Ruby, a gem is a library that contains a specific piece of functionality as well as any files or assets related to that functionality. Gems can be found for all sorts of common functionality in an application -- things like handling money and currency, integrating with credit card processing, tools to make ruby coding even easier, and more. You could write these things yourself but one big benefit to using a gem instead is that it saves time.",
-        "url": "https://teamtreehouse.com/library/ruby-gems/ruby-gems/what-are-ruby-gems"
+        "url": "https://teamtreehouse.com/library/ruby-gems/ruby-gems/what-are-ruby-gems",
+        "descriptionsrc": "In Ruby, a gem is a library that contains a specific piece of functionality as well as any files or assets related to that functionality. Gems can be found for all sorts of common functionality in an application -- things like handling money and currency, integrating with credit card processing, tools to make ruby coding even easier, and more. You could write these things yourself but one big benefit to using a gem instead is that it saves time."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "What is a Gemfile",
-        "description": "A Gemfile is a file we create which is used for describing gem dependencies for Ruby programs.",
-        "url": "https://tosbourn.com/what-is-the-gemfile/"
+        "url": "https://tosbourn.com/what-is-the-gemfile/",
+        "descriptionsrc": "A Gemfile is a file we create which is used for describing gem dependencies for Ruby programs."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-python-ruby",
         "linktitle": "What's Bundler ?",
-        "description": "Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.\nBundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install.",
-        "url": "http://bundler.io/"
+        "url": "http://bundler.io/",
+        "descriptionsrc": "Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.\nBundler is an exit from dependency hell, and ensures that the gems you need are present in development, staging, and production. Starting work on a project is as simple as bundle install."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
         "linktitle": "What's Node.js?",
-        "description": "Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.",
-        "url": "https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm"
+        "url": "https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm",
+        "descriptionsrc": "Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
         "linktitle": "What's NPM?",
-        "description": "npm is a NodeJS package manager. As its name would imply, you can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies.",
-        "url": "https://howtonode.org/introduction-to-npm"
+        "url": "https://howtonode.org/introduction-to-npm",
+        "descriptionsrc": "npm is a NodeJS package manager. As its name would imply, you can use it to install node programs. Also, if you use it in development, it makes it easier to specify and link dependencies."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
         "linktitle": "Install Node.js with Homebrew",
-        "description": "In this tutorial we will learn to install NodeJS and NPM on Mac using Homebrew.",
-        "url": "https://www.dyclassroom.com/howto-mac/how-to-install-nodejs-and-npm-on-mac-using-homebrew"
+        "url": "https://www.dyclassroom.com/howto-mac/how-to-install-nodejs-and-npm-on-mac-using-homebrew",
+        "descriptionsrc": "In this tutorial we will learn to install NodeJS and NPM on Mac using Homebrew."
     },
     {
+        "categoryid": "env-node",
         "linktitle": "Install Node.js with NVM",
-        "description": "Node Version Manager - Simple bash script to manage multiple active node.js versions",
-        "url": "https://github.com/creationix/nvm"
+        "url": "https://github.com/creationix/nvm",
+        "descriptionsrc": "Node Version Manager - Simple bash script to manage multiple active node.js versions"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
         "linktitle": "What's Package.json",
-        "description": "A package.json file contains meta data about your app or module. Most importantly, it includes the list of dependencies to install from npm when running npm install. ",
-        "url": "https://github.com/vigetlabs/blendid/wiki/What-is-package.json%3F"
+        "url": "https://github.com/vigetlabs/blendid/wiki/What-is-package.json%3F",
+        "descriptionsrc": "A package.json file contains meta data about your app or module. Most importantly, it includes the list of dependencies to install from npm when running npm install. "
     },
     {
+        "categoryid": "env-node",
         "linktitle": "Node Hero - Getting Started With Node.js Tutorial",
-        "description": "This is the first post of an upcoming Node.js tutorial series called Node Hero - in these chapters, you can learn how to get started with Node.js and deliver software products using it.",
-        "url": "https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/"
+        "url": "https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/",
+        "descriptionsrc": "This is the first post of an upcoming Node.js tutorial series called Node Hero - in these chapters, you can learn how to get started with Node.js and deliver software products using it."
     },
     {
+        "categoryid": "env-node",
         "linktitle": "Install Node Global Packages",
-        "description": "Installing npm packages globally",
-        "url": "https://docs.npmjs.com/getting-started/installing-npm-packages-globally"
+        "url": "https://docs.npmjs.com/getting-started/installing-npm-packages-globally",
+        "descriptionsrc": "Installing npm packages globally"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
         "linktitle": "Install Node Local Packages",
-        "description": "Installing npm packages locally",
-        "url": "https://docs.npmjs.com/getting-started/installing-npm-packages-locally"
+        "url": "https://docs.npmjs.com/getting-started/installing-npm-packages-locally",
+        "descriptionsrc": "Installing npm packages locally"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-node",
+        "linktitle": "Node list of packages"
+    },
+    {
+        "categoryid": "env-build",
         "linktitle": "Getting Started with Gulp.js",
-        "description": "Learn how to set up and use Gulp.js, a task runner for Node.js based on Node streams.",
-        "url": "https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js"
+        "url": "https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js",
+        "descriptionsrc": "Learn how to set up and use Gulp.js, a task runner for Node.js based on Node streams."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-build",
         "linktitle": "A Simple Guide to Getting Started With Grunt",
-        "description": " Grunt is a task runner. This means that those repetitive tasks we deal with in our daily workflow gets automated. This will be a simple look at how to get up and running with Grunt. ",
-        "url": "https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt"
+        "url": "https://scotch.io/tutorials/a-simple-guide-to-getting-started-with-grunt",
+        "descriptionsrc": " Grunt is a task runner. This means that those repetitive tasks we deal with in our daily workflow gets automated. This will be a simple look at how to get up and running with Grunt. "
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-build",
         "linktitle": "Webpack 2",
-        "description": "Get Started with Webpack 2 youtube playlist",
-        "url": "https://www.youtube.com/watch?v=JdGnYNtuEtE&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY"
+        "url": "https://www.youtube.com/watch?v=JdGnYNtuEtE&list=PLkEZWD8wbltnRp6nRR8kv97RbpcUdNawY",
+        "descriptionsrc": "Get Started with Webpack 2 youtube playlist"
     },
     {
+        "categoryid": "env-build",
+        "linktitle": "Webpack Loaders"
+    },
+    {
+        "categoryid": "env-build",
         "linktitle": "Combine Webpack with Gulp 4",
-        "description": "In this article, specifically, Gulp 4. We'll use modern techniques to build an easily maintainable workflow, including the powerful and useful Hot Module Reloading (HMR).",
-        "url": "https://css-tricks.com/combine-webpack-gulp-4/"
+        "url": "https://css-tricks.com/combine-webpack-gulp-4/",
+        "descriptionsrc": "In this article, specifically, Gulp 4. We'll use modern techniques to build an easily maintainable workflow, including the powerful and useful Hot Module Reloading (HMR)."
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-build",
         "linktitle": "grunt-webpack",
-        "description": "integrate webpack into grunt build process",
-        "url": "https://github.com/webpack-contrib/grunt-webpack"
+        "url": "https://github.com/webpack-contrib/grunt-webpack",
+        "descriptionsrc": "integrate webpack into grunt build process"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-extra",
+        "linktitle": "Install SQlite with homebrew"
+    },
+    {
+        "categoryid": "env-extra",
         "linktitle": "Install and Run MongoDB with Homebrew",
-        "description": " The best way to install MongoDB is with Homebrew. ",
-        "url": "https://treehouse.github.io/installation-guides/mac/mongo-mac.html"
+        "url": "https://treehouse.github.io/installation-guides/mac/mongo-mac.html",
+        "descriptionsrc": " The best way to install MongoDB is with Homebrew. "
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-extra",
         "linktitle": "Install SQL with Homebrew",
-        "description": "This procedure explains how to install MySQL using Homebrew",
-        "url": "https://gist.github.com/nrollr/3f57fc15ded7dddddcc4e82fe137b58e"
+        "url": "https://gist.github.com/nrollr/3f57fc15ded7dddddcc4e82fe137b58e",
+        "descriptionsrc": "This procedure explains how to install MySQL using Homebrew"
     },
     {
-        "categoryid": "local-env",
+        "categoryid": "env-extra",
         "linktitle": "Docker Toolbox",
-        "description": "The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. ",
-        "url": "https://www.docker.com/products/docker-toolbox"
+        "url": "https://www.docker.com/products/docker-toolbox",
+        "descriptionsrc": "The Docker Toolbox is an installer to quickly and easily install and setup a Docker environment on your computer. "
     },
     {
+        "categoryid": "env-extra",
         "linktitle": "Getting Started with Docker\n",
-        "description": "This tutorial will explain the fundamentals of Docker and start you with some basic usage.",
-        "url": "https://scotch.io/tutorials/getting-started-with-docker"
+        "url": "https://scotch.io/tutorials/getting-started-with-docker",
+        "descriptionsrc": "This tutorial will explain the fundamentals of Docker and start you with some basic usage."
     },
     {
+        "categoryid": "env-extra",
         "linktitle": "Kitematic tutorial: Serve a static website with NGINX",
-        "description": "In this tutorial, you will:\nDownload and run a web server container\nExplore the container’s website data natively on your Mac\nUse volumes to modify the website data",
-        "url": "https://docs.docker.com/kitematic/nginx-web-server/"
+        "url": "https://docs.docker.com/kitematic/nginx-web-server/",
+        "descriptionsrc": "In this tutorial, you will:\nDownload and run a web server container\nExplore the container’s website data natively on your Mac\nUse volumes to modify the website data"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Hologram Gem",
-        "description": "Hologram is a Ruby gem that parses comments in your CSS and turns them into a beautiful styleguide.",
-        "url": "https://trulia.github.io/hologram/"
+        "categoryid": "env-extra",
+        "linktitle": "Heroku CLI"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "env-extra",
+        "linktitle": "Google Cloud SDK"
+    },
+    {
+        "categoryid": "env-extra",
+        "linktitle": "AWS CLLI"
+    },
+    {
+        "linktitle": "Sketch Download"
+    },
+    {
+        "categoryid": "sketch-app",
         "linktitle": "Sketch App Tutorial Series: Part 1 of 5.",
-        "description": "This is Part 1 of a 5 Part Course. Throughout this series I will be teaching you how to get started with Sketch",
-        "url": "https://medium.com/@marcandrew/sketch-app-tutorial-series-part-1-of-4-1e4ee4265073"
+        "url": "https://medium.com/@marcandrew/sketch-app-tutorial-series-part-1-of-4-1e4ee4265073",
+        "descriptionsrc": "This is Part 1 of a 5 Part Course. Throughout this series I will be teaching you how to get started with Sketch"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch Together",
-        "description": "Small workshops to learn design and prototyping tools. on youtube",
-        "url": "https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw/videos"
+        "url": "https://www.youtube.com/channel/UCZHkx_OyRXHb1D3XTqOidRw/videos",
+        "descriptionsrc": "Small workshops to learn design and prototyping tools. on youtube"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch App Sources",
-        "description": "Over 2,000 design resources for Sketch App",
-        "url": "https://www.sketchappsources.com/"
+        "url": "https://www.sketchappsources.com/",
+        "descriptionsrc": "Over 2,000 design resources for Sketch App"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch Tool",
-        "description": "An OS X command-line app for exporting Pages and Slices out of .sketch documents. SketchTool is free to use.",
-        "url": "https://www.sketchapp.com/tool/"
+        "url": "https://www.sketchapp.com/tool/",
+        "descriptionsrc": "An OS X command-line app for exporting Pages and Slices out of .sketch documents. SketchTool is free to use."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch Toolbox",
-        "description": "A super simple plugin manager for Sketch",
-        "url": "http://sketchtoolbox.com/"
+        "url": "http://sketchtoolbox.com/",
+        "descriptionsrc": "A super simple plugin manager for Sketch"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Craft Manager",
-        "description": "Craft is a suite of plugins to let you design with real data in mind. Manage them via the new Craft Manager for incredibly easy updating.",
-        "url": "https://www.invisionapp.com/craft"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "InVision App",
-        "description": "The world's leading prototyping, collaboration & workflow platform",
-        "url": "https://www.invisionapp.com/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Zeplin iO",
-        "description": "Zeplin is the ultimate collaboration tool between designers and developers. It cuts meetings in half and ensures that designs are implemented perfectly,\nhowever complex",
-        "url": "https://zeplin.io/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "UX Power Tools",
-        "description": "UX Power Tools is like Bootstrap for Sketch. It’s a sophisticated design system of common components for crafting world-class apps and products. Use it as a boilerplate on every project to save yourself hundreds of hours. ",
-        "url": "https://www.uxpower.tools/"
-    },
-    {
-        "linktitle": "Code Pen Design Patterns",
-        "description": "Ideas, inspiration and examples for your own projects.",
-        "url": "https://codepen.io/patterns/"
-    },
-    {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch Libraries",
-        "description": "A Library is just an ordinary Sketch document that contains Symbols which you can then use in any other Sketch document.",
-        "url": "https://www.sketchapp.com/learn/documentation/libraries/"
+        "url": "https://www.sketchapp.com/learn/documentation/libraries/",
+        "descriptionsrc": "A Library is just an ordinary Sketch document that contains Symbols which you can then use in any other Sketch document."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "sketch-app",
         "linktitle": "Sketch: A Perfect Icon workflow\n",
-        "description": "Really quick, consistent way to use icon fonts in Sketch.",
-        "url": "https://medium.com/sketch-app-sources/the-perfect-sketch-icon-workflow-8d15bd5cc873"
+        "url": "https://medium.com/sketch-app-sources/the-perfect-sketch-icon-workflow-8d15bd5cc873",
+        "descriptionsrc": "Really quick, consistent way to use icon fonts in Sketch."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "proto",
+        "linktitle": "Craft Manager",
+        "url": "https://www.invisionapp.com/craft",
+        "descriptionsrc": "Craft is a suite of plugins to let you design with real data in mind. Manage them via the new Craft Manager for incredibly easy updating."
+    },
+    {
+        "categoryid": "proto",
+        "linktitle": "InVision App",
+        "url": "https://www.invisionapp.com/",
+        "descriptionsrc": "The world's leading prototyping, collaboration & workflow platform"
+    },
+    {
+        "categoryid": "proto",
+        "linktitle": "Zeplin iO",
+        "url": "https://zeplin.io/",
+        "descriptionsrc": "Zeplin is the ultimate collaboration tool between designers and developers. It cuts meetings in half and ensures that designs are implemented perfectly,\nhowever complex"
+    },
+    {
+        "categoryid": "proto",
+        "linktitle": "Origami Studio"
+    },
+    {
+        "categoryid": "proto",
+        "linktitle": "Principle"
+    },
+    {
+        "categoryid": "proto",
+        "linktitle": "UX Power Tools",
+        "url": "https://www.uxpower.tools/",
+        "descriptionsrc": "UX Power Tools is like Bootstrap for Sketch. It’s a sophisticated design system of common components for crafting world-class apps and products. Use it as a boilerplate on every project to save yourself hundreds of hours. "
+    },
+    {
+        "categoryid": "design-code",
+        "linktitle": "Brad Frost's Atomic Design"
+    },
+    {
+        "categoryid": "design-code",
+        "linktitle": "Code Pen Design Patterns",
+        "url": "https://codepen.io/patterns/",
+        "descriptionsrc": "Ideas, inspiration and examples for your own projects."
+    },
+    {
+        "categoryid": "design-code",
         "linktitle": "Icons & Web Fonts with Sketch + Gulp"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "design-code",
         "linktitle": "React Sketch - Paiting With Code",
-        "description": "render React components to Sketch ",
-        "url": "https://github.com/airbnb/react-sketchapp"
+        "url": "https://github.com/airbnb/react-sketchapp",
+        "descriptionsrc": "render React components to Sketch "
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "design-code",
         "linktitle": "Sketch Plugin Boilerplate",
-        "description": "The Sketch Plugin Boilerplate is targeted at JS Developers, who want to create awesome plugins for Sketch",
-        "url": "https://github.com/julianburr/sketch-plugin-boilerplate"
+        "url": "https://github.com/julianburr/sketch-plugin-boilerplate",
+        "descriptionsrc": "The Sketch Plugin Boilerplate is targeted at JS Developers, who want to create awesome plugins for Sketch"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "design-code",
         "linktitle": "Using Gulp in Your Web Design Workflow",
-        "description": "how to set up Gulp on your system and how to automate the most common tasks in the web design workflow",
-        "url": "http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/"
+        "url": "http://mattmodrowski.com/blog/using-gulp-in-your-web-design-workflow/",
+        "descriptionsrc": "how to set up Gulp on your system and how to automate the most common tasks in the web design workflow"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Adobe Creative Cloud",
-        "description": "Creative Cloud gives you the entire collection of Adobe desktop and mobile apps, from essentials like Photoshop to innovative new tools like Adobe XD (Beta).",
-        "url": "http://www.adobe.com/creativecloud.html"
+        "categoryid": "design-code",
+        "linktitle": "Extract Assets from Sketch"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Node PSD",
-        "description": "A general purpose PSD parser written in Coffeescript. Based off of PSD.rb. It allows you to work with a Photoshop document in a manageable tree structure and find out important data",
-        "url": "https://www.npmjs.com/package/psd"
+        "categoryid": "design-code",
+        "linktitle": "Responsive Images Resizing"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Opensource Design Apps",
-        "description": "The 12 open-source tools for designers",
-        "url": "http://www.designer-daily.com/the-12-best-open-source-tools-for-designers-53123"
+        "categoryid": "design-code",
+        "linktitle": "Image Optimization"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "The best free graphic design software",
-        "description": "selection of the best pieces of free graphic design software",
-        "url": "http://www.creativebloq.com/graphic-design/free-graphic-design-software-8134039"
+        "categoryid": "design-code",
+        "linktitle": "Image Metadata extraction"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Font Forge ",
-        "description": "FontForge is a free and open source font editor brought to you by a community of fellow type lovers",
-        "url": "https://fontforge.github.io/en-US/"
+        "categoryid": "design-code",
+        "linktitle": "Png sprites"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "Periodic table of HTML elements",
-        "description": "base,metadata, sectioning, text-content, text-semantics, media, embedded, script, edits, table, forms, interactive. web-components",
-        "url": "https://madebymike.com.au/demos/html5-periodic-table/"
+        "categoryid": "design-code",
+        "linktitle": "Svg minification"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "html5 boilerplate",
-        "description": "HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.",
-        "url": "https://html5boilerplate.com/"
+        "categoryid": "design-code",
+        "linktitle": "Svg colorization"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "html5 template",
-        "description": "Boilerplate html5 full template",
-        "url": "https://gist.github.com/felipepodesta/813965"
+        "categoryid": "design-code",
+        "linktitle": "Svg Sprite"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "html form tags cheatsheet",
-        "description": "HTML forms and input tags cheatsheet. All you need to know to write every HTML form possible, including links to good resources on HTML and the new HTML5 form and input options...",
-        "url": "https://gist.github.com/h4w5/8848398"
+        "categoryid": "design-code",
+        "linktitle": "Webfonts creation"
     },
     {
-        "categoryid": "webdesign",
-        "linktitle": "head cheatsheet",
-        "description": "A list of everything that could go in the head of your document\n",
-        "url": "https://github.com/joshbuchea/HEAD"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Apple meta tags",
-        "description": "Configuring Web Applications",
-        "url": "https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html"
-    },
-    {
-        "linktitle": "How to Boost Your SEO by Using Schema Markup",
-        "description": "One of the latest evolutions in SEO is called schema markup. This new form of optimization is one of the most powerful, but least-utilized forms of SEO available today. ",
-        "url": "https://blog.kissmetrics.com/get-started-using-schema/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Open Graph: Take Control of How Social Media Shares Your Web Pages",
-        "description": "an initiative developed by Facebook that allows it to recognize web content easily and display it nicely within their platform. ",
-        "url": "https://webdesign.tutsplus.com/tutorials/open-graph-take-control-of-how-social-media-shares-your-web-pages--cms-27927"
-    },
-    {
-        "linktitle": "Twitter Cards: Everything You Need to Know",
-        "description": "Twitter Cards allow you to go beyond the 140-character limit of the platform and attach media experiences—such as photos or videos—to Tweets.",
-        "url": "https://sproutsocial.com/insights/twitter-cards-guide/"
-    },
-    {
-        "linktitle": "Favicon Generator. For real.",
-        "description": "With so many platforms and icons, it's hard to know exactly what you should do. What are the dimensions of favicon.ico? How many Touch icons do I need? RealFaviconGenerator did the reseach and testing for you.",
-        "url": "https://realfavicongenerator.net/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "css selectors cheat sheet",
-        "description": "CSS Selectors Cheatsheet",
-        "url": "https://gist.github.com/smutnyleszek/809a69dd05e1d5f12d01"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "css units",
-        "description": "CSS has several different units for expressing a length.",
-        "url": "https://www.w3schools.com/cssref/css_units.asp"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "css media queries",
-        "description": "CSS Media Query Cheat Sheet (with Foundation)",
-        "url": "https://gist.github.com/bartholomej/8415655"
-    },
-    {
-        "linktitle": "CSS Pseudo-elements",
-        "description": "A CSS pseudo-element is used to style specified parts of an element.\nFor example, it can be used to:\nStyle the first letter, or line, of an element\nInsert content before, or after, the content of an element",
-        "url": "https://www.w3schools.com/css/css_pseudo_elements.asp"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "css ::after / ::before",
-        "description": "::after is a pseudo element which allows you to insert content onto a page from CSS (without it needing to be in the HTML).",
-        "url": "https://css-tricks.com/almanac/selectors/a/after-and-before/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "CSS Content",
-        "description": "CSS has a property called content. It can only be used with the pseudo elements :after and :before.",
-        "url": "https://css-tricks.com/css-content/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "An Introduction To Object Oriented CSS (OOCSS)",
-        "description": "object oriented CSS and how it can help improve both the performance and maintainability of your Web pages.",
-        "url": "https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Css BEM 101",
-        "description": "The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. ",
-        "url": "https://css-tricks.com/bem-101/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Sass Basics",
-        "description": "SCSS SYNTAX",
-        "url": "http://sass-lang.com/guide"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "How to Use Sass Mixins",
-        "description": "A Mixin is a block of code that lets us group CSS declarations we may reuse throughout our site.",
-        "url": "https://scotch.io/tutorials/how-to-use-sass-mixins"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Sass - Mixin Arguments",
-        "description": "The SassScript values can be taken as arguments in mixins, which are passed when mixin is included and are available as variable within the mixin. ",
-        "url": "https://www.tutorialspoint.com/sass/arguments.htm"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Using pure Sass functions to make reusable logic more useful",
-        "description": "Use functions when you need to calculate a value that may be reused somewhere else.",
-        "url": "http://thesassway.com/advanced/pure-sass-functions"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Controlling color with Sass color functions",
-        "description": "Sass comes with functions that can easily be applied to colors in your CSS properties. These functions, when used correctly, can be incredibly powerful. They take some of the sting out of choosing and manipulating colors. ",
-        "url": "https://robots.thoughtbot.com/controlling-color-with-sass-color-functions"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Getting Started with Less",
-        "description": "you'll find examples, starters, and, most importantly, a super easy and professional way to compile your Less into CSS. ",
-        "url": "https://scotch.io/tutorials/getting-started-with-less"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "A Deeper Look at LESS Mixins",
-        "description": "LESS always tries to keep its syntax and features so that it closely mimics CSS. Hence a mixin in LESS is declared in the same way as we declare a CSS style rule using a class or an ID selector. ",
-        "url": "https://webdesign.tutsplus.com/tutorials/a-deeper-look-at-less-mixins--cms-22882"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "LESS - Mixins with Multiple Parameters",
-        "description": "Parameters can be separated using commas or semicolon. Using the comma symbol, you can interpret it as mixin parameters separator or css list separator. ",
-        "url": "https://www.tutorialspoint.com/less/mixin_multiple_param.htm"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "LESS functions",
-        "description": "Built-in functions supported by Less.",
-        "url": "http://lesscss.org/functions/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Understanding LESS Color Functions",
-        "description": "LESS provides several functions with quite descriptive keywords that we can use to manipulate colors",
-        "url": "http://www.hongkiat.com/blog/less-color-functions/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "PostCSS – A Comprehensive Introduction\n",
-        "description": "PostCSS aims to reinvent CSS with an ecosystem of custom plugins and tools. Working with the same principles of preprocessors such as Sass and LESS, it transforms extended syntaxes and features into modern, browser-friendly CSS.",
-        "url": "https://www.smashingmagazine.com/2015/12/introduction-to-postcss/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Getting Started with Stylus",
-        "description": "Stylus provides the standard CSS preprocessor abilities, like extending classes, creating mixins (functions), importing stylesheets, and setting variables, but it also provides a load of more advanced features.",
-        "url": "http://blog.teamtreehouse.com/getting-started-stylus"
-    },
-    {
+        "categoryid": "design-code",
         "linktitle": "Killer SVG Workflow",
-        "description": "We are going to use Grunt.js (if Gulp.js is your preferred flavor of automation, there are equivalent plugins to achieve the same things we'll be doing with Grunt) to run some of the tasks that help optimize our SVGs for use and accessibility, and streamline our workflow.",
-        "url": "http://mattsoria.com/killersvgworkflow/"
+        "url": "http://mattsoria.com/killersvgworkflow/",
+        "descriptionsrc": "We are going to use Grunt.js (if Gulp.js is your preferred flavor of automation, there are equivalent plugins to achieve the same things we'll be doing with Grunt) to run some of the tasks that help optimize our SVGs for use and accessibility, and streamline our workflow."
     },
     {
+        "categoryid": "design-code",
         "linktitle": "Creating an SVG icon workflow",
-        "description": "A tutorial on how you can leverage all the fantastic benefits of an SVG based icon system whilst still providing support for those pesky older browsers.",
-        "url": "https://lukewhitehouse.co.uk/blog/svg-icon-workflow/"
+        "url": "https://lukewhitehouse.co.uk/blog/svg-icon-workflow/",
+        "descriptionsrc": "A tutorial on how you can leverage all the fantastic benefits of an SVG based icon system whilst still providing support for those pesky older browsers."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "design-code",
         "linktitle": "CREATING SVG SPRITES USING GULP AND SASS",
-        "description": "SVG icons into a folder and the SVG sprite is created and optimised automatically along with a Sass map or names and co-ordinates. By using Sass mixins we are then able to include our sprites by using a very simple bit of code",
-        "url": "https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/"
+        "url": "https://www.liquidlight.co.uk/blog/article/creating-svg-sprites-using-gulp-and-sass/",
+        "descriptionsrc": "SVG icons into a folder and the SVG sprite is created and optimised automatically along with a Sass map or names and co-ordinates. By using Sass mixins we are then able to include our sprites by using a very simple bit of code"
     },
     {
+        "categoryid": "html",
+        "linktitle": "Periodic table of HTML elements",
+        "url": "https://madebymike.com.au/demos/html5-periodic-table/",
+        "descriptionsrc": "base,metadata, sectioning, text-content, text-semantics, media, embedded, script, edits, table, forms, interactive. web-components"
+    },
+    {
+        "categoryid": "html",
+        "linktitle": "html5 boilerplate",
+        "url": "https://html5boilerplate.com/",
+        "descriptionsrc": "HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package."
+    },
+    {
+        "categoryid": "html",
+        "linktitle": "html5 template",
+        "url": "https://gist.github.com/felipepodesta/813965",
+        "descriptionsrc": "Boilerplate html5 full template"
+    },
+    {
+        "categoryid": "html",
+        "linktitle": "html form tags cheatsheet",
+        "url": "https://gist.github.com/h4w5/8848398",
+        "descriptionsrc": "HTML forms and input tags cheatsheet. All you need to know to write every HTML form possible, including links to good resources on HTML and the new HTML5 form and input options..."
+    },
+    {
+        "categoryid": "html",
+        "linktitle": "head cheatsheet",
+        "url": "https://github.com/joshbuchea/HEAD",
+        "descriptionsrc": "A list of everything that could go in the head of your document\n"
+    },
+    {
+        "categoryid": "html",
+        "linktitle": "Apple meta tags",
+        "url": "https://developer.apple.com/library/content/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html",
+        "descriptionsrc": "Configuring Web Applications"
+    },
+    {
+        "categoryid": "social-meta",
+        "linktitle": "Favicon Generator. For real.",
+        "url": "https://realfavicongenerator.net/",
+        "descriptionsrc": "With so many platforms and icons, it's hard to know exactly what you should do. What are the dimensions of favicon.ico? How many Touch icons do I need? RealFaviconGenerator did the reseach and testing for you."
+    },
+    {
+        "categoryid": "social-meta",
+        "linktitle": "How to Boost Your SEO by Using Schema Markup",
+        "url": "https://blog.kissmetrics.com/get-started-using-schema/",
+        "descriptionsrc": "One of the latest evolutions in SEO is called schema markup. This new form of optimization is one of the most powerful, but least-utilized forms of SEO available today. "
+    },
+    {
+        "categoryid": "social-meta",
+        "linktitle": "Open Graph: Take Control of How Social Media Shares Your Web Pages",
+        "url": "https://webdesign.tutsplus.com/tutorials/open-graph-take-control-of-how-social-media-shares-your-web-pages--cms-27927",
+        "descriptionsrc": "an initiative developed by Facebook that allows it to recognize web content easily and display it nicely within their platform. "
+    },
+    {
+        "categoryid": "social-meta",
+        "linktitle": "Twitter Cards: Everything You Need to Know",
+        "url": "https://sproutsocial.com/insights/twitter-cards-guide/",
+        "descriptionsrc": "Twitter Cards allow you to go beyond the 140-character limit of the platform and attach media experiences—such as photos or videos—to Tweets."
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "css selectors cheat sheet",
+        "url": "https://gist.github.com/smutnyleszek/809a69dd05e1d5f12d01",
+        "descriptionsrc": "CSS Selectors Cheatsheet"
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "css units",
+        "url": "https://www.w3schools.com/cssref/css_units.asp",
+        "descriptionsrc": "CSS has several different units for expressing a length."
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "css media queries",
+        "url": "https://gist.github.com/bartholomej/8415655",
+        "descriptionsrc": "CSS Media Query Cheat Sheet (with Foundation)"
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "CSS Pseudo-elements",
+        "url": "https://www.w3schools.com/css/css_pseudo_elements.asp",
+        "descriptionsrc": "A CSS pseudo-element is used to style specified parts of an element.\nFor example, it can be used to:\nStyle the first letter, or line, of an element\nInsert content before, or after, the content of an element"
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "css ::after / ::before",
+        "url": "https://css-tricks.com/almanac/selectors/a/after-and-before/",
+        "descriptionsrc": "::after is a pseudo element which allows you to insert content onto a page from CSS (without it needing to be in the HTML)."
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "CSS Content",
+        "url": "https://css-tricks.com/css-content/",
+        "descriptionsrc": "CSS has a property called content. It can only be used with the pseudo elements :after and :before."
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "An Introduction To Object Oriented CSS (OOCSS)",
+        "url": "https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/",
+        "descriptionsrc": "object oriented CSS and how it can help improve both the performance and maintainability of your Web pages."
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "Css BEM 101",
+        "url": "https://css-tricks.com/bem-101/",
+        "descriptionsrc": "The Block, Element, Modifier methodology (commonly referred to as BEM) is a popular naming convention for classes in HTML and CSS. "
+    },
+    {
+        "categoryid": "css",
+        "linktitle": "SMACSS"
+    },
+    {
+        "categoryid": "sass",
+        "linktitle": "Sass Basics",
+        "url": "http://sass-lang.com/guide",
+        "descriptionsrc": "SCSS SYNTAX"
+    },
+    {
+        "categoryid": "sass",
+        "linktitle": "How to Use Sass Mixins",
+        "url": "https://scotch.io/tutorials/how-to-use-sass-mixins",
+        "descriptionsrc": "A Mixin is a block of code that lets us group CSS declarations we may reuse throughout our site."
+    },
+    {
+        "categoryid": "sass",
+        "linktitle": "Sass - Mixin Arguments",
+        "url": "https://www.tutorialspoint.com/sass/arguments.htm",
+        "descriptionsrc": "The SassScript values can be taken as arguments in mixins, which are passed when mixin is included and are available as variable within the mixin. "
+    },
+    {
+        "categoryid": "sass",
+        "linktitle": "Using pure Sass functions to make reusable logic more useful",
+        "url": "http://thesassway.com/advanced/pure-sass-functions",
+        "descriptionsrc": "Use functions when you need to calculate a value that may be reused somewhere else."
+    },
+    {
+        "categoryid": "sass",
+        "linktitle": "Controlling color with Sass color functions",
+        "url": "https://robots.thoughtbot.com/controlling-color-with-sass-color-functions",
+        "descriptionsrc": "Sass comes with functions that can easily be applied to colors in your CSS properties. These functions, when used correctly, can be incredibly powerful. They take some of the sting out of choosing and manipulating colors. "
+    },
+    {
+        "categoryid": "less",
+        "linktitle": "Getting Started with Less",
+        "url": "https://scotch.io/tutorials/getting-started-with-less",
+        "descriptionsrc": "you'll find examples, starters, and, most importantly, a super easy and professional way to compile your Less into CSS. "
+    },
+    {
+        "categoryid": "less",
+        "linktitle": "A Deeper Look at LESS Mixins",
+        "url": "https://webdesign.tutsplus.com/tutorials/a-deeper-look-at-less-mixins--cms-22882",
+        "descriptionsrc": "LESS always tries to keep its syntax and features so that it closely mimics CSS. Hence a mixin in LESS is declared in the same way as we declare a CSS style rule using a class or an ID selector. "
+    },
+    {
+        "categoryid": "less",
+        "linktitle": "LESS - Mixins with Multiple Parameters",
+        "url": "https://www.tutorialspoint.com/less/mixin_multiple_param.htm",
+        "descriptionsrc": "Parameters can be separated using commas or semicolon. Using the comma symbol, you can interpret it as mixin parameters separator or css list separator. "
+    },
+    {
+        "categoryid": "less",
+        "linktitle": "LESS functions",
+        "url": "http://lesscss.org/functions/",
+        "descriptionsrc": "Built-in functions supported by Less."
+    },
+    {
+        "categoryid": "less",
+        "linktitle": "Understanding LESS Color Functions",
+        "url": "http://www.hongkiat.com/blog/less-color-functions/",
+        "descriptionsrc": "LESS provides several functions with quite descriptive keywords that we can use to manipulate colors"
+    },
+    {
+        "categoryid": "style-extra",
+        "linktitle": "PostCSS – A Comprehensive Introduction\n",
+        "url": "https://www.smashingmagazine.com/2015/12/introduction-to-postcss/",
+        "descriptionsrc": "PostCSS aims to reinvent CSS with an ecosystem of custom plugins and tools. Working with the same principles of preprocessors such as Sass and LESS, it transforms extended syntaxes and features into modern, browser-friendly CSS."
+    },
+    {
+        "categoryid": "style-extra",
+        "linktitle": "Getting Started with Stylus",
+        "url": "http://blog.teamtreehouse.com/getting-started-stylus",
+        "descriptionsrc": "Stylus provides the standard CSS preprocessor abilities, like extending classes, creating mixins (functions), importing stylesheets, and setting variables, but it also provides a load of more advanced features."
+    },
+    {
+        "categoryid": "css-animation",
         "linktitle": "The Simple Intro to SVG Animation",
-        "description": "This article serves as a first step toward mastering SVG element animation.",
-        "url": "https://davidwalsh.name/svg-animation"
+        "url": "https://davidwalsh.name/svg-animation",
+        "descriptionsrc": "This article serves as a first step toward mastering SVG element animation."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "css-animation",
         "linktitle": "A Guide to SVG Animations (SMIL)",
-        "description": "SVG graphics can be animated using animation elements. The animation elements were initially defined in the SMIL Animation specification",
-        "url": "https://css-tricks.com/guide-svg-animations-smil/"
+        "url": "https://css-tricks.com/guide-svg-animations-smil/",
+        "descriptionsrc": "SVG graphics can be animated using animation elements. The animation elements were initially defined in the SMIL Animation specification"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "css-animation",
         "linktitle": "A Beginner’s Introduction to CSS Animation",
-        "description": "In this tutorial I am going to introduce you to CSS animations; a highly performant way of doing things ",
-        "url": "https://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068"
+        "url": "https://webdesign.tutsplus.com/tutorials/a-beginners-introduction-to-css-animation--cms-21068",
+        "descriptionsrc": "In this tutorial I am going to introduce you to CSS animations; a highly performant way of doing things "
     },
     {
+        "categoryid": "css-animation",
         "linktitle": "css animation property",
-        "description": "The animation property in CSS can be used to animate many other CSS properties such as color, background-color, height, or width. Each animation needs to be defined with the @keyframes at-rule which is then called with the animation property",
-        "url": "https://css-tricks.com/almanac/properties/a/animation/"
+        "url": "https://css-tricks.com/almanac/properties/a/animation/",
+        "descriptionsrc": "The animation property in CSS can be used to animate many other CSS properties such as color, background-color, height, or width. Each animation needs to be defined with the @keyframes at-rule which is then called with the animation property"
     },
     {
+        "categoryid": "css-animation",
         "linktitle": "How To Use Animate.css",
-        "description": "It got to the point where I was flipping through multiple Google searches just looking for something basic. With that in mind, I thought we’d just start the process here to get you started using the Animate.css plugin.",
-        "url": "http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/"
+        "url": "http://www.telegraphicsinc.com/2013/07/how-to-use-animate-css/",
+        "descriptionsrc": "It got to the point where I was flipping through multiple Google searches just looking for something basic. With that in mind, I thought we’d just start the process here to get you started using the Animate.css plugin."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "A Complete Guide to Flexbox",
-        "description": "The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word \"flex\").",
-        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+        "descriptionsrc": "The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word \"flex\")."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "5 Flexbox Techniques You Need to Know About",
-        "description": "Flexbox is a CSS standard optimized for designing user interfaces. Using the various flexbox properties we can construct our page out of small building blocks, which then are effortlessly positioned and resized any way we want. ",
-        "url": "https://tutorialzine.com/2016/04/5-flexbox-techniques-you-need-to-know-about"
+        "url": "https://tutorialzine.com/2016/04/5-flexbox-techniques-you-need-to-know-about",
+        "descriptionsrc": "Flexbox is a CSS standard optimized for designing user interfaces. Using the various flexbox properties we can construct our page out of small building blocks, which then are effortlessly positioned and resized any way we want. "
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "flexbox",
         "linktitle": "Pure CSS Responsive Flex Menu",
-        "description": "Making a pure CSS responsive menu using flexbox.",
-        "url": "http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu/"
+        "url": "http://blog.christopherianmurphy.com/2016/01/responsive-pure-css-menu/",
+        "descriptionsrc": "Making a pure CSS responsive menu using flexbox."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "How to Create a Flexbox Grid\n",
-        "description": "In this quick tutorial, I will show you how to create an extremely simple, infinitely scalable responsive grid.",
-        "url": "https://www.taniarascia.com/easiest-flex-grid-ever/"
+        "url": "https://www.taniarascia.com/easiest-flex-grid-ever/",
+        "descriptionsrc": "In this quick tutorial, I will show you how to create an extremely simple, infinitely scalable responsive grid."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "Simple Responsive Grid Using Flexbox",
-        "description": "The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word \"flex\").",
-        "url": "https://codepen.io/CITSimon/post/how-to-create-a-responsive-website-template"
+        "url": "https://codepen.io/CITSimon/post/how-to-create-a-responsive-website-template",
+        "descriptionsrc": "The Flexbox Layout (Flexible Box) module (currently a W3C Last Call Working Draft) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word \"flex\")."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "flexbox",
         "linktitle": "Flexbox and Sass Grid Tutorial: How to Streamline Responsive Design",
-        "description": "Flexbox layouts and how they allow for graceful implementations of layouts without doing any crazy hacks. Also, if you’re not familiar with Sass, we’ll see how it works and use some handy Sass utilities.",
-        "url": "https://www.toptal.com/sass/css3-flexbox-sass-grid-tutorial"
+        "url": "https://www.toptal.com/sass/css3-flexbox-sass-grid-tutorial",
+        "descriptionsrc": "Flexbox layouts and how they allow for graceful implementations of layouts without doing any crazy hacks. Also, if you’re not familiar with Sass, we’ll see how it works and use some handy Sass utilities."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "flexbox",
         "linktitle": "Solving Problems With CSS Grid and Flexbox: The Card UI",
-        "description": "The “card” pattern has seen great success in recent times, but the way we build them is still limited because of the CSS available to us. Until now, that is. By combining CSS Grid and Flexbox, we can make cards which align neatly, behave responsively, and which adapt to the content within them.",
-        "url": "https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468"
+        "url": "https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468",
+        "descriptionsrc": "The “card” pattern has seen great success in recent times, but the way we build them is still limited because of the CSS available to us. Until now, that is. By combining CSS Grid and Flexbox, we can make cards which align neatly, behave responsively, and which adapt to the content within them."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "flexbox",
         "linktitle": "Flexbox Holly Grail Layout",
-        "description": "In this short video I demonstrate the absolute fundamentals of using CSS Flexbox to implement a \"Holy Grail\" layout for a web page with six lines of CSS. A mobile first approach with a single media query is included for the layout.",
-        "url": "https://www.youtube.com/watch?v=L_rcG-Csp-o"
+        "url": "https://www.youtube.com/watch?v=L_rcG-Csp-o",
+        "descriptionsrc": "In this short video I demonstrate the absolute fundamentals of using CSS Flexbox to implement a \"Holy Grail\" layout for a web page with six lines of CSS. A mobile first approach with a single media query is included for the layout."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "Flexbox: Holy grail layout Demo",
-        "description": "demo holy grail layout using flexbox",
-        "url": "https://codepen.io/ryanseddon/pen/vnHJr"
+        "url": "https://codepen.io/ryanseddon/pen/vnHJr",
+        "descriptionsrc": "demo holy grail layout using flexbox"
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "Designing A Product Page Layout with Flexbox",
-        "description": "Flexbox can help us create flexible layouts that are optimized for the web and mobile devices. But are we using it?",
-        "url": "https://css-tricks.com/designing-a-product-page-layout-with-flexbox/"
+        "url": "https://css-tricks.com/designing-a-product-page-layout-with-flexbox/",
+        "descriptionsrc": "Flexbox can help us create flexible layouts that are optimized for the web and mobile devices. But are we using it?"
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "How to Build a News Website Layout with Flexbox",
-        "description": "we’re going to introduce a few features of Flexbox whilst designing a “news layout” like the one you can find on The Guardian.",
-        "url": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-news-website-layout-with-flexbox--cms-26611"
+        "url": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-news-website-layout-with-flexbox--cms-26611",
+        "descriptionsrc": "we’re going to introduce a few features of Flexbox whilst designing a “news layout” like the one you can find on The Guardian."
     },
     {
+        "categoryid": "flexbox",
         "linktitle": "Responsive Landing Page Template With Flexbox",
-        "description": "e created this HTML template that can be used as is or as a starting point for your start-up's website. It's simple, fully responsive, and 100% free!",
-        "url": "https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox"
+        "url": "https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox",
+        "descriptionsrc": "e created this HTML template that can be used as is or as a starting point for your start-up's website. It's simple, fully responsive, and 100% free!"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-basics",
         "linktitle": "Learning Javascript",
-        "description": "JavaScript is a programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you ",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript"
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
+        "descriptionsrc": "JavaScript is a programming language that allows you to implement complex things on web pages — every time a web page does more than just sit there and display static information for you "
     },
     {
+        "categoryid": "js-basics",
         "linktitle": "A re-introduction to JavaScript (JS tutorial)",
-        "description": " JavaScript is notorious for being the world's most misunderstood programming language. It is often derided as being a toy, but beneath its layer of deceptive simplicity, powerful language features await. JavaScript is now used by an incredible number of high-profile applications, showing that deeper knowledge of this technology is an important skill for any web or mobile developer.",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript"
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript",
+        "descriptionsrc": " JavaScript is notorious for being the world's most misunderstood programming language. It is often derided as being a toy, but beneath its layer of deceptive simplicity, powerful language features await. JavaScript is now used by an incredible number of high-profile applications, showing that deeper knowledge of this technology is an important skill for any web or mobile developer."
     },
     {
+        "categoryid": "js-basics",
         "linktitle": "The Modern JavaScript Tutorial",
-        "description": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.\n",
-        "url": "https://javascript.info/"
+        "url": "https://javascript.info/",
+        "descriptionsrc": "How it's done now. From the basics to advanced topics with simple, but detailed explanations.\n"
     },
     {
+        "categoryid": "js-basics",
         "linktitle": "50 resources to help you start learning JavaScript ",
-        "description": "want to learn more about JavaScript, hopefully the list of resources below helps you achieve your goals!",
-        "url": "https://medium.com/coderbyte/50-resources-to-help-you-start-learning-javascript-in-2017-4c70b222a3b9"
+        "url": "https://medium.com/coderbyte/50-resources-to-help-you-start-learning-javascript-in-2017-4c70b222a3b9",
+        "descriptionsrc": "want to learn more about JavaScript, hopefully the list of resources below helps you achieve your goals!"
     },
     {
+        "categoryid": "js-basics",
         "linktitle": "JS Functions",
-        "description": "Generally speaking, a function is a \"subprogram\" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value.",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions"
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
+        "descriptionsrc": "Generally speaking, a function is a \"subprogram\" that can be called by code external (or internal in the case of recursion) to the function. Like the program itself, a function is composed of a sequence of statements called the function body. Values can be passed to a function, and the function will return a value."
     },
     {
+        "categoryid": "js-basics",
         "linktitle": "JavaScript Function Syntax",
-        "description": "A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().\nFunction names can contain letters, digits, underscores, and dollar signs (same rules as variables).",
-        "url": "https://www.w3schools.com/js/js_functions.asp"
+        "url": "https://www.w3schools.com/js/js_functions.asp",
+        "descriptionsrc": "A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().\nFunction names can contain letters, digits, underscores, and dollar signs (same rules as variables)."
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "A guide to the basics of jQuery",
-        "description": "jQuery Fundamentals is designed to get you comfortable working through common problems you'll be called upon to solve using jQuery. To get the most out of this site, you'll want to read the content and try the various interactive examples.",
-        "url": "http://jqfundamentals.com/"
+        "url": "http://jqfundamentals.com/",
+        "descriptionsrc": "jQuery Fundamentals is designed to get you comfortable working through common problems you'll be called upon to solve using jQuery. To get the most out of this site, you'll want to read the content and try the various interactive examples."
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "50 Essential jQuery Tutorials & Resources",
-        "description": "“jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.”",
-        "url": "https://1stwebdesigner.com/53-jquery-tutorials-resources-tips-and-tricks-ultimate-collection/"
+        "url": "https://1stwebdesigner.com/53-jquery-tutorials-resources-tips-and-tricks-ultimate-collection/",
+        "descriptionsrc": "“jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.”"
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "AJAX Introduction",
-        "description": "AJAX is a developer's dream, because you can:\nUpdate a web page without reloading the page\nRequest data from a server - after the page has loaded\nReceive data from a server - after the page has loaded\nSend data to a server - in the background",
-        "url": "https://www.w3schools.com/xml/ajax_intro.asp"
+        "url": "https://www.w3schools.com/xml/ajax_intro.asp",
+        "descriptionsrc": "AJAX is a developer's dream, because you can:\nUpdate a web page without reloading the page\nRequest data from a server - after the page has loaded\nReceive data from a server - after the page has loaded\nSend data to a server - in the background"
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "24 Excellent AJAX Tutorials",
-        "description": "AJAX provides Web developers with plenty of opportunities to enhance the user experience and improve the performance of their websites. ",
-        "url": "https://www.smashingmagazine.com/2008/10/50-excellent-ajax-tutorials/"
+        "url": "https://www.smashingmagazine.com/2008/10/50-excellent-ajax-tutorials/",
+        "descriptionsrc": "AJAX provides Web developers with plenty of opportunities to enhance the user experience and improve the performance of their websites. "
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "Working with JSON data",
-        "description": "JavaScript Object Notation (JSON) is a standard format for representing structured data as JavaScript objects, which is commonly used for representing and transmitting data on web sites ",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON"
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON",
+        "descriptionsrc": "JavaScript Object Notation (JSON) is a standard format for representing structured data as JavaScript objects, which is commonly used for representing and transmitting data on web sites "
     },
     {
+        "categoryid": "js-jjj",
         "linktitle": "A Beginner’s Guide To jQuery-Based JSON API Clients",
-        "description": "create a simple Web app for grabbing movie posters from TMDb. We’ll use jQuery and the user’s input to query a JSON-based API and deal with the returned data appropriately.",
-        "url": "https://www.smashingmagazine.com/2012/02/beginners-guide-jquery-based-json-api-clients/"
+        "url": "https://www.smashingmagazine.com/2012/02/beginners-guide-jquery-based-json-api-clients/",
+        "descriptionsrc": "create a simple Web app for grabbing movie posters from TMDb. We’ll use jQuery and the user’s input to query a JSON-based API and deal with the returned data appropriately."
     },
     {
+        "categoryid": "js-es6",
         "linktitle": "Get Started with ECMAScript 6",
-        "description": "ECMAScript 6 or ES6 is the latest standardized version of JavaScript. The exciting thing is it’s been approved today by the standards body and that means broader browser support is coming.",
-        "url": "http://blog.teamtreehouse.com/get-started-ecmascript-6"
+        "url": "http://blog.teamtreehouse.com/get-started-ecmascript-6",
+        "descriptionsrc": "ECMAScript 6 or ES6 is the latest standardized version of JavaScript. The exciting thing is it’s been approved today by the standards body and that means broader browser support is coming."
     },
     {
+        "categoryid": "js-es6",
         "linktitle": "Getting Started with ES6 (ES2015) and Babel",
-        "description": "These language additions include arrow functions, classes, block scoping, and more.  These language additions have slowly made their way to Chrome and Firefox so if you haven't taken the time to learn ES2015:  now is the time!",
-        "url": "https://davidwalsh.name/es2015-babel"
+        "url": "https://davidwalsh.name/es2015-babel",
+        "descriptionsrc": "These language additions include arrow functions, classes, block scoping, and more.  These language additions have slowly made their way to Chrome and Firefox so if you haven't taken the time to learn ES2015:  now is the time!"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-es6",
         "linktitle": "Learning JavaScript Native Functions and How to Use Them",
-        "description": "In this article, I discuss the following behaviors: Call/Apply, Bind, Map,Filter\nI first define the function (with Mozilla's signature), then provide an example, and lastly implement it.",
-        "url": "https://scotch.io/tutorials/learning-javascript-native-functions-and-how-to-use-them"
+        "url": "https://scotch.io/tutorials/learning-javascript-native-functions-and-how-to-use-them",
+        "descriptionsrc": "In this article, I discuss the following behaviors: Call/Apply, Bind, Map,Filter\nI first define the function (with Mozilla's signature), then provide an example, and lastly implement it."
     },
     {
+        "categoryid": "js-es6",
         "linktitle": "ES6 Arrow Functions: The New Fat & Concise Syntax in JavaScript",
-        "description": "Arrow functions are a new ES6 syntax for writing JavaScript functions. They will save developers time and simplify function scope. ",
-        "url": "https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/"
+        "url": "https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/",
+        "descriptionsrc": "Arrow functions are a new ES6 syntax for writing JavaScript functions. They will save developers time and simplify function scope. "
     },
     {
+        "categoryid": "js-es6",
         "linktitle": "How three dots changed JavaScript",
-        "description": "The rest operator is used to get the arguments list passed to function on invocation and in array destructure. ",
-        "url": "https://dmitripavlutin.com/how-three-dots-changed-javascript/"
+        "url": "https://dmitripavlutin.com/how-three-dots-changed-javascript/",
+        "descriptionsrc": "The rest operator is used to get the arguments list passed to function on invocation and in array destructure. "
     },
     {
+        "categoryid": "js-es6",
         "linktitle": "ES6 in Depth",
-        "description": "A twenty-four article-long series of pragmatic articles describing JavaScript language features in ES6.\nPlus, a gigantic list of bullet points summarizing every feature in ES6.",
-        "url": "https://ponyfoo.com/articles/tagged/es6-in-depth"
+        "url": "https://ponyfoo.com/articles/tagged/es6-in-depth",
+        "descriptionsrc": "A twenty-four article-long series of pragmatic articles describing JavaScript language features in ES6.\nPlus, a gigantic list of bullet points summarizing every feature in ES6."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-layout",
         "linktitle": "Fullpage JS",
-        "description": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
-        "url": "https://alvarotrigo.com/fullPage/"
+        "url": "https://alvarotrigo.com/fullPage/",
+        "descriptionsrc": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-layout",
         "linktitle": "Vertical and Horizontal Scrolling with fullPage.js",
-        "description": "fullPage.js is a jQuery-based plugin which allows us to build one-page scrolling websites. Created by web developer Alvaro Trigo",
-        "url": "https://webdesign.tutsplus.com/articles/vertical-and-horizontal-scrolling-with-fullpagejs--cms-24215"
+        "url": "https://webdesign.tutsplus.com/articles/vertical-and-horizontal-scrolling-with-fullpagejs--cms-24215",
+        "descriptionsrc": "fullPage.js is a jQuery-based plugin which allows us to build one-page scrolling websites. Created by web developer Alvaro Trigo"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-layout",
         "linktitle": "Isotope Js",
-        "description": "Filter & sort magical layouts",
-        "url": "https://isotope.metafizzy.co/"
+        "url": "https://isotope.metafizzy.co/",
+        "descriptionsrc": "Filter & sort magical layouts"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-layout",
         "linktitle": "Creating an Adaptive, Filterable Portfolio Using jQuery Isotope",
-        "description": "Today we'll be taking a PSD Portfolio layout from ThemeForest, replicating it entirely in HTML & CSS whilst making it adaptive. We'll then go further and integrate the Isotope jQuery plugin to make it a fully functional filterable portfolio.",
-        "url": "https://webdesign.tutsplus.com/tutorials/creating-an-adaptive-filterable-portfolio-using-jquery-isotope--pre-39168"
+        "url": "https://webdesign.tutsplus.com/tutorials/creating-an-adaptive-filterable-portfolio-using-jquery-isotope--pre-39168",
+        "descriptionsrc": "Today we'll be taking a PSD Portfolio layout from ThemeForest, replicating it entirely in HTML & CSS whilst making it adaptive. We'll then go further and integrate the Isotope jQuery plugin to make it a fully functional filterable portfolio."
     },
     {
+        "categoryid": "js-loading",
         "linktitle": "SUPER SIMPLE FULL PAGE PRELOADER",
-        "description": "Works with modernizr, or you could just add your own js class to the html element using javascript",
-        "url": "https://codepen.io/mimoYmima/pen/fisgL"
+        "url": "https://codepen.io/mimoYmima/pen/fisgL",
+        "descriptionsrc": "Works with modernizr, or you could just add your own js class to the html element using javascript"
     },
     {
+        "categoryid": "js-loading",
         "linktitle": "PreLoadMe, a lightweight jQuery website preloader. ",
-        "description": "PreLoadMe is a lightweight preloader for any webcontent. Powered by jQuery and CSS it is fully responsive and will run on all modern desktop- and mobile browsers with no additionals plugins. PreLoadMe displays a loading animation until the browser fetched the whole webcontent and will fade out the moment the page has been completely chached. Because the simplicity of PreLoadMe, it can be easily customized and adapted to your needs.",
-        "url": "https://github.com/niklausgerber/PreLoadMe"
+        "url": "https://github.com/niklausgerber/PreLoadMe",
+        "descriptionsrc": "PreLoadMe is a lightweight preloader for any webcontent. Powered by jQuery and CSS it is fully responsive and will run on all modern desktop- and mobile browsers with no additionals plugins. PreLoadMe displays a loading animation until the browser fetched the whole webcontent and will fade out the moment the page has been completely chached. Because the simplicity of PreLoadMe, it can be easily customized and adapted to your needs."
     },
     {
+        "categoryid": "js-loading",
         "linktitle": "Five Techniques to Lazy Load Images for Website Performance",
-        "description": "Lazy loading images means loading images on websites asynchronously — that is, after the above-the-fold content is fully loaded, or even conditionally, only when they appear in the browser’s viewport. This means that if users don’t scroll all the way down, images placed at the bottom of the page won’t even be loaded.",
-        "url": "https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/"
+        "url": "https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/",
+        "descriptionsrc": "Lazy loading images means loading images on websites asynchronously — that is, after the above-the-fold content is fully loaded, or even conditionally, only when they appear in the browser’s viewport. This means that if users don’t scroll all the way down, images placed at the bottom of the page won’t even be loaded."
     },
     {
+        "categoryid": "js-loading",
         "linktitle": "5 Brilliant Ways to Lazy Load Images For Faster Page Loads",
-        "description": "loading images come in- as the name suggests, the idea is to asynchronously or even conditionally load images on a page only when they appear in the browser’s viewport, so some images are not loaded at all if the user doesn’t get that far on the page. ",
-        "url": "http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/"
+        "url": "http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/",
+        "descriptionsrc": "loading images come in- as the name suggests, the idea is to asynchronously or even conditionally load images on a page only when they appear in the browser’s viewport, so some images are not loaded at all if the user doesn’t get that far on the page. "
     },
     {
+        "categoryid": "js-loading",
         "linktitle": "How To Create A Custom Preloading Screen",
-        "description": "In this tutorial we will add a CSS3 transitions toa CSS3 preloader. Once the content of the page is loaded, we’ll animate the preloading screen away from the viewport with a nice transition.",
-        "url": "https://ihatetomatoes.net/create-custom-preloading-screen/"
+        "url": "https://ihatetomatoes.net/create-custom-preloading-screen/",
+        "descriptionsrc": "In this tutorial we will add a CSS3 transitions toa CSS3 preloader. Once the content of the page is loaded, we’ll animate the preloading screen away from the viewport with a nice transition."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-loading",
         "linktitle": "Redefining Lazy Loading With Lazy Load XT",
-        "description": "Lazy loading is a common software design pattern that defers the initialization of objects until they are needed. ",
-        "url": "https://www.smashingmagazine.com/2015/02/redefining-lazy-loading-with-lazy-load-xt/"
+        "url": "https://www.smashingmagazine.com/2015/02/redefining-lazy-loading-with-lazy-load-xt/",
+        "descriptionsrc": "Lazy loading is a common software design pattern that defers the initialization of objects until they are needed. "
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-sliders",
         "linktitle": "Slick Slider JS",
-        "description": "the last carousel you'll ever need",
-        "url": "http://kenwheeler.github.io/slick/"
+        "url": "http://kenwheeler.github.io/slick/",
+        "descriptionsrc": "the last carousel you'll ever need"
     },
     {
+        "categoryid": "js-sliders",
         "linktitle": "Slick SLider Multiple Instances",
-        "description": "Check this hope help, when are multiples instances take the advantage of $(this) .",
-        "url": "http://jsfiddle.net/81t4pkfa/2/"
+        "url": "http://jsfiddle.net/81t4pkfa/2/",
+        "descriptionsrc": "Check this hope help, when are multiples instances take the advantage of $(this) ."
     },
     {
+        "categoryid": "js-sliders",
         "linktitle": "Slick Slider Demos",
-        "description": "Slick Slider Demos at Code Pen",
-        "url": "https://codepen.io/search/pens?q=slick+slider&limit=all&type=type-pens"
+        "url": "https://codepen.io/search/pens?q=slick+slider&limit=all&type=type-pens",
+        "descriptionsrc": "Slick Slider Demos at Code Pen"
     },
     {
+        "categoryid": "js-sliders",
         "linktitle": "Slick carousel - Slider Syncing",
-        "description": "Slick Slider Demo",
-        "url": "https://codepen.io/paulfleury/pen/pvvzGx"
+        "url": "https://codepen.io/paulfleury/pen/pvvzGx",
+        "descriptionsrc": "Slick Slider Demo"
     },
     {
+        "categoryid": "js-sliders",
         "linktitle": "Slick Slider - Progress Bar",
-        "description": "Slick Slider Demo",
-        "url": "https://codepen.io/mjtweaver/pen/pEkYgQ"
+        "url": "https://codepen.io/mjtweaver/pen/pEkYgQ",
+        "descriptionsrc": "Slick Slider Demo"
     },
     {
+        "categoryid": "js-sliders",
         "linktitle": "Slick Preview slider",
-        "description": "Slick Slider Demo",
-        "url": "https://codepen.io/karlovidek/pen/reemvP"
+        "url": "https://codepen.io/karlovidek/pen/reemvP",
+        "descriptionsrc": "Slick Slider Demo"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "PhotoSwipe Getting Started",
-        "description": "JavaScript gallery, no dependencies.",
-        "url": "http://photoswipe.com/documentation/getting-started.html"
+        "url": "http://photoswipe.com/documentation/getting-started.html",
+        "descriptionsrc": "JavaScript gallery, no dependencies."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-media",
         "linktitle": "The Perfect Lightbox? Using PhotoSwipe with jQuery",
-        "description": "It is a brilliant library which overlays an image or a group of images on your current page, an effect popularly known as lightbox. PhotoSwipe is currently developed by Dmitry Semenov",
-        "url": "https://webdesign.tutsplus.com/tutorials/the-perfect-lightbox-using-photoswipe-with-jquery--cms-23587"
+        "url": "https://webdesign.tutsplus.com/tutorials/the-perfect-lightbox-using-photoswipe-with-jquery--cms-23587",
+        "descriptionsrc": "It is a brilliant library which overlays an image or a group of images on your current page, an effect popularly known as lightbox. PhotoSwipe is currently developed by Dmitry Semenov"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "Multiple PhotoSwipe galleries on pagea",
-        "description": "A PEN BY Dmitry Semenov",
-        "url": "https://codepen.io/dimsemenov/pen/ZYbPJM/"
+        "url": "https://codepen.io/dimsemenov/pen/ZYbPJM/",
+        "descriptionsrc": "A PEN BY Dmitry Semenov"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "PhotoSwipe with Youtube, Vimeo and Self-Hosted Videos",
-        "description": "Photoswipe Demo",
-        "url": "https://codepen.io/makshh/pen/ONMVMm?q=photoswipe&limit=all&type=type-pens"
+        "url": "https://codepen.io/makshh/pen/ONMVMm?q=photoswipe&limit=all&type=type-pens",
+        "descriptionsrc": "Photoswipe Demo"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "Photo Swipe Demos",
-        "description": "Photo Swipe at Code Pen",
-        "url": "https://codepen.io/search/pens?q=photoswipe&limit=all&type=type-pens"
+        "url": "https://codepen.io/search/pens?q=photoswipe&limit=all&type=type-pens",
+        "descriptionsrc": "Photo Swipe at Code Pen"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "Picturefill",
-        "description": "The picture element, srcset and sizes attributes, and associated features allow web developers to deliver an appropriate image to every user depending on a variety of conditions like screen size, viewport size, screen resolution, and more.",
-        "url": "https://scottjehl.github.io/picturefill/"
+        "url": "https://scottjehl.github.io/picturefill/",
+        "descriptionsrc": "The picture element, srcset and sizes attributes, and associated features allow web developers to deliver an appropriate image to every user depending on a variety of conditions like screen size, viewport size, screen resolution, and more."
     },
     {
+        "categoryid": "js-media",
         "linktitle": "Picturefill 2.0: Responsive Images And The Perfect Polyfill",
-        "description": "Because most of the responsive-image community was on board with the picture element and looking forward to it because of the great polyfills, such as Picturefill, it went ahead and released a well thought-out and fleshed-out document outlining something called srcset, which is an extension of the standard img tag. ",
-        "url": "https://www.smashingmagazine.com/2014/05/picturefill-2-0-responsive-images-and-the-perfect-polyfill/"
+        "url": "https://www.smashingmagazine.com/2014/05/picturefill-2-0-responsive-images-and-the-perfect-polyfill/",
+        "descriptionsrc": "Because most of the responsive-image community was on board with the picture element and looking forward to it because of the great polyfills, such as Picturefill, it went ahead and released a well thought-out and fleshed-out document outlining something called srcset, which is an extension of the standard img tag. "
     },
     {
+        "categoryid": "js-media",
         "linktitle": "FitVid JS",
-        "description": "A lightweight, easy-to-use jQuery plugin for fluid width video embeds.FitVids.js was built by Chris Coyier and Paravel",
-        "url": "http://fitvidsjs.com/"
+        "url": "http://fitvidsjs.com/",
+        "descriptionsrc": "A lightweight, easy-to-use jQuery plugin for fluid width video embeds.FitVids.js was built by Chris Coyier and Paravel"
     },
     {
+        "categoryid": "js-media",
         "linktitle": "Fit Vid Hack"
     },
     {
+        "categoryid": "js-forms",
         "linktitle": "Form data validation",
-        "description": "Sending data is not enough — we also need to make sure that the data users fill out in forms is in the correct format we need to process it successfully, and that it won't break our applications. ",
-        "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation"
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation",
+        "descriptionsrc": "Sending data is not enough — we also need to make sure that the data users fill out in forms is in the correct format we need to process it successfully, and that it won't break our applications. "
     },
     {
+        "categoryid": "js-forms",
         "linktitle": "Validate JS",
-        "description": "Validate.js provides a declarative way of validating javascript objects.\nIt is unit tested with 100% code coverage and can be considered fit for production.",
-        "url": "https://validatejs.org/"
+        "url": "https://validatejs.org/",
+        "descriptionsrc": "Validate.js provides a declarative way of validating javascript objects.\nIt is unit tested with 100% code coverage and can be considered fit for production."
     },
     {
+        "categoryid": "js-forms",
         "linktitle": "jQuery Form Validator",
-        "description": "jQuery Form Validator is a feature rich and multilingual jQuery plugin that makes it easy to validate user input while keeping your HTML markup clean from javascript code. ",
-        "url": "http://www.formvalidator.net/"
+        "url": "http://www.formvalidator.net/",
+        "descriptionsrc": "jQuery Form Validator is a feature rich and multilingual jQuery plugin that makes it easy to validate user input while keeping your HTML markup clean from javascript code. "
     },
     {
+        "categoryid": "js-forms",
         "linktitle": "10 jQuery Form Validation Plugins",
-        "description": "The following 10 jQuery form validation plugins set themselves the goal of customizing error messages and styling, as well as simplifying the creation of validation rules.",
-        "url": "https://www.sitepoint.com/10-jquery-form-validation-plugins/"
+        "url": "https://www.sitepoint.com/10-jquery-form-validation-plugins/",
+        "descriptionsrc": "The following 10 jQuery form validation plugins set themselves the goal of customizing error messages and styling, as well as simplifying the creation of validation rules."
     },
     {
-        "linktitle": "AOS js",
-        "description": "Animate On Scroll Library",
-        "url": "https://michalsnik.github.io/aos/"
-    },
-    {
-        "linktitle": "Getting Started with GSAP (GreenSock Animation Platform)",
-        "description": "Animating with code may seem intimidating at first, but don't worry – the GreenSock Animation Platform (GSAP) was engineered to make it simple and intuitive. The platform is also highly optimized for performance and unprecedented flexibility.",
-        "url": "https://greensock.com/get-started-js"
-    },
-    {
-        "linktitle": "GreenSock 101",
-        "description": "Are you ready to start learning the basics of GreenSock and web animations?\nLearn the basics of GreenSock API and web animations in 60 minutes!",
-        "url": "https://ihatetomatoes.net/get-greensock-101/"
-    },
-    {
-        "linktitle": "Scroll Magic",
-        "description": "The javascript library for magical scroll interactions. ",
-        "url": "http://scrollmagic.io/"
-    },
-    {
-        "linktitle": "ScrollMagic 101",
-        "description": "Are you ready to start learning the basics of ScrollMagic and scrolling animations?Learn The Basics Of ScrollMagic and scrolling Animations!",
-        "url": "https://ihatetomatoes.net/get-scrollmagic-101/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Bootstrap Framework",
-        "description": "Build responsive, mobile-first projects on the web with the world's most popular front-end component library.\nBootstrap is an open source toolkit for developing with HTML, CSS, and JS. ",
-        "url": "http://getbootstrap.com/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Foundation Framework",
-        "description": "Foundation for Sites  has been designed to get your project from prototype to production more efficiently than ever before! It includes a wide range of modular and flexible components that are easily styled. These versatile and lightweight building blocks make it easy to bring your ideas to life.",
-        "url": "http://foundation.zurb.com/sites.html"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Bulma Frameowrk",
-        "description": "A modern CSS framework based on Flexbox",
-        "url": "http://bulma.io/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Material Design lite",
-        "description": "Material Design is a design language developed in 2014 by Google. Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.",
-        "url": "https://material.io/components/web/"
-    },
-    {
-        "categoryid": "webdesign",
-        "linktitle": "Framework 7",
-        "description": "Full Featured HTML Framework for Building iOS & Android Apps",
-        "url": "https://framework7.io/"
-    },
-    {
-        "linktitle": "Susy: Web Layout Toolkit",
-        "description": "Susy is a lightweight grid-layout engine for Sass, designed to simplify and clarify responsive grid layouts without ever getting in your way. You can use Susy with floats, flexbox, tables, or any other CSS technique. ",
-        "url": "http://oddbird.net/susy/"
-    },
-    {
-        "linktitle": "Neat",
-        "description": "A lightweight and flexible Sass grid",
-        "url": "http://neat.bourbon.io/"
-    },
-    {
-        "linktitle": "Bourbon",
-        "description": "A simple and lightweight mixin library for Sass.",
-        "url": "http://bourbon.io/"
-    },
-    {
-        "categoryid": "webdesign",
+        "categoryid": "js-forms",
         "linktitle": "Custom G-Forms Tutorial"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-forms",
         "linktitle": "Custom G-Forms Demo"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-animation",
+        "linktitle": "AOS js",
+        "url": "https://michalsnik.github.io/aos/",
+        "descriptionsrc": "Animate On Scroll Library"
+    },
+    {
+        "categoryid": "js-animation",
+        "linktitle": "Getting Started with GSAP (GreenSock Animation Platform)",
+        "url": "https://greensock.com/get-started-js",
+        "descriptionsrc": "Animating with code may seem intimidating at first, but don't worry – the GreenSock Animation Platform (GSAP) was engineered to make it simple and intuitive. The platform is also highly optimized for performance and unprecedented flexibility."
+    },
+    {
+        "categoryid": "js-animation",
+        "linktitle": "GreenSock 101",
+        "url": "https://ihatetomatoes.net/get-greensock-101/",
+        "descriptionsrc": "Are you ready to start learning the basics of GreenSock and web animations?\nLearn the basics of GreenSock API and web animations in 60 minutes!"
+    },
+    {
+        "categoryid": "js-animation",
+        "linktitle": "Scroll Magic",
+        "url": "http://scrollmagic.io/",
+        "descriptionsrc": "The javascript library for magical scroll interactions. "
+    },
+    {
+        "categoryid": "js-animation",
+        "linktitle": "ScrollMagic 101",
+        "url": "https://ihatetomatoes.net/get-scrollmagic-101/",
+        "descriptionsrc": "Are you ready to start learning the basics of ScrollMagic and scrolling animations?Learn The Basics Of ScrollMagic and scrolling Animations!"
+    },
+    {
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Gmaps Raw",
-        "description": "\nCustomizing a Google Map: Custom Markers",
-        "url": "https://developers.google.com/maps/documentation/javascript/custom-markers"
+        "url": "https://developers.google.com/maps/documentation/javascript/custom-markers",
+        "descriptionsrc": "\nCustomizing a Google Map: Custom Markers"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Gmaps Colors",
-        "description": "Start Styling your Map",
-        "url": "https://developers.google.com/maps/documentation/javascript/styling"
+        "url": "https://developers.google.com/maps/documentation/javascript/styling",
+        "descriptionsrc": "Start Styling your Map"
     },
     {
+        "categoryid": "js-apis",
         "linktitle": "Getting Creative With the Google Maps API",
-        "description": "The Google maps API, on the other hand, gives you the freedom to create completely customized maps, which can do all sorts of cool things.",
-        "url": "https://webdesign.tutsplus.com/tutorials/getting-creative-with-the-google-maps-api--webdesign-13380"
+        "url": "https://webdesign.tutsplus.com/tutorials/getting-creative-with-the-google-maps-api--webdesign-13380",
+        "descriptionsrc": "The Google maps API, on the other hand, gives you the freedom to create completely customized maps, which can do all sorts of cool things."
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Youtube Videos"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Youtube Control"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Vimeo Videos"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Vimeo Control"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Instagram"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Facebook Likebox"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Facebook Comments"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Facebook Feed"
     },
     {
-        "categoryid": "webdesign",
+        "categoryid": "js-apis",
         "linktitle": "API Demo - Twitter"
     },
     {
-        "categoryid": "jekyll",
+        "categoryid": "web-frameworks",
+        "linktitle": "Bootstrap Framework",
+        "url": "http://getbootstrap.com/",
+        "descriptionsrc": "Build responsive, mobile-first projects on the web with the world's most popular front-end component library.\nBootstrap is an open source toolkit for developing with HTML, CSS, and JS. "
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Foundation Framework",
+        "url": "http://foundation.zurb.com/sites.html",
+        "descriptionsrc": "Foundation for Sites  has been designed to get your project from prototype to production more efficiently than ever before! It includes a wide range of modular and flexible components that are easily styled. These versatile and lightweight building blocks make it easy to bring your ideas to life."
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Bulma Frameowrk",
+        "url": "http://bulma.io/",
+        "descriptionsrc": "A modern CSS framework based on Flexbox"
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Material Design lite",
+        "url": "https://material.io/components/web/",
+        "descriptionsrc": "Material Design is a design language developed in 2014 by Google. Material Design makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows."
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Framework 7",
+        "url": "https://framework7.io/",
+        "descriptionsrc": "Full Featured HTML Framework for Building iOS & Android Apps"
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Susy: Web Layout Toolkit",
+        "url": "http://oddbird.net/susy/",
+        "descriptionsrc": "Susy is a lightweight grid-layout engine for Sass, designed to simplify and clarify responsive grid layouts without ever getting in your way. You can use Susy with floats, flexbox, tables, or any other CSS technique. "
+    },
+    {
+        "categoryid": "web-frameworks",
+        "linktitle": "Neat/ bourbon / refiil",
+        "url": "http://neat.bourbon.io/",
+        "descriptionsrc": "A lightweight and flexible Sass grid"
+    },
+    {
         "linktitle": "Basic Usage",
-        "description": "The Jekyll gem makes a jekyll executable available to you in your Terminal window.",
-        "url": "https://jekyllrb.com/docs/usage/"
+        "url": "https://jekyllrb.com/docs/usage/",
+        "descriptionsrc": "The Jekyll gem makes a jekyll executable available to you in your Terminal window."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Directory Structure",
-        "description": "Jekyll is, at its core, a text transformation engine. The concept behind the system is this: you give it text written in your favorite markup language, be that Markdown, Textile, or just plain HTML, and it churns that through a layout or a series of layout files. Throughout that process you can tweak how you want the site URLs to look, what data gets displayed in the layout, and more. This is all done through editing text files; the static web site is the final product.",
-        "url": "https://jekyllrb.com/docs/structure/"
+        "url": "https://jekyllrb.com/docs/structure/",
+        "descriptionsrc": "Jekyll is, at its core, a text transformation engine. The concept behind the system is this: you give it text written in your favorite markup language, be that Markdown, Textile, or just plain HTML, and it churns that through a layout or a series of layout files. Throughout that process you can tweak how you want the site URLs to look, what data gets displayed in the layout, and more. This is all done through editing text files; the static web site is the final product."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Configuration",
-        "description": "Jekyll allows you to concoct your sites in any way you can dream up, and it’s thanks to the powerful and flexible configuration options that this is possible. These options can either be specified in a _config.yml file placed in your site’s root directory, or can be specified as flags for the jekyll executable in the terminal.",
-        "url": "https://jekyllrb.com/docs/configuration/"
+        "url": "https://jekyllrb.com/docs/configuration/",
+        "descriptionsrc": "Jekyll allows you to concoct your sites in any way you can dream up, and it’s thanks to the powerful and flexible configuration options that this is possible. These options can either be specified in a _config.yml file placed in your site’s root directory, or can be specified as flags for the jekyll executable in the terminal."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Setting up your GitHub Pages site locally with Jekyll",
-        "description": "You can set up a local version of your Jekyll GitHub Pages site to test changes to your site locally.",
-        "url": "https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/"
+        "url": "https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/",
+        "descriptionsrc": "You can set up a local version of your Jekyll GitHub Pages site to test changes to your site locally."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Front Matter doc",
-        "description": "The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. ",
-        "url": "https://jekyllrb.com/docs/frontmatter/"
+        "url": "https://jekyllrb.com/docs/frontmatter/",
+        "descriptionsrc": "The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. "
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Writing Posts doc",
-        "description": " If you write articles and publish them online, you can publish and maintain a blog simply by managing a folder of text-files on your computer. ",
-        "url": "https://jekyllrb.com/docs/posts/"
+        "url": "https://jekyllrb.com/docs/posts/",
+        "descriptionsrc": " If you write articles and publish them online, you can publish and maintain a blog simply by managing a folder of text-files on your computer. "
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Working with Drafts doc",
-        "description": "Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. ",
-        "url": "https://jekyllrb.com/docs/drafts/"
+        "url": "https://jekyllrb.com/docs/drafts/",
+        "descriptionsrc": "Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. "
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Creating Pages doc",
-        "description": "In addition to writing posts, you might also want to add static pages (content that isn’t date-based) to your Jekyll site. By taking advantage of the way Jekyll copies files and directories, this is easy to do.",
-        "url": "https://jekyllrb.com/docs/pages/"
+        "url": "https://jekyllrb.com/docs/pages/",
+        "descriptionsrc": "In addition to writing posts, you might also want to add static pages (content that isn’t date-based) to your Jekyll site. By taking advantage of the way Jekyll copies files and directories, this is easy to do."
     },
     {
         "linktitle": "Static Files",
-        "description": "A static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content.",
-        "url": "https://jekyllrb.com/docs/static-files/"
+        "url": "https://jekyllrb.com/docs/static-files/",
+        "descriptionsrc": "A static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Variables doc",
-        "description": "Jekyll traverses your site looking for files to process. Any files with YAML front matter are subject to processing. For each of these files, Jekyll makes a variety of data available via the Liquid templating system.",
-        "url": "https://jekyllrb.com/docs/variables/"
+        "url": "https://jekyllrb.com/docs/variables/",
+        "descriptionsrc": "Jekyll traverses your site looking for files to process. Any files with YAML front matter are subject to processing. For each of these files, Jekyll makes a variety of data available via the Liquid templating system."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Collections doc",
-        "description": "Collections allow you to define a new type of document that behave like Pages or Posts do normally, but also have their own unique properties and namespace.",
-        "url": "https://jekyllrb.com/docs/collections/"
+        "url": "https://jekyllrb.com/docs/collections/",
+        "descriptionsrc": "Collections allow you to define a new type of document that behave like Pages or Posts do normally, but also have their own unique properties and namespace."
     },
     {
         "linktitle": "Collections Tutorial",
-        "description": "Collections are Jekyll’s most powerful and simultaneously least understood feature. If you’re not familiar with Jekyll, Jekyll is a static site generator. ",
-        "url": "https://ben.balter.com/2015/02/20/jekyll-collections/"
+        "url": "https://ben.balter.com/2015/02/20/jekyll-collections/",
+        "descriptionsrc": "Collections are Jekyll’s most powerful and simultaneously least understood feature. If you’re not familiar with Jekyll, Jekyll is a static site generator. "
     },
     {
         "linktitle": "Introduction to Collections",
-        "description": "Jekyll collections are a powerful way to organize content on your site.",
-        "url": "https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/"
+        "url": "https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/",
+        "descriptionsrc": "Jekyll collections are a powerful way to organize content on your site."
     },
     {
         "linktitle": "Jekyll display collection by category\n\n",
-        "description": "Jekyll display collection by category\n\n",
-        "url": "https://stackoverflow.com/questions/28100220/jekyll-display-collection-by-category"
+        "url": "https://stackoverflow.com/questions/28100220/jekyll-display-collection-by-category",
+        "descriptionsrc": "Jekyll display collection by category\n\n"
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Data Files doc",
-        "description": "you can specify your own custom data that can be accessed via the Liquid templating system.\n\nJekyll supports loading data from YAML, JSON, and CSV files located in the _data directory.",
-        "url": "https://jekyllrb.com/docs/datafiles/"
+        "url": "https://jekyllrb.com/docs/datafiles/",
+        "descriptionsrc": "you can specify your own custom data that can be accessed via the Liquid templating system.\n\nJekyll supports loading data from YAML, JSON, and CSV files located in the _data directory."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Assets doc",
-        "description": "Jekyll provides built-in support for Sass and can work with CoffeeScript via a Ruby gem. In order to use them, you must first create a file with the proper extension name (one of .sass, .scss, or .coffee) ",
-        "url": "https://jekyllrb.com/docs/assets/"
+        "url": "https://jekyllrb.com/docs/assets/",
+        "descriptionsrc": "Jekyll provides built-in support for Sass and can work with CoffeeScript via a Ruby gem. In order to use them, you must first create a file with the proper extension name (one of .sass, .scss, or .coffee) "
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Templates doc",
-        "description": "Jekyll uses the Liquid templating language to process templates. All of the standard Liquid tags and filters are supported.",
-        "url": "https://jekyllrb.com/docs/templates/"
+        "url": "https://jekyllrb.com/docs/templates/",
+        "descriptionsrc": "Jekyll uses the Liquid templating language to process templates. All of the standard Liquid tags and filters are supported."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Includes doc",
-        "description": "The include tag allows you to include the content from another file stored in the _includes folder",
-        "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes"
+        "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes",
+        "descriptionsrc": "The include tag allows you to include the content from another file stored in the _includes folder"
     },
     {
         "linktitle": "Passing parameters to includes\n",
-        "description": "Passing parameters to includes is especially helpful when you want to hide away complex formatting from your Markdown content.",
-        "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes"
+        "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes",
+        "descriptionsrc": "Passing parameters to includes is especially helpful when you want to hide away complex formatting from your Markdown content."
     },
     {
         "linktitle": "Using Jekyll _includes as custom liquid functions",
-        "description": "This post shows how you can use files in the Jekyll _includes directory to implement function-like behaviour.",
-        "url": "http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/"
+        "url": "http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/",
+        "descriptionsrc": "This post shows how you can use files in the Jekyll _includes directory to implement function-like behaviour."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Permalinks doc",
-        "description": "Jekyll supports a flexible way to build permalinks, allowing you to leverage various template variables or choose built-in permalink styles (such as date) that automatically use a template-variable pattern.",
-        "url": "https://jekyllrb.com/docs/permalinks/"
+        "url": "https://jekyllrb.com/docs/permalinks/",
+        "descriptionsrc": "Jekyll supports a flexible way to build permalinks, allowing you to leverage various template variables or choose built-in permalink styles (such as date) that automatically use a template-variable pattern."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Pagination doc",
-        "description": "Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings.",
-        "url": "https://jekyllrb.com/docs/pagination/"
+        "url": "https://jekyllrb.com/docs/pagination/",
+        "descriptionsrc": "Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Plugins doc",
-        "description": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself.",
-        "url": "https://jekyllrb.com/docs/plugins/"
+        "url": "https://jekyllrb.com/docs/plugins/",
+        "descriptionsrc": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Themes doc",
-        "description": "Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content.",
-        "url": "https://jekyllrb.com/docs/themes/"
+        "url": "https://jekyllrb.com/docs/themes/",
+        "descriptionsrc": "Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "How to Create and Publish a Jekyll Theme Gem",
-        "description": "One of Jekyll’s noteworthy new features is the ability create official themes in the form of Ruby gems. These themes can be installed by a Jekyll user to style their static blog or website with ease, leaving them to manage their content.",
-        "url": "https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475"
+        "url": "https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475",
+        "descriptionsrc": "One of Jekyll’s noteworthy new features is the ability create official themes in the form of Ruby gems. These themes can be installed by a Jekyll user to style their static blog or website with ease, leaving them to manage their content."
     },
     {
         "linktitle": "Using Rake to Automate Tasks",
-        "description": "Rake enables you to define a set of tasks and the dependencies between them in a file, and then have the right thing happen when you run any given task. ",
-        "url": "http://www.stuartellis.name/articles/rake/"
+        "url": "http://www.stuartellis.name/articles/rake/",
+        "descriptionsrc": "Rake enables you to define a set of tasks and the dependencies between them in a file, and then have the right thing happen when you run any given task. "
     },
     {
         "linktitle": "Rake for Jekyll",
-        "description": "Rake is like a compiler for Rails. Commands are in the rakefile. Execute the file and a series of commands are fired. That's is all.",
-        "url": "http://quyennguyen.com/code/rake_for_jekyll/"
+        "url": "http://quyennguyen.com/code/rake_for_jekyll/",
+        "descriptionsrc": "Rake is like a compiler for Rails. Commands are in the rakefile. Execute the file and a series of commands are fired. That's is all."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Rake tasks & Jekyll posts",
-        "description": "In this post I’ll be talking about some Rake tasks I use that help me create and publish drafts for my Jekyll blog.",
-        "url": "http://albertogrespan.com/blog/rake-tasks-and-jekyll-posts/"
+        "url": "http://albertogrespan.com/blog/rake-tasks-and-jekyll-posts/",
+        "descriptionsrc": "In this post I’ll be talking about some Rake tasks I use that help me create and publish drafts for my Jekyll blog."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Rakefile Boilerplate",
-        "description": "Rakefile boilerplate for jekyll",
-        "url": "https://github.com/gummesson/jekyll-rake-boilerplate/blob/master/Rakefile"
+        "url": "https://github.com/gummesson/jekyll-rake-boilerplate/blob/master/Rakefile",
+        "descriptionsrc": "Rakefile boilerplate for jekyll"
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Plugins",
-        "description": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself.",
-        "url": "https://jekyllrb.com/docs/plugins/"
+        "url": "https://jekyllrb.com/docs/plugins/",
+        "descriptionsrc": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself."
     },
     {
         "linktitle": "Jekyll Plugins Repo",
-        "description": "Jekyll Plugins Repository",
-        "url": "http://planetjekyll.github.io/plugins/"
+        "url": "http://planetjekyll.github.io/plugins/",
+        "descriptionsrc": "Jekyll Plugins Repository"
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Making Jekyll \nmultilingual",
-        "description": "This article aims to present a way to create a multilingual site with Jekyll.",
-        "url": "https://www.sylvaindurand.org/making-jekyll-multilingual/"
+        "url": "https://www.sylvaindurand.org/making-jekyll-multilingual/",
+        "descriptionsrc": "This article aims to present a way to create a multilingual site with Jekyll."
     },
     {
         "linktitle": "Multilingual Jekyll Without Plugins",
-        "description": "This article shows a solution to have a multi language jekyll website based mainly in having a file that groups all the available translations for each page.",
-        "url": "https://simpleit.rocks/multilingual-jekyll-without-plugins/"
+        "url": "https://simpleit.rocks/multilingual-jekyll-without-plugins/",
+        "descriptionsrc": "This article shows a solution to have a multi language jekyll website based mainly in having a file that groups all the available translations for each page."
     },
     {
         "linktitle": "Localization Plugin",
-        "description": "A i18n support plugin for Jekyll that makes multi-language support fast and intuitive, for blogs big and small. Made by @untra."
+        "descriptionsrc": "A i18n support plugin for Jekyll that makes multi-language support fast and intuitive, for blogs big and small. Made by @untra."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Foundation 6 Theme",
-        "description": "The awesomeness of Foundation 6... powered by Jekyll. Bare Bones Jekyll Foundation starting point",
-        "url": "https://github.com/aaronkwhite/foundation-jekyll"
+        "url": "https://github.com/aaronkwhite/foundation-jekyll",
+        "descriptionsrc": "The awesomeness of Foundation 6... powered by Jekyll. Bare Bones Jekyll Foundation starting point"
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Bootstrap 4 Theme",
-        "description": "A starter kit for jekyll + bootstrap 4",
-        "url": "https://github.com/jenofdoom/jekyll-bootstrap-4"
+        "url": "https://github.com/jenofdoom/jekyll-bootstrap-4",
+        "descriptionsrc": "A starter kit for jekyll + bootstrap 4"
     },
     {
         "linktitle": "Jekyll Bulma Theme",
-        "description": "Jekyll Bulma Theme | Bulma.io Jekyll Template for Developers ",
-        "url": "https://github.com/erayaydin/jekyll-bulma"
+        "url": "https://github.com/erayaydin/jekyll-bulma",
+        "descriptionsrc": "Jekyll Bulma Theme | Bulma.io Jekyll Template for Developers "
     },
     {
         "linktitle": "Jekyll Material Design Theme",
-        "description": "A Jekyll theme based in Google Material Design Lite library.",
-        "url": "http://jekyllthemes.org/themes/jekyll-mdl/"
+        "url": "http://jekyllthemes.org/themes/jekyll-mdl/",
+        "descriptionsrc": "A Jekyll theme based in Google Material Design Lite library."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Infiite Scroll Theme"
     },
     {
         "linktitle": "Jekyll Reveal Js",
-        "description": "A Jekyll-based framework for creating presentations based on Reveal.js and markdown.",
-        "url": "https://github.com/dploeger/jekyll-revealjs"
+        "url": "https://github.com/dploeger/jekyll-revealjs",
+        "descriptionsrc": "A Jekyll-based framework for creating presentations based on Reveal.js and markdown."
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll with Gulp and Webpack"
     },
     {
@@ -1257,75 +1361,71 @@
     },
     {
         "linktitle": "IFTT Jekyll Automation",
-        "description": "How I automate some of my social networking with IFTTT",
-        "url": "https://michaelsoolee.com/ifttt-jekyll-automation/"
+        "url": "https://michaelsoolee.com/ifttt-jekyll-automation/",
+        "descriptionsrc": "How I automate some of my social networking with IFTTT"
     },
     {
-        "description": "Sharing Jekyll posts on social media using front matter and IFTTT",
-        "url": "https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html"
+        "url": "https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html",
+        "descriptionsrc": "Sharing Jekyll posts on social media using front matter and IFTTT"
     },
     {
         "linktitle": "Jekyll Admin",
-        "description": "A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites.",
-        "url": "https://github.com/jekyll/jekyll-admin"
+        "url": "https://github.com/jekyll/jekyll-admin",
+        "descriptionsrc": "A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites."
     },
     {
-        "description": "Responsive images for jekyll",
-        "url": "https://github.com/robwierzbowski/jekyll-picture-tag"
+        "url": "https://github.com/robwierzbowski/jekyll-picture-tag",
+        "descriptionsrc": "Responsive images for jekyll"
     },
     {
-        "categoryid": "jekyll",
         "linktitle": "Jekyll Reading Time Tutorial",
-        "description": "Jekyll: Reading time without plugins",
-        "url": "https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/"
+        "url": "https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/",
+        "descriptionsrc": "Jekyll: Reading time without plugins"
+    },
+    {
+        "linktitle": "Hologram Gem",
+        "url": "https://trulia.github.io/hologram/",
+        "descriptionsrc": "Hologram is a Ruby gem that parses comments in your CSS and turns them into a beautiful styleguide."
     },
     {
         "linktitle": "hyde static site genrator ",
-        "description": "Hyde is a static website generator written in python. While Hyde took life as awesome Jekyll's evil twin, it has since been completely consumed by the dark side and has an identity of its own.",
-        "url": "http://hyde.github.io/"
+        "url": "http://hyde.github.io/",
+        "descriptionsrc": "Hyde is a static website generator written in python. While Hyde took life as awesome Jekyll's evil twin, it has since been completely consumed by the dark side and has an identity of its own."
     },
     {
-        "categoryid": "deploy",
         "linktitle": "Jekyll with Github Pages with Gulp"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "Jekyll with Bitbucket tutorial with Gulp"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "Gulp with Amazon S3"
     },
     {
         "linktitle": "Travis CI with Amazon S3"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "FTP with Gulp"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "SFTP with Gulp"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "SSH with Gulp"
     },
     {
-        "categoryid": "deploy",
         "linktitle": "How To Deploy A Jekyll Blog In Docker",
-        "description": "In this article we’ll look at how to deploy a Jekyll blog in a Docker container.",
-        "url": "https://blog.nimbleci.com/2016/08/10/how-to-deploy-a-jekyll-blog-in-docker/"
+        "url": "https://blog.nimbleci.com/2016/08/10/how-to-deploy-a-jekyll-blog-in-docker/",
+        "descriptionsrc": "In this article we’ll look at how to deploy a Jekyll blog in a Docker container."
     },
     {
-        "categoryid": "deploy",
         "linktitle": " Simple websites with Jekyll and Docker",
-        "description": "Learn how to host your own simple websites with Jekyll and Docker.",
-        "url": "https://habd.as/simple-websites-jekyll-docker/"
+        "url": "https://habd.as/simple-websites-jekyll-docker/",
+        "descriptionsrc": "Learn how to host your own simple websites with Jekyll and Docker."
     },
     {
         "linktitle": "Jekyll on Heroku",
-        "description": "That works well but there are cases where it is nice to deploy a Jekyll site on Heroku.",
-        "url": "https://www.jamesward.com/2014/09/24/jekyll-on-heroku"
+        "url": "https://www.jamesward.com/2014/09/24/jekyll-on-heroku",
+        "descriptionsrc": "That works well but there are cases where it is nice to deploy a Jekyll site on Heroku."
     }
 ]

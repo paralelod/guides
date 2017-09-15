@@ -1,19 +1,115 @@
 [
     {
-        "idcategory": "local-env",
-        "title": "setup local environment",
+        "idcategory": "env-basics",
+        "title": "Getting Started Mac terminal, Xcode commandline tools, Shell and Automator ",
         "description": "install and config a bunch of dev and design tools. All the dev tools are free and open source, most of the design tools are paid."
     },
     {
-        "idcategory": "webdesign",
-        "title": "overview of design and code tools"
+        "idcategory": "env-install",
+        "title": "Intro to Homebrew, Git and Github"
     },
     {
-        "idcategory": "jekyll",
-        "title": "jekyll "
+        "idcategory": "env-python-ruby",
+        "title": "Basics of Python + Ruby"
     },
     {
-        "idcategory": "deploy",
-        "title": "deploy "
+        "idcategory": "env-node",
+        "title": "Getting started with Node.js"
+    },
+    {
+        "idcategory": "env-build",
+        "title": "Intro to Gulp, Grunt + Webpack"
+    },
+    {
+        "idcategory": "env-extra",
+        "title": "Going Further - Databases , Docker , AWS Cli , Cloud SDK , Heroku"
+    },
+    {
+        "idcategory": "sketch-app",
+        "title": "Overview Sketch App"
+    },
+    {
+        "idcategory": "proto",
+        "title": "Prototyping and Sharing"
+    },
+    {
+        "idcategory": "design-code",
+        "title": "Integrating Desing + Media + Content "
+    },
+    {
+        "idcategory": "html",
+        "title": "Html Concepts overview"
+    },
+    {
+        "idcategory": "social-meta",
+        "title": "SEO + Social Meta tags"
+    },
+    {
+        "idcategory": "css",
+        "title": "css"
+    },
+    {
+        "idcategory": "sass",
+        "title": "sass"
+    },
+    {
+        "idcategory": "less",
+        "title": "less"
+    },
+    {
+        "idcategory": "style-extra",
+        "title": "style-extra"
+    },
+    {
+        "idcategory": "css-animation",
+        "title": "css-animation"
+    },
+    {
+        "idcategory": "flexbox",
+        "title": "flexbox"
+    },
+    {
+        "idcategory": "js-basics",
+        "title": "js-basics"
+    },
+    {
+        "idcategory": "js-jjj",
+        "title": "js-jjj"
+    },
+    {
+        "idcategory": "js-es6",
+        "title": "js-es6"
+    },
+    {
+        "idcategory": "js-layout",
+        "title": "js-layout"
+    },
+    {
+        "idcategory": "js-loading",
+        "title": "js-loading"
+    },
+    {
+        "idcategory": "js-sliders",
+        "title": "js-sliders"
+    },
+    {
+        "idcategory": "js-media",
+        "title": "js-media"
+    },
+    {
+        "idcategory": "js-forms",
+        "title": "js-forms"
+    },
+    {
+        "idcategory": "js-animation",
+        "title": "js-animation"
+    },
+    {
+        "idcategory": "js-apis",
+        "title": "js-apis"
+    },
+    {
+        "idcategory": "web-frameworks",
+        "title": "web-frameworks"
     }
 ]
