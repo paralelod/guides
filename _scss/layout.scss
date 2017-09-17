@@ -12,12 +12,16 @@
   width: 275px;
   position: fixed;
   height: 100%;
+
+  h4{
+    margin-top: 0;
+  }
   
   .sidenav-list{
     text-decoration: none;
     border-bottom: solid 1px #eee; 
-    padding-bottom: 5px;
-    // font-size: .8rem;
+    // padding-bottom: 5px;
+    font-size: .8rem;
     a{
       text-decoration: none;
       font-weight: 500;

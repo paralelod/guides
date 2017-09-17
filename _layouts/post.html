@@ -4,11 +4,12 @@ layout: default
 
 <div class="container">
     <div class="aside">
-        <a href="{{ site.baseurl}}/">
+        <a href=""><img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "diogo-russo.png"}} alt="{{page.title}}" style="max-width:2.5rem;margin-bottom:.8rem;"></a>
+        <!-- <a href="{{ site.baseurl}}/">
             <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "diogo-russo.jpg"}} alt="{{page.title}}" style="max-width:35px">
             <span style="padding:10px 0;font-size:.75rem;"> < home</span>
-        </a>
-        <h3> Web Design with Sketch + Static Sites with Jekyll</h3>
+        </a> -->
+        <h4> Web Design with Sketch + Static Sites with Jekyll</h4>
         <p class="sidenav-list">
             <a href="./" class="{% if page.section == 'index' %}active{% endif %}">Intro</a>
         </p>
@@ -49,7 +50,7 @@ layout: default
           {% for category in site.data.webdev-jekyl_topics %}
             {% if category.sectionid == page.section %}
               <a name="{{ category.idcategory }}"></a>
-              <h2 style="margin: 5rem 0;">{{ forloop.index }} - {{ category.title }}</h2>
+              <h2 style="margin: 3rem 0;">{{ forloop.index }} - {{ category.title }}</h2>
               <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
               {% for item in site.data.webdev-jekyl_links %}
                 {% if category.idcategory == item.categoryid %}

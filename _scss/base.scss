@@ -16,8 +16,10 @@ body {
 }
 
 html {
-  font: 16px/1.6 'Open Sans', sans-serif;
-  line-height: 1.5;
+  // font: 22px/2.2 "proxima-nova-soft",sans-serif;
+  font-family: "proxima-nova-soft",sans-serif;
+  font-size: 22px;
+  // line-height: 1.5;
 }
 
 body {
@@ -70,24 +72,31 @@ tbody tr:nth-child(odd) th {
 $small: 33em;
 
 /*base*/
-.primary-menu {
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background: hsl(0,0,10%);
-    li {
-      a {
-        display: block;
-        text-decoration: none;
-        color: white;
-        padding: 1em 1em;
-        &:hover,:focus {
-          background: hsl(0,0,15%);
-        }
-      }
-    }
-  }
+.menu {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 55px;
+  background: black;
+  z-index: 999;
+  // ul {
+  //   list-style-type: none;
+  //   padding: 0;
+  //   margin: 0;
+  //   background: hsl(0,0,10%);
+  //   li {
+  //     a {
+  //       display: block;
+  //       text-decoration: none;
+  //       color: white;
+  //       padding: 1em 1em;
+  //       &:hover,:focus {
+  //         background: hsl(0,0,15%);
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 /*single-primary-menu*/
