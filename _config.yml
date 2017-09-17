@@ -1,13 +1,21 @@
-# Site settings
-title: Resources
-tag_text: D! Creative Learning Guides
-description: Learning guides with a large list of links and resources
-url: "http://lab.diogorusso.com/guides/"
-# baseurl: "/guides"
+# Syntax highlighting
+highlighter:         pygments
 
-font-awesome-include: true # make this false if you don't need font-awesome
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: :categories/:title.html
+# relative_permalinks: true
 
-# Build settings
-markdown: kramdown
+# Setup
+title:               Hello Jekyll
+tagline:             Basic example of a Jekyll site with Sass enabled.
+url:                 http://hello.diogorusso.com
+baseurl:             /guides
 
-exclude: ["README.md"]
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _scss
+  style:            :compressed

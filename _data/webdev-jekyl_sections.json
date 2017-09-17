@@ -1,22 +1,22 @@
 [
     {
         "idsection": "dev-env",
-        "title": "dev-env"
+        "title": "dev environment setup"
     },
     {
         "idsection": "design",
-        "title": "design"
+        "title": "static assets and design for web with sketch"
     },
     {
-        "idsection": "html",
-        "title": "html"
-    },
-    {
-        "idsection": "style",
-        "title": "style"
+        "idsection": "html-style",
+        "title": "html and web style overview"
     },
     {
         "idsection": "javascript",
-        "title": "javascript"
+        "title": "javascript learning and resources"
+    },
+    {
+        "idsection": "jekyll",
+        "title": "building static siteswith jekyll"
     }
 ]

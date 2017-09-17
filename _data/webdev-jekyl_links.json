@@ -1157,273 +1157,328 @@
         "descriptionsrc": "A lightweight and flexible Sass grid"
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Basic Usage",
         "url": "https://jekyllrb.com/docs/usage/",
         "descriptionsrc": "The Jekyll gem makes a jekyll executable available to you in your Terminal window."
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Directory Structure",
         "url": "https://jekyllrb.com/docs/structure/",
         "descriptionsrc": "Jekyll is, at its core, a text transformation engine. The concept behind the system is this: you give it text written in your favorite markup language, be that Markdown, Textile, or just plain HTML, and it churns that through a layout or a series of layout files. Throughout that process you can tweak how you want the site URLs to look, what data gets displayed in the layout, and more. This is all done through editing text files; the static web site is the final product."
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Configuration",
         "url": "https://jekyllrb.com/docs/configuration/",
         "descriptionsrc": "Jekyll allows you to concoct your sites in any way you can dream up, and it’s thanks to the powerful and flexible configuration options that this is possible. These options can either be specified in a _config.yml file placed in your site’s root directory, or can be specified as flags for the jekyll executable in the terminal."
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Setting up your GitHub Pages site locally with Jekyll",
         "url": "https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/",
         "descriptionsrc": "You can set up a local version of your Jekyll GitHub Pages site to test changes to your site locally."
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Front Matter doc",
         "url": "https://jekyllrb.com/docs/frontmatter/",
         "descriptionsrc": "The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. "
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Writing Posts doc",
         "url": "https://jekyllrb.com/docs/posts/",
         "descriptionsrc": " If you write articles and publish them online, you can publish and maintain a blog simply by managing a folder of text-files on your computer. "
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Working with Drafts doc",
         "url": "https://jekyllrb.com/docs/drafts/",
         "descriptionsrc": "Drafts are posts without a date. They’re posts you’re still working on and don’t want to publish yet. "
     },
     {
+        "categoryid": "jekyll-basics",
         "linktitle": "Creating Pages doc",
         "url": "https://jekyllrb.com/docs/pages/",
         "descriptionsrc": "In addition to writing posts, you might also want to add static pages (content that isn’t date-based) to your Jekyll site. By taking advantage of the way Jekyll copies files and directories, this is easy to do."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Static Files",
         "url": "https://jekyllrb.com/docs/static-files/",
         "descriptionsrc": "A static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Variables doc",
         "url": "https://jekyllrb.com/docs/variables/",
         "descriptionsrc": "Jekyll traverses your site looking for files to process. Any files with YAML front matter are subject to processing. For each of these files, Jekyll makes a variety of data available via the Liquid templating system."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Collections doc",
         "url": "https://jekyllrb.com/docs/collections/",
         "descriptionsrc": "Collections allow you to define a new type of document that behave like Pages or Posts do normally, but also have their own unique properties and namespace."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Collections Tutorial",
         "url": "https://ben.balter.com/2015/02/20/jekyll-collections/",
         "descriptionsrc": "Collections are Jekyll’s most powerful and simultaneously least understood feature. If you’re not familiar with Jekyll, Jekyll is a static site generator. "
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Introduction to Collections",
         "url": "https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/",
         "descriptionsrc": "Jekyll collections are a powerful way to organize content on your site."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Jekyll display collection by category\n\n",
         "url": "https://stackoverflow.com/questions/28100220/jekyll-display-collection-by-category",
         "descriptionsrc": "Jekyll display collection by category\n\n"
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Data Files doc",
         "url": "https://jekyllrb.com/docs/datafiles/",
         "descriptionsrc": "you can specify your own custom data that can be accessed via the Liquid templating system.\n\nJekyll supports loading data from YAML, JSON, and CSV files located in the _data directory."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Assets doc",
         "url": "https://jekyllrb.com/docs/assets/",
         "descriptionsrc": "Jekyll provides built-in support for Sass and can work with CoffeeScript via a Ruby gem. In order to use them, you must first create a file with the proper extension name (one of .sass, .scss, or .coffee) "
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Templates doc",
         "url": "https://jekyllrb.com/docs/templates/",
         "descriptionsrc": "Jekyll uses the Liquid templating language to process templates. All of the standard Liquid tags and filters are supported."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Includes doc",
         "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes",
         "descriptionsrc": "The include tag allows you to include the content from another file stored in the _includes folder"
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Passing parameters to includes\n",
         "url": "https://jekyllrb.com/docs/includes/#passing-parameters-to-includes",
         "descriptionsrc": "Passing parameters to includes is especially helpful when you want to hide away complex formatting from your Markdown content."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Using Jekyll _includes as custom liquid functions",
         "url": "http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/",
         "descriptionsrc": "This post shows how you can use files in the Jekyll _includes directory to implement function-like behaviour."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Permalinks doc",
         "url": "https://jekyllrb.com/docs/permalinks/",
         "descriptionsrc": "Jekyll supports a flexible way to build permalinks, allowing you to leverage various template variables or choose built-in permalink styles (such as date) that automatically use a template-variable pattern."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Pagination doc",
         "url": "https://jekyllrb.com/docs/pagination/",
         "descriptionsrc": "Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings."
     },
     {
+        "categoryid": "jekyll-intermediate",
         "linktitle": "Plugins doc",
         "url": "https://jekyllrb.com/docs/plugins/",
         "descriptionsrc": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Themes doc",
         "url": "https://jekyllrb.com/docs/themes/",
         "descriptionsrc": "Jekyll themes package up layouts, includes, and stylesheets in a way that can be overridden by your site’s content."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "How to Create and Publish a Jekyll Theme Gem",
         "url": "https://webdesign.tutsplus.com/tutorials/how-to-create-and-publish-a-jekyll-theme-gem--cms-27475",
         "descriptionsrc": "One of Jekyll’s noteworthy new features is the ability create official themes in the form of Ruby gems. These themes can be installed by a Jekyll user to style their static blog or website with ease, leaving them to manage their content."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Using Rake to Automate Tasks",
         "url": "http://www.stuartellis.name/articles/rake/",
         "descriptionsrc": "Rake enables you to define a set of tasks and the dependencies between them in a file, and then have the right thing happen when you run any given task. "
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Rake for Jekyll",
         "url": "http://quyennguyen.com/code/rake_for_jekyll/",
         "descriptionsrc": "Rake is like a compiler for Rails. Commands are in the rakefile. Execute the file and a series of commands are fired. That's is all."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Rake tasks & Jekyll posts",
         "url": "http://albertogrespan.com/blog/rake-tasks-and-jekyll-posts/",
         "descriptionsrc": "In this post I’ll be talking about some Rake tasks I use that help me create and publish drafts for my Jekyll blog."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Jekyll Rakefile Boilerplate",
         "url": "https://github.com/gummesson/jekyll-rake-boilerplate/blob/master/Rakefile",
         "descriptionsrc": "Rakefile boilerplate for jekyll"
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Jekyll Plugins",
         "url": "https://jekyllrb.com/docs/plugins/",
         "descriptionsrc": "Jekyll has a plugin system with hooks that allow you to create custom generated content specific to your site. You can run custom code for your site without having to modify the Jekyll source itself."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Jekyll Plugins Repo",
         "url": "http://planetjekyll.github.io/plugins/",
         "descriptionsrc": "Jekyll Plugins Repository"
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Making Jekyll \nmultilingual",
         "url": "https://www.sylvaindurand.org/making-jekyll-multilingual/",
         "descriptionsrc": "This article aims to present a way to create a multilingual site with Jekyll."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Multilingual Jekyll Without Plugins",
         "url": "https://simpleit.rocks/multilingual-jekyll-without-plugins/",
         "descriptionsrc": "This article shows a solution to have a multi language jekyll website based mainly in having a file that groups all the available translations for each page."
     },
     {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Localization Plugin",
         "descriptionsrc": "A i18n support plugin for Jekyll that makes multi-language support fast and intuitive, for blogs big and small. Made by @untra."
     },
     {
-        "linktitle": "Jekyll Foundation 6 Theme",
-        "url": "https://github.com/aaronkwhite/foundation-jekyll",
-        "descriptionsrc": "The awesomeness of Foundation 6... powered by Jekyll. Bare Bones Jekyll Foundation starting point"
-    },
-    {
-        "linktitle": "Jekyll Bootstrap 4 Theme",
-        "url": "https://github.com/jenofdoom/jekyll-bootstrap-4",
-        "descriptionsrc": "A starter kit for jekyll + bootstrap 4"
-    },
-    {
-        "linktitle": "Jekyll Bulma Theme",
-        "url": "https://github.com/erayaydin/jekyll-bulma",
-        "descriptionsrc": "Jekyll Bulma Theme | Bulma.io Jekyll Template for Developers "
-    },
-    {
-        "linktitle": "Jekyll Material Design Theme",
-        "url": "http://jekyllthemes.org/themes/jekyll-mdl/",
-        "descriptionsrc": "A Jekyll theme based in Google Material Design Lite library."
-    },
-    {
-        "linktitle": "Jekyll Infiite Scroll Theme"
-    },
-    {
-        "linktitle": "Jekyll Reveal Js",
-        "url": "https://github.com/dploeger/jekyll-revealjs",
-        "descriptionsrc": "A Jekyll-based framework for creating presentations based on Reveal.js and markdown."
-    },
-    {
-        "linktitle": "Jekyll with Gulp and Webpack"
-    },
-    {
-        "linktitle": "Jekyll with Grunt and Webpack"
-    },
-    {
-        "linktitle": "IFTT Jekyll Automation",
-        "url": "https://michaelsoolee.com/ifttt-jekyll-automation/",
-        "descriptionsrc": "How I automate some of my social networking with IFTTT"
-    },
-    {
-        "url": "https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html",
-        "descriptionsrc": "Sharing Jekyll posts on social media using front matter and IFTTT"
-    },
-    {
-        "linktitle": "Jekyll Admin",
-        "url": "https://github.com/jekyll/jekyll-admin",
-        "descriptionsrc": "A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites."
-    },
-    {
-        "url": "https://github.com/robwierzbowski/jekyll-picture-tag",
-        "descriptionsrc": "Responsive images for jekyll"
-    },
-    {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Jekyll Reading Time Tutorial",
         "url": "https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/",
         "descriptionsrc": "Jekyll: Reading time without plugins"
     },
     {
+        "categoryid": "jekyll-advanced",
+        "linktitle": "Responsive images for jekyll",
+        "url": "https://github.com/robwierzbowski/jekyll-picture-tag",
+        "descriptionsrc": "Responsive images for jekyll"
+    },
+    {
+        "categoryid": "jekyll-advanced",
+        "linktitle": "Jekyll Admin",
+        "url": "https://github.com/jekyll/jekyll-admin",
+        "descriptionsrc": "A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites."
+    },
+    {
+        "categoryid": "jekyll-advanced",
         "linktitle": "Hologram Gem",
         "url": "https://trulia.github.io/hologram/",
         "descriptionsrc": "Hologram is a Ruby gem that parses comments in your CSS and turns them into a beautiful styleguide."
     },
     {
-        "linktitle": "hyde static site genrator ",
-        "url": "http://hyde.github.io/",
-        "descriptionsrc": "Hyde is a static website generator written in python. While Hyde took life as awesome Jekyll's evil twin, it has since been completely consumed by the dark side and has an identity of its own."
+        "categoryid": "jekyll-advanced",
+        "linktitle": "IFTT Jekyll Automation",
+        "url": "https://michaelsoolee.com/ifttt-jekyll-automation/",
+        "descriptionsrc": "How I automate some of my social networking with IFTTT"
     },
     {
+        "categoryid": "jekyll-advanced",
+        "linktitle": "IFTT Jekyll Automation II",
+        "url": "https://eduardoboucas.com/blog/2014/11/05/adding-ajax-pagination-to-jekyll.html",
+        "descriptionsrc": "Sharing Jekyll posts on social media using front matter and IFTTT"
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Foundation 6 Theme",
+        "url": "https://github.com/aaronkwhite/foundation-jekyll",
+        "descriptionsrc": "The awesomeness of Foundation 6... powered by Jekyll. Bare Bones Jekyll Foundation starting point"
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Bootstrap 4 Theme",
+        "url": "https://github.com/jenofdoom/jekyll-bootstrap-4",
+        "descriptionsrc": "A starter kit for jekyll + bootstrap 4"
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Bulma Theme",
+        "url": "https://github.com/erayaydin/jekyll-bulma",
+        "descriptionsrc": "Jekyll Bulma Theme | Bulma.io Jekyll Template for Developers "
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Material Design Theme",
+        "url": "http://jekyllthemes.org/themes/jekyll-mdl/",
+        "descriptionsrc": "A Jekyll theme based in Google Material Design Lite library."
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Infiite Scroll Theme"
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll Reveal Js",
+        "url": "https://github.com/dploeger/jekyll-revealjs",
+        "descriptionsrc": "A Jekyll-based framework for creating presentations based on Reveal.js and markdown."
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll with Gulp and Webpack"
+    },
+    {
+        "categoryid": "jekyll-themes",
+        "linktitle": "Jekyll with Grunt and Webpack"
+    },
+    {
+        "categoryid": "jekyll-deploy",
         "linktitle": "Jekyll with Github Pages with Gulp"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "Jekyll with Bitbucket tutorial with Gulp"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "Gulp with Amazon S3"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "Travis CI with Amazon S3"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "FTP with Gulp"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "SFTP with Gulp"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "SSH with Gulp"
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "How To Deploy A Jekyll Blog In Docker",
         "url": "https://blog.nimbleci.com/2016/08/10/how-to-deploy-a-jekyll-blog-in-docker/",
         "descriptionsrc": "In this article we’ll look at how to deploy a Jekyll blog in a Docker container."
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": " Simple websites with Jekyll and Docker",
         "url": "https://habd.as/simple-websites-jekyll-docker/",
         "descriptionsrc": "Learn how to host your own simple websites with Jekyll and Docker."
     },
     {
+        "categoryid": "jekyll-deploy",
         "linktitle": "Jekyll on Heroku",
         "url": "https://www.jamesward.com/2014/09/24/jekyll-on-heroku",
         "descriptionsrc": "That works well but there are cases where it is nice to deploy a Jekyll site on Heroku."

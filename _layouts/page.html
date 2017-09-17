@@ -1,22 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/solo.css">
-</head>
-<body>
+---
+layout: default
+---
 
-  <article>
-   <div class="container">
-    <h3>{{ page.title }}</h3>
-
-    {{ content }}
-     </div>
-   </article>
-
-</body>
-</html>
+<div class="container">
+    <div class="aside">
+        <a href="{{ site.baseurl}}/">
+            <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "diogo-russo.jpg"}} alt="{{page.title}}" style="max-width:35px">
+            <!-- <span style="padding:10px 0;font-size:.75rem;">hello!!</span> -->
+        </a>
+        <h3> GUIDES + TOOLKITS </h3>
+        <!-- <p class="sidenav-list">
+            <a href="./" class="{% if page.id == 'index' %}active{% endif %}">Intro</a>
+        </p> -->
+        <!-- {% for section in site.data.webdev-jekyl_sections %}
+            <p class="sidenav-list">
+            <a href="{{site.baseurl}}/jekyll-gulp-webpack-sketch/{{ section.idsection }}" class="{% if section.idsection == page.section %}active{% endif %}">
+                {{ section.title }}
+            </a>
+            </p>
+        {% endfor %} -->
+    </div>
+    <div class="main">
+        {{ content }}
+</div>
