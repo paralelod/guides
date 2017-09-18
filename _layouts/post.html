@@ -26,9 +26,13 @@ layout: default
       <div class="content">
           {% for section in site.data.webdev-jekyl_sections %}
             {% if section.idsection == page.section %}
-              <h2 style="margin:3rem 0; ">{{ section.title }}</h2>
+              <h2 style="margin:3rem 0; ">
+                {{ section.title }}<br>
+                <small style="font-size:.8rem;color:gray;">guides / jekyll-gulp-webpack-sketch / dev-env</small>
+              </h2>
             {% endif %}
           {% endfor %}
+          
           {% for section in site.data.webdev-jekyl_sections %}
             {% if section.idsection == page.section %}
               <div>
