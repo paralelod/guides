@@ -18,7 +18,7 @@
   }
   
   .sidenav-list{
-    text-decoration: none;
+    // text-decoration: none;
     // border-bottom: solid 1px #eee; 
     // padding-bottom: 5px;
     font-size: .8rem;
@@ -30,12 +30,9 @@
         text-decoration: underline;
       }
     }
-    .active{
+    .active {
       font-weight: 700;
-      &:hover,
-      &:focus {
-        text-decoration: none;
-      }  
+      text-decoration: underline; 
     }
   }
 }
