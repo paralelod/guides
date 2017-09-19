@@ -10,12 +10,12 @@ layout: default
             <span style="padding:10px 0;font-size:.75rem;"> < home</span>
         </a> -->
         <h4> Web Design with Sketch + Static Sites with Jekyll</h4>
-        <p class="sidenav-list">
-            <a href="./" class="{% if page.section == 'index' %}active{% endif %}">Intro</a>
+        <p class="sidenav-list {% if page.section == 'index' %}active{% endif %}">
+            <a href="./">Intro</a>
         </p>
         {% for section in site.data.webdev-jekyl_sections %}
-            <p class="sidenav-list">
-            <a href="{{site.baseurl}}/jekyll-gulp-webpack-sketch/{{ section.idsection }}" class="{% if section.idsection == page.section %}active{% endif %}">
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+            <a href="{{site.baseurl}}/jekyll-gulp-webpack-sketch/{{ section.idsection }}">
                 {{ section.title }}
             </a>
             </p>

@@ -21,21 +21,21 @@
   
   .sidenav-list{
     // text-decoration: none;
-    // border-bottom: solid 1px #eee; 
-    // padding-bottom: 5px;
+    border-bottom: solid 1px #eee; 
+    padding-bottom: 5px;
     font-size: .8rem;
     a{
       text-decoration: none;
       font-weight: 500;
       &:hover,
       &:focus {
-        text-decoration: underline;
+        text-decoration: none;
       }
     }
-    .active {
-      font-weight: 700;
-      text-decoration: underline; 
-    }
+  }
+  .active {
+    // font-weight: 700;
+    border-bottom: solid 1px #000; 
   }
 }
 .main {
