@@ -5,16 +5,26 @@
 layout: page
 id: index
 ---
-
-# INDEX
-
-
+<div class="card">
+    <a href="#">
+        <img src="http://placehold.it/1920x1080">
+        <div class="card-content">
+            <h2>{{ post.title }}</h2>
+            <p>
+              I collect TUTORIALS, RESOURCES and all kinds of LINKS,
+              then I organize everything in GUIDES, making easier to LEARN ANYTHING
+            </p>
+        </div><!-- .card-content -->
+    </a>
+</div><!-- .card -->
 {% for post in site.posts %}
-  <h3><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
-  <p>{{ category.description }}</p>
-{% endfor %}
-
-{% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-   <a href="{{ site.baseurl }}/{{ category_name }}/">{{ category_name }}</a>
+ <article class="card">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+          <img src="http://placehold.it/1920x1080">
+          <div class="card-content">
+              <h2>{{ post.title }}</h2>
+              <p>JavaScript is a programming language that allows you to implement complex things on web pages</p>
+          </div><!-- .card-content -->
+      </a>
+  </article><!-- .card -->
 {% endfor %}

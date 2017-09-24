@@ -1,0 +1,51 @@
+.card {
+	background: white;
+	margin-bottom: 2em;	
+}
+
+.card a {
+	text-decoration: none;
+}
+
+.card a:hover {
+    // box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    text-decoration: underline;
+}
+
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+/* Flexbox stuff */
+@media screen and (min-width: 40em) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+
+    .card {
+        display: flex;
+        flex: 0 1 calc(100% - .5rem);
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .cards {
+        // margin-top: inherit;
+        margin: 25px 25px 25px 295px ;
+        max-width: 1140px;
+    }
+    
+    .card {
+        flex: 0 1 calc(50% - .5rem);
+    }
+}

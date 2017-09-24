@@ -1,25 +1,6 @@
 ---
 layout: default
 ---
-
-<div class="container">
-    <div class="aside">
-        <a href="{{ site.baseurl}}/">
-            <a href="{{ site.baseurl}}/"><img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "diogo-russo.png"}} alt="{{page.title}}" style="max-width:2.5rem;margin-bottom:.8rem;"></a>
-            <!-- <span style="padding:10px 0;font-size:.75rem;">hello!!</span> -->
-        </a>
-        <h3> GUIDES + TOOLKITS </h3>
-        <!-- <p class="sidenav-list">
-            <a href="./" class="{% if page.id == 'index' %}active{% endif %}">Intro</a>
-        </p> -->
-        <!-- {% for section in site.data.webdev-jekyl_sections %}
-            <p class="sidenav-list">
-            <a href="{{site.baseurl}}/jekyll-gulp-webpack-sketch/{{ section.idsection }}" class="{% if section.idsection == page.section %}active{% endif %}">
-                {{ section.title }}
-            </a>
-            </p>
-        {% endfor %} -->
-    </div>
-    <div class="main">
-        {{ content }}
+<div class="cards">
+    {{ content }}
 </div>
