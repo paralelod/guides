@@ -9,7 +9,6 @@ id: index
     <div href="#">
         <img src="http://placehold.it/1920x1080">
         <div class="card-content">
-            <h2>{{ post.title }}</h2>
             <p>
               I collect TUTORIALS, RESOURCES and all kinds of LINKS,
               then I organize everything in GUIDES, making easier to LEARN ANYTHING
