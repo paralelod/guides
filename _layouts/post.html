@@ -13,7 +13,7 @@ layout: default
           <small>
             <a href="/{{ site.baseurl}}">home</a> 
             /
-            <a href=""> {{ page.categories }}</a>
+            <a href="/{{ site.baseurl}}">{{ page.categories }}</a>
           </small>
           <br><br>
           <hr>
@@ -39,19 +39,6 @@ layout: default
         </ul>
         {% endif %}
       {% endfor %}
-      <!-- <h3>advanced web design and static website with jekyll</h3> -->
-      <p>
-          Around 45 words description category interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
-      </p>
-      <ul style="padding:0;">
-        {% for section in site.data.webdev-jekyl_sections %}
-          <li style="display:inline;line-height:2.5;margin-right:1rem;">
-              <a href="#{{ category.idcategory }}">
-                  {{ section.title }}
-                </a>
-          </li>
-        {% endfor %}
-      </ul>
       <hr>
       {% for category in site.data.webdev-jekyl_topics %}
         {% if category.sectionid == page.section %}
@@ -71,11 +58,33 @@ layout: default
           {% endfor %}
         {% endif %}
       {% endfor %}
-      <br><br>
-      <!--  FOOTER  -->
+      <!-- <h3>advanced web design and static website with jekyll</h3> -->
+      <div style="margin: 3rem 0 1.5rem 0;">
+        <h2>
+            {{ page.categories }}
+        </h2>
+        <p>
+            Around 45 words description category interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
+        </p>
+      </div>
+      <ul style="padding:0; margin-bottom:2rem;">
+        {% for section in site.data.webdev-jekyl_sections %}
+          <li style="display:inline;line-height:2.5;margin-right:1rem;">
+              <a href="#{{ category.idcategory }}">
+                {{ section.title }}
+              </a>
+          </li>
+        {% endfor %}
+        | 
+        <li style="display:inline;line-height:2.5;margin:0 1rem;">
+            <a href="#{{ category.idcategory }}">
+              HOME
+            </a>
+        </li>
+      </ul>
   </div>
   
-  <div class="PageNavigation">
+  <!-- <div class="PageNavigation">
     {% if page.previous.url %}
       <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
     {% endif %}
@@ -83,7 +92,7 @@ layout: default
       <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
     {% endif %}
   </div>
-</div>
+</div> -->
 
 
   
