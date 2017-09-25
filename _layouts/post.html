@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="main">
-    <img src="http://via.placeholder.com/1920x1080">
+  <img src="http://via.placeholder.com/1920x1080">
   <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
   <div class="content">
       {% for section in site.data.webdev-jekyl_sections %}
@@ -10,33 +10,53 @@ layout: default
           <h2 style="margin:3rem 0 0 0; ">
             {{ section.title }}
           </h2>
-          <br>
           <small>
+            <a href="/{{ site.baseurl}}">home</a> 
+            /
+            <a href=""> {{ page.categories }}</a>
+          </small>
+          <br><br>
+          <hr>
+          <p>
+              Around 45 words tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
+          </p>
+          <!-- {{ content }} -->
+          <ul style="padding:0;">
               {% for section in site.data.webdev-jekyl_sections %}
               {% if section.idsection == page.section %}
                     {% for category in site.data.webdev-jekyl_topics %}
                         {% if category.sectionid == section.idsection %}
-                            <span style="margin-right:.5rem;line-height:2.5;">
-                              <a href="#{{ category.idcategory }}">
+                            <li style="display:inline;line-height:2.5;margin-right:1rem;">
+                                <a href="#{{ category.idcategory }}">
                                 <!-- {{ forloop.index }} - {{ category.title }} -->
                                 {{ category.title }}
-                              </a> &nbsp;&nbsp;|
-                            </span>  
+                              </a>
+                            </li>  
                         {% endif %}
                     {% endfor %}
               {% endif %}
             {% endfor %}
-          </small>
+        </ul>
         {% endif %}
       {% endfor %}
-      {{ content }}
-      <br>
+      <!-- <h3>advanced web design and static website with jekyll</h3> -->
+      <p>
+          Around 45 words tincidunt augue interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
+      </p>
+      <ul style="padding:0;">
+        {% for section in site.data.webdev-jekyl_sections %}
+          <li style="display:inline;line-height:2.5;margin-right:1rem;">
+              <a href="#{{ category.idcategory }}">
+                  {{ section.title }}
+                </a>
+          </li>
+        {% endfor %}
+      </ul>
       <hr>
       {% for category in site.data.webdev-jekyl_topics %}
         {% if category.sectionid == page.section %}
           <a name="{{ category.idcategory }}"></a>
           <h2 style="margin: 3rem 0;">
-            <!-- {{ forloop.index }} - {{ category.title }} -->
             {{ category.title }}
           </h2>
           <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
@@ -63,8 +83,7 @@ layout: default
       <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
     {% endif %}
   </div>
-
-
+</div>
 
 
   
