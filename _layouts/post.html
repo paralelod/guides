@@ -1,86 +1,69 @@
 ---
 layout: default
 ---
-
-<div class="container">
-   
-    <div class="main">
-        <img src="http://via.placeholder.com/1920x1080">
-      <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
-      <div class="content">
-          {% for section in site.data.webdev-jekyl_sections %}
-            {% if section.idsection == page.section %}
-              <h2 style="margin:3rem 0 0 0; ">
-                {{ section.title }}
-              </h2>
-              <br>
-              <small>
-                  {% for section in site.data.webdev-jekyl_sections %}
-                  {% if section.idsection == page.section %}
-                        {% for category in site.data.webdev-jekyl_topics %}
-                            {% if category.sectionid == section.idsection %}
-                               <span style="margin-right:.5rem;line-height:2.5;">
-                                  <a href="#{{ category.idcategory }}">
-                                   <!-- {{ forloop.index }} - {{ category.title }} -->
-                                   {{ category.title }}
-                                  </a> &nbsp;&nbsp;|
-                                </span>  
-                            {% endif %}
-                        {% endfor %}
-                  {% endif %}
-                {% endfor %}
-              </small>
-            {% endif %}
-          {% endfor %}
-          
-          <!-- {% for section in site.data.webdev-jekyl_sections %}
-            {% if section.idsection == page.section %}
-              <div>
-                <h3><a href="#{{ section.idsection }}">{{ section.title }}</a></h3>
-                  {% for category in site.data.webdev-jekyl_topics %}
-                      {% if category.sectionid == section.idsection %}
-                        <span style="line-height:2.5; padding-right:1rem; font-size:1.2rem;">
-                          <a href="#{{ category.idcategory }}" target="blank">{{ forloop.index }} - {{ category.title }}</a>
-                        </span>
-                      {% endif %}
-                  {% endfor %}
-              </div>
-            {% endif %}
-          {% endfor %} -->
-          {{ content }}
+<div class="main">
+    <img src="http://via.placeholder.com/1920x1080">
+  <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
+  <div class="content">
+      {% for section in site.data.webdev-jekyl_sections %}
+        {% if section.idsection == page.section %}
+          <h2 style="margin:3rem 0 0 0; ">
+            {{ section.title }}
+          </h2>
           <br>
-          <hr>
-          {% for category in site.data.webdev-jekyl_topics %}
-            {% if category.sectionid == page.section %}
-              <a name="{{ category.idcategory }}"></a>
-              <h2 style="margin: 3rem 0;">
-                <!-- {{ forloop.index }} - {{ category.title }} -->
-              </h2>
-              <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
-              {% for item in site.data.webdev-jekyl_links %}
-                {% if category.idcategory == item.categoryid %}
-                  <p>
-                    <a href="{{ item.url }}" target="_blank">{{ item.linktitle }}</a>
-                    :: {{ item.descriptionsrc | truncate: 99 }}
-                  </p>
-                  <hr>
-                {% endif %}
-              {% endfor %}
+          <small>
+              {% for section in site.data.webdev-jekyl_sections %}
+              {% if section.idsection == page.section %}
+                    {% for category in site.data.webdev-jekyl_topics %}
+                        {% if category.sectionid == section.idsection %}
+                            <span style="margin-right:.5rem;line-height:2.5;">
+                              <a href="#{{ category.idcategory }}">
+                                <!-- {{ forloop.index }} - {{ category.title }} -->
+                                {{ category.title }}
+                              </a> &nbsp;&nbsp;|
+                            </span>  
+                        {% endif %}
+                    {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </small>
+        {% endif %}
+      {% endfor %}
+      {{ content }}
+      <br>
+      <hr>
+      {% for category in site.data.webdev-jekyl_topics %}
+        {% if category.sectionid == page.section %}
+          <a name="{{ category.idcategory }}"></a>
+          <h2 style="margin: 3rem 0;">
+            <!-- {{ forloop.index }} - {{ category.title }} -->
+            {{ category.title }}
+          </h2>
+          <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
+          {% for item in site.data.webdev-jekyl_links %}
+            {% if category.idcategory == item.categoryid %}
+              <p>
+                <a href="{{ item.url }}" target="_blank">{{ item.linktitle }}</a>
+                :: {{ item.descriptionsrc | truncate: 99 }}
+              </p>
+              <hr>
             {% endif %}
           {% endfor %}
-          <br><br>
-          <!--  FOOTER  -->
-      </div>
-      
-      <div class="PageNavigation">
-        {% if page.previous.url %}
-          <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
         {% endif %}
-        {% if page.next.url %}
-          <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
-        {% endif %}
-      </div>
-</div>
+      {% endfor %}
+      <br><br>
+      <!--  FOOTER  -->
+  </div>
+  
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
 
 
 

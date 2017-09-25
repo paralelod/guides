@@ -5,8 +5,8 @@
 layout: page
 id: index
 ---
-<div class="card">
-    <a href="#">
+<article class="card">
+    <div href="#">
         <img src="http://placehold.it/1920x1080">
         <div class="card-content">
             <h2>{{ post.title }}</h2>
@@ -15,8 +15,8 @@ id: index
               then I organize everything in GUIDES, making easier to LEARN ANYTHING
             </p>
         </div><!-- .card-content -->
-    </a>
-</div><!-- .card -->
+    </div>
+</article><!-- .card -->
 {% for post in site.posts %}
  <article class="card">
       <a href="{{ site.baseurl }}{{ post.url }}">
