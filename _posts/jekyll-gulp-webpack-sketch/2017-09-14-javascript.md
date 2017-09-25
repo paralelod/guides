@@ -2,5 +2,5 @@
 layout: post
 published: true
 section: javascript
-categories: jekyll-gulp-webpack-sketch
+categories: static-web-sites
 ---
