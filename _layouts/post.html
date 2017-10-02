@@ -52,7 +52,7 @@ layout: fullwidth
     <div class="cards">
         {% for category in site.data.webdev-jekyll_tags %}
         {% if category.sectionid == page.section %}
-          {% for item in site.data.webdev-jekyll_links limit:15 %}
+          {% for item in site.data.webdev-jekyll_links %}
             {% if category.idcategory == item.categoryid %}
               <article class="card columns-3">
                   <div class="card-body">
