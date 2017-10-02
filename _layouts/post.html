@@ -1,98 +1,73 @@
 ---
-layout: default
+layout: fullwidth
 ---
-<div class="main">
-  <img src="http://via.placeholder.com/1920x1080">
-  <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
-  <div class="content">
-      {% for section in site.data.webdev-jekyl_sections %}
+<div class="post">
+    <br><br>
+    <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
+    <div class="header" style="max-width:800px">
+        {% for section in site.data.webdev-jekyll_posts %}
         {% if section.idsection == page.section %}
-          <h2 style="margin:3rem 0 0 0; ">
+          <h1 style="margin:3rem 0 0 0; ">
             {{ section.title }}
-          </h2>
-          <small>
-            <a href="/{{ site.baseurl}}">home</a> 
+          </h1>
+          <p>
+            <a href="/{{ site.baseurl}}">journal</a> 
             /
-            <a href="/{{ site.baseurl}}">{{ page.categories }}</a>
-          </small>
+            <a href="/{{ site.baseurl}}">learn</a>
+            /
+            <a href="/{{ site.baseurl}}">code-camp</a>
+            /
+          </p>
           <br><br>
-          <hr>
           <p>
               Around 45 words description post interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
           </p>
-          <!-- {{ content }} -->
-          <ul style="padding:0;">
-              {% for section in site.data.webdev-jekyl_sections %}
-              {% if section.idsection == page.section %}
-                    {% for category in site.data.webdev-jekyl_topics %}
-                        {% if category.sectionid == section.idsection %}
-                            <li style="display:inline;line-height:2.5;margin-right:1rem;">
-                                <a href="#{{ category.idcategory }}">
-                                <!-- {{ forloop.index }} - {{ category.title }} -->
-                                {{ category.title }}
-                              </a>
-                            </li>  
-                        {% endif %}
-                    {% endfor %}
-              {% endif %}
-            {% endfor %}
-        </ul>
         {% endif %}
       {% endfor %}
-      <hr>
-      {% for category in site.data.webdev-jekyl_topics %}
+    </div>
+  <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
+  <div class="content">
+      <h2 style="margin:3rem 0 0 0; ">
+        Sketches & Notes
+      </h2>
+      <br>
+    <div class="cards">
+        {% for post in site.posts limit:3 %}
+            <article class="card columns-2">
+                <div class="card-body" style="background:transparent;box-shadow:none;">
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                        <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
+                        <div class="card-content">
+                            <p>JavaScript is a programming language that allows you to implement complex things on web pages</p>
+                        </div><!-- .card-content -->
+                    </a>
+                </div><!-- .card-body -->
+            </article><!-- .card -->
+        {% endfor %}
+    </div>
+    <h2 style="margin:3rem 0 0 0; ">
+        Links & Resources
+      </h2>
+      <br>
+    <div class="cards">
+        {% for category in site.data.webdev-jekyll_tags %}
         {% if category.sectionid == page.section %}
-          <a name="{{ category.idcategory }}"></a>
-          <h2 style="margin: 3rem 0;">
-            {{ category.title }}
-          </h2>
-          <!--img src="{{ site.url }}/images/hello.svg" alt="sample image"-->
-          {% for item in site.data.webdev-jekyl_links %}
+          {% for item in site.data.webdev-jekyll_links limit:15 %}
             {% if category.idcategory == item.categoryid %}
-              <p>
-                <a href="{{ item.url }}" target="_blank">{{ item.linktitle }}</a>
-                :: {{ item.descriptionsrc | truncate: 99 }}
-              </p>
-              <hr>
+              <article class="card columns-3">
+                  <div class="card-body">
+                      <a href="{{ item.url }}" target="_blank">
+                          <div class="card-content">
+                              <p class="card-link">{{ item.descriptionsrc | truncate: 140 }}</p>
+                              <span style="display:block;text-align:right; color:gray;">&#8627;</span>
+                          </div><!-- .card-content -->
+                      </a>
+                  </div><!-- .card-body -->
+              </article><!-- .card -->
             {% endif %}
           {% endfor %}
         {% endif %}
-      {% endfor %}
-      <!-- <h3>advanced web design and static website with jekyll</h3> -->
-      <div style="margin: 3rem 0 1.5rem 0;">
-        <h2>
-            {{ page.categories }}
-        </h2>
-        <p>
-            Around 45 words description category interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
-        </p>
-      </div>
-      <ul style="padding:0; margin-bottom:2rem;">
-        {% for section in site.data.webdev-jekyl_sections %}
-          <li style="display:inline;line-height:2.5;margin-right:1rem;">
-              <a href="#{{ category.idcategory }}">
-                {{ section.title }}
-              </a>
-          </li>
         {% endfor %}
-        | 
-        <li style="display:inline;line-height:2.5;margin:0 1rem;">
-            <a href="#{{ category.idcategory }}">
-              HOME
-            </a>
-        </li>
-      </ul>
+      </div>
   </div>
-  
-  <!-- <div class="PageNavigation">
-    {% if page.previous.url %}
-      <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
-    {% endif %}
-  </div>
-</div> -->
-
-
   

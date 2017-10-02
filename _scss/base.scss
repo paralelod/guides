@@ -18,29 +18,40 @@ body {
 html {
   // font: 22px/2.2 "proxima-nova-soft",sans-serif;
   font-family: "proxima-nova-soft",sans-serif;
-  font-size: 22px;
+  // font-size: 18px;
   // line-height: 1.5;
 }
 
 body {
-  color: #666;
+  // color: #888;
   background-color: #fbfbfb;
 }
 
 // No `:visited` state is required by default (browsers will use `a`)
+// a {
+//   color: #268bd2;
+//   text-decoration: none;
+
+//   // `:focus` is linked to `:hover` for basic accessibility
+//   &:hover,
+//   &:focus {
+//     text-decoration: underline;
+//   }
+
+//   strong {
+//     color: inherit;
+//   }
+// }
+
 a {
-  color: #268bd2;
+  color: #111;
+  text-decoration: underline;
+  // font-weight: bold;
+  /* font-size: 1.2rem; */
+}
+
+a:hover, a:focus {
   text-decoration: none;
-
-  // `:focus` is linked to `:hover` for basic accessibility
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
-
-  strong {
-    color: inherit;
-  }
 }
 
 // Images
@@ -66,62 +77,3 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-
-
-/*breakpoint*/
-$small: 33em;
-
-/*base*/
-.menu {
-  width: 100%;
-  position: fixed;
-  display: flex;
-  flex-flow: row nowrap;
-  min-height: 55px;
-  background: black;
-  z-index: 999;
-  // ul {
-  //   list-style-type: none;
-  //   padding: 0;
-  //   margin: 0;
-  //   background: hsl(0,0,10%);
-  //   li {
-  //     a {
-  //       display: block;
-  //       text-decoration: none;
-  //       color: white;
-  //       padding: 1em 1em;
-  //       &:hover,:focus {
-  //         background: hsl(0,0,15%);
-  //       }
-  //     }
-  //   }
-  // }
-}
-
-/*single-primary-menu*/
-.single-primary-menu {
-  ul {
-    @media screen and (min-width: $small) {
-      display: flex;
-      flex-wrap: wrap;
-      li {
-        flex: 1 0 auto;
-        text-align: center;
-      }
-    }
-  }
-}
-
-/*single-primary-menu-left*/
-.single-primary-menu-left {
-  ul {
-    @media screen and (min-width: $small) {
-      display: flex;
-      justify-content: flex-start;
-      li {
-        text-align: center;
-      }
-    }
-  }
-}

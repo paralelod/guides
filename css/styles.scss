@@ -2,11 +2,19 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-// Imports
+// Base
 @import "base";
 @import "type";
 @import "code";
-@import "link";
-@import "page-nav";
-@import "cards";
-@import "layout";
+@import "nav";
+@import "footer";
+// Layouts
+@import "layouts/fullwidth";
+@import "layouts/sidebar";
+//Containers
+@import "containers/box";
+@import "containers/cards";
+@import "containers/fullscreen";
+
+
+

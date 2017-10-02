@@ -1,9 +1,31 @@
 ---
-layout: sidebar
+layout: fullwidth
 ---
+<div class="header">
+    <h1 style="margin:0;">Tools & Resources</h1>
+    <h3 style="font-family:proxima-nova-soft;">
+        I collect TUTORIALS, RESOURCES and all kinds of LINKS,
+        then I organize everything in ARTICLES, making easier to LEARN and BUILD ANYTHING
+    </h3>
+    
+        <ul>
+            <li>
+                <a href="">Learn</a>
+            </li>
+            <li>
+                <a href="">Tools</a>
+            </li>
+            <li>
+                <a class="active" href="">Ideas</a>
+            </li>
+            <li>
+                <a href="">Lab</a>
+            </li>
+        </ul>
+</div><!-- .header -->
 <div class="cards">
     {% for post in site.posts %}
-        <article class="card columns-2">
+        <article class="card columns-3">
             <div class="card-body">
                 <a href="{{ site.baseurl }}{{ post.url }}">
                     <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
