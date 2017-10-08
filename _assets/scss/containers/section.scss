@@ -9,21 +9,22 @@
 .header{
     margin-bottom: $gutter;
     h2{
-        font-family:"proxima-nova-soft";
-        margin-bottom: 3rem;
+        // font-family:"proxima-nova-soft";
+        margin-bottom: $gutter;
+        color: #9c9c9c;
     }
     ul{
-        font-size:1.5rem;
-        margin: 0 1.5rem 4.5rem 0;
+        font-size:calc(#{$gutter} / 2);
+        margin: 0 calc(#{$gutter} / 2) 4.5rem 0;
         padding:0  
     }
     li{
         display: inline;
-        border-bottom: solid 1px; 
-        margin-right:1.5rem;
-        padding-bottom:.75rem;
+        border-bottom: solid 1px #ddd; 
+        margin-right:calc(#{$gutter} / 2);
+        padding-bottom:calc(#{$gutter} / 4);
         &:hover{
-            border-bottom: transparent 3px;
+            border-bottom: solid 1px;
         }
 
         a{
@@ -36,7 +37,7 @@
     .header{
         max-width: 100%;
         li{
-            margin-bottom:1.5rem;
+            margin-bottom:calc(#{$gutter} / 2);
             display: block
         }
     }
