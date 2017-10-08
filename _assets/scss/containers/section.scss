@@ -33,7 +33,14 @@
     }
 }
 
-@media screen and (max-width: 1000px) {    
+@media screen and (max-width: 1000px) {
+    .section{
+        p{
+            width: $box;
+            padding: 0;
+            margin: auto;
+        }
+    }    
     .header{
         max-width: 100%;
         ul{
