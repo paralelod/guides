@@ -1,41 +1,43 @@
 ---
 layout: base/box
 ---
-{% if page.cover != "" %}
-<img src="{{ page.cover }}">
-{% endif %}
+<div class="post">
+    {% if page.cover != "" %}
+    <img src="{{ page.cover }}">
+    {% endif %}
+    <header class="section">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.desc }}</p>
+    </header>
+    
+    {% assign content = page.content | strip_newlines %}
+    {% if content != "" %}
+    <section class="section">
+        {{ content }}
+    </section>
+    {% endif %}
+    
+    {% if page.note != "" %}
+    <section class="section">
+        <h1>Sketches & Notes</h1>
+    </section>
+    <section class="grid-flex">
+        {% for note in page.notes %}
+            {% include card/note.html %}
+        {% endfor %}
+    </section>
+    {% endif %}
+    
+    {% if page.links != "" %}
+    <section class="section">
+        <h1>Links & Resources</h1>
+    </section>
+    <section class="grid-flex">
+        {% for link in page.links %}
+            {% include card/link.html %}
+        {% endfor %}
+    </section>
+    {% endif %}
+</div>
 
-<header class="section">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.desc }}</p>
-</header>
-
-{% assign content = page.content | strip_newlines %}
-{% if content != "" %}
-<section class="section">
-    {{ content }}
-</section>
-{% endif %}
-
-{% if page.note != "" %}
-<section class="section">
-    <h1>Sketches & Notes</h1>
-</section>
-<section class="grid-flex">
-    {% for note in page.notes %}
-        {% include card/note.html %}
-    {% endfor %}
-</section>
-{% endif %}
-
-{% if page.links != "" %}
-<section class="section">
-    <h1>Links & Resources</h1>
-</section>
-<section class="grid-flex">
-    {% for link in page.links %}
-        {% include card/link.html %}
-    {% endfor %}
-</section>
-{% endif %}
   
