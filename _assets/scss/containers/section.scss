@@ -15,7 +15,7 @@
     }
     ul{
         font-size:calc(#{$gutter} / 2);
-        margin: 0 calc(#{$gutter} / 2) 4.5rem 0;
+        margin: 0 calc(#{$gutter} / 2) $gutter 0;
         padding:0  
     }
     li{
@@ -36,6 +36,11 @@
 @media screen and (max-width: 1000px) {    
     .header{
         max-width: 100%;
+        ul{
+            font-size: 1rem;
+            max-width:80%;
+            margin:auto;
+        }
         li{
             margin-bottom:calc(#{$gutter} / 2);
             display: block
