@@ -28,13 +28,13 @@
       width: 100%;
       height: auto;
       .nav-wrap{
-        max-width:80%;
+        max-width: $box;
         margin:auto;
       }
     }
     .main{
       margin: 0 0 25px 0;
-      width:85%;
+      width: $box;
       // margin: 2rem auto;
     }
   }
