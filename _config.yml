@@ -1,21 +1,24 @@
-# Syntax highlighting
-highlighter:         pygments
-
 # Permalinks
-#
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink: :categories/:title.html
+permalink: /:title.html
 # relative_permalinks: true
 
 # Setup
-title:               Hello Jekyll
-tagline:             Basic example of a Jekyll site with Sass enabled.
-url:                 http://hello.diogorusso.com
-baseurl:             /guides
+url: http://lab.diogorusso.com
+baseurl: /guides
 
-# Assets
-#
+#Info
+title: D! Journal
+description: Basic example of a Jekyll site with Sass enabled.
+
+#Lists
+code-camp:
+  - Setup
+  - Databases
+  - Static Websites
+  - Applications
+
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _scss
-  style:            :compressed
+  sass_dir: _assets/scss
+  style: :compressed

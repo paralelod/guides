@@ -1,0 +1,13 @@
+
+{% capture tag_name %}{{ post.tags }}{% endcapture %}
+<article class="card {{ include.class }} {{ tag_name | slugify: 'pretty' }}">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ post.cover }}">
+        <div class="card-content">
+            <small>
+                {{ post.tags }}
+            </small>
+            <h3>{{ post.title | | truncate: 50, '...' }}</h3>
+        </div><!-- .card-content -->
+    </a>
+</article><!-- .card -->

@@ -1,0 +1,17 @@
+---
+layout: base/box
+---
+<div class="sidebar">
+    <nav id="filter" class="aside filters">
+        <div class="nav-wrap">
+        {% include lists/code-camp.html %}
+        </div>
+    </nav>
+    <section class="main">
+        <div class="grid-isotope">
+            {% for post in site.posts %}
+                {% include card/post.html class="item" %}
+            {% endfor %}
+        </div>
+    </section>
+</div>

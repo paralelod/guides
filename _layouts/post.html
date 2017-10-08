@@ -1,73 +1,41 @@
 ---
-layout: fullwidth
+layout: base/box
 ---
-<div class="post">
-    <br><br>
-    <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
-    <div class="header" style="max-width:800px">
-        {% for section in site.data.webdev-jekyll_posts %}
-        {% if section.idsection == page.section %}
-          <h1 style="margin:3rem 0 0 0; ">
-            {{ section.title }}
-          </h1>
-          <p>
-            <a href="/{{ site.baseurl}}">journal</a> 
-            /
-            <a href="/{{ site.baseurl}}">learn</a>
-            /
-            <a href="/{{ site.baseurl}}">code-camp</a>
-            /
-          </p>
-          <br><br>
-          <p>
-              Around 45 words description post interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio
-          </p>
-        {% endif %}
-      {% endfor %}
-    </div>
-  <!-- <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : "js-1.png"}} alt="{{page.title}}"> -->
-  <div class="content">
-      <h2 style="margin:3rem 0 0 0; ">
-        Sketches & Notes
-      </h2>
-      <br>
-    <div class="cards">
-        {% for post in site.posts limit:3 %}
-            <article class="card columns-2">
-                <div class="card-body" style="background:transparent;box-shadow:none;">
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                        <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
-                        <div class="card-content">
-                            <p>JavaScript is a programming language that allows you to implement complex things on web pages</p>
-                        </div><!-- .card-content -->
-                    </a>
-                </div><!-- .card-body -->
-            </article><!-- .card -->
-        {% endfor %}
-    </div>
-    <h2 style="margin:3rem 0 0 0; ">
-        Links & Resources
-      </h2>
-      <br>
-    <div class="cards">
-        {% for category in site.data.webdev-jekyll_tags %}
-        {% if category.sectionid == page.section %}
-          {% for item in site.data.webdev-jekyll_links %}
-            {% if category.idcategory == item.categoryid %}
-              <article class="card columns-3">
-                  <div class="card-body">
-                      <a href="{{ item.url }}" target="_blank">
-                          <div class="card-content">
-                              <p class="card-link">{{ item.descriptionsrc | truncate: 140 }}</p>
-                              <span style="display:block;text-align:right; color:gray;">&#8627;</span>
-                          </div><!-- .card-content -->
-                      </a>
-                  </div><!-- .card-body -->
-              </article><!-- .card -->
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        {% endfor %}
-      </div>
-  </div>
+{% if content != "" %}
+<img src="{{ page.cover }}">
+{% endif %}
+
+<header class="section">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.desc }}</p>
+</header>
+
+{% assign content = page.content | strip_newlines %}
+{% if content != "" %}
+<section class="section">
+    {{ content }}
+</section>
+{% endif %}
+
+{% if page.note != "" %}
+<section class="section">
+    <h1>Sketches & Notes</h1>
+</section>
+<section class="grid-flex">
+    {% for note in page.notes %}
+        {% include card/note.html %}
+    {% endfor %}
+</section>
+{% endif %}
+
+{% if page.links != "" %}
+<section class="section">
+    <h1>Links & Resources</h1>
+</section>
+<section class="grid-flex">
+    {% for link in page.links %}
+        {% include card/link.html %}
+    {% endfor %}
+</section>
+{% endif %}
   

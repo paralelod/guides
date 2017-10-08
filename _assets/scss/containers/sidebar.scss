@@ -1,0 +1,51 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  // padding: 4rem 0;
+  .aside {
+    padding: 25px;
+    // background-color: white;
+    width: 275px;
+    position: fixed;
+    height: 100%;
+    display: block;
+    overflow: auto;
+  }
+  .main {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    margin: 25px 25px 25px 300px ;
+    max-width: 800px;
+    // background-color: white;
+    
+  }
+  
+  
+  @media screen and ( max-width: 1000px) {
+    .aside { 
+      position: relative; 
+      width: 100%;
+      height: auto;
+      .nav-wrap{
+        max-width:80%;
+        margin:auto;
+      }
+    }
+    .main{
+      margin: 0 0 25px 0;
+      width:85%;
+      // margin: 2rem auto;
+    }
+  }
+  
+  .post{
+    background: white;
+    .content{
+      padding: 0 3.5rem;
+      margin: auto;
+    }
+  }
+}
+
+

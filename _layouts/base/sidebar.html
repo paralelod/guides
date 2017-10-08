@@ -1,0 +1,29 @@
+---
+layout: base/default
+---
+
+<div class="sidebar">
+    <div class="aside">
+        <div class="nav-wrap">
+            <h2>{{ page.title }}</h2>
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+                <a href="./">Creative OPs</a>
+            </p>
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+                <a href="./">Media House</a>
+            </p>
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+                <a href="./">Design Lab</a>
+            </p>
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+                <a href="./">Code Camp</a>
+            </p>
+            <p class="sidenav-list {% if section.idsection == page.section %}active{% endif %}">
+                <a href="./">Art Studio</a>
+            </p>
+        </div>
+    </div>
+    <div class="main">
+        {{ content}}
+    </div>
+</div>

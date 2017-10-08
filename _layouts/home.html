@@ -1,42 +1,30 @@
 ---
-layout: fullwidth
+layout: base/box
 ---
-<div class="header">
-    <h1 style="margin:0;">Tools & Resources</h1>
-    <h3 style="font-family:proxima-nova-soft;">
-        I collect TUTORIALS, RESOURCES and all kinds of LINKS,
-        then I organize everything in ARTICLES, making easier to LEARN and BUILD ANYTHING
-    </h3>
-    
-        <ul style="font-size:1.3rem;margin:0;padding:0">
-            <li style="display: inline; padding-right:1rem;">
-                <a href="{{ site.baseurl }}/learn/">Learn</a>
+<header class="header">
+    <!-- <h1>
+        LEARN, BUILD and SHARE
+    </h1> -->
+    <h2>
+       I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br> and all kind of RESOURCES to learn, have fun and get inspired.
+    </h2>
+    <ul>
+            <li><a href="">Creative Office</a></li>
+            <li><a href="">Design Lab</a></li>
+            <li><a href="">Art Studio</a></li>
+            {% for category in site.categories %}
+            {% capture category_name %}{{ category | first }}{% endcapture %}
+            <li>
+                <a href="{{ site.baseurl }}/{{ category_name |  slugify: 'pretty' }}/">{{ category_name }}</a>
             </li>
-            <li style="display: inline; padding-right:1rem;">
-                <a href="{{ site.baseurl }}/toolkit/">Tools</a>
-            </li>
-            <li style="display: inline; padding-right:1rem;">
-                <a href="{{ site.baseurl }}/ideas/">Ideas</a>
-            </li>
-            <li style="display: inline; padding-right:1rem;">
-                <a href="{{ site.baseurl }}/lab/">Lab</a>
-            </li>
+            {% endfor %}
         </ul>
-</div><!-- .header -->
-<div class="cards">
+</header><!-- .section .header -->
+
+<div class="grid-flex">
     {% for post in site.posts %}
-        <article class="card columns-3">
-            <div class="card-body">
-                <a href="{{ site.baseurl }}{{ post.url }}">
-                    <img src="https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg">
-                    <div class="card-content">
-                        <h3>{{ post.title }}</h3>
-                        <p>JavaScript is a programming language that allows you to implement complex things on web pages</p>
-                        <hr>
-                        <small>{{ post.categories }}</small>
-                    </div><!-- .card-content -->
-                </a>
-            </div><!-- .card-body -->
-        </article><!-- .card -->
+        {% include card/post.html class="cols-3" %}
     {% endfor %}
 </div>
+
+
