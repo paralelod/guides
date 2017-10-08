@@ -35,6 +35,9 @@
 
 @media screen and (max-width: 1000px) {
     .section{
+        h1{
+            margin-bottom: $gutter;
+        }
         p{
             width: $box;
             padding: 0;
