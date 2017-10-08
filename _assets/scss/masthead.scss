@@ -1,0 +1,21 @@
+.masthead{
+    height:100vh;
+    display:block; 
+    background-size:cover;
+}
+
+.masthead-sm{
+    display: none;
+}
+
+@media screen and ( max-width: 1000px) {
+    .masthead{
+        display: none;
+    }
+    .masthead-sm{
+        display: block;
+        max-width: $box;
+        margin: auto;
+        padding-top: 75px; 
+    }
+}

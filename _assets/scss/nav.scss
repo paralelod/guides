@@ -1,4 +1,4 @@
-.menu{
+.nav{
 	width: 100%;
 	position: fixed;
 	display: flex;
@@ -6,7 +6,7 @@
 	top: 0;
 	min-height: 55px;
 	background-color: rgba(255,255,255,.9);
-	-webkit-backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(20px);
 	box-shadow: 0px 2px 40px 0px rgba(0,0,0,0.08);
 	z-index: 999;
 
@@ -41,7 +41,11 @@
 		border-bottom: solid;
 	}
 
-} 
+}
+
+.padding-nav{
+	padding-top:75px
+}
 
 /*--------------------------------------------------------------
 Accessibility
