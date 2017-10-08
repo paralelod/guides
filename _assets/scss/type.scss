@@ -9,6 +9,13 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   font-family: "museo-slab",serif;
 }
+
+@media screen and (max-width: 1000px) {
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}
+
 // Body text
 p {
   margin: 0 0 1rem 0;
