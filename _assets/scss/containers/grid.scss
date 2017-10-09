@@ -36,16 +36,13 @@
 }
 
 .grid-isotope{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-flow: row wrap;
-    box-sizing: border-box;
     .item{
         width: calc(50% - #{$gutter});
         flex-grow: 0;
         @media screen and (max-width: 1000px) {
-            width: 100%; 
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0; 
         }
     }
 }
