@@ -9,20 +9,20 @@ layout: base/box
     <h2>
     I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br> and all kind of RESOURCES to learn, have fun and get inspired.
     </h2>
+    <section class="list">
+        <ul>
+            <li class="inline"><a href="">Creative Office</a></li>
+            <li class="inline"><a href="">Design Lab</a></li>
+            <li class="inline"><a href="">Art Studio</a></li>
+            {% for category in site.categories %}
+            {% capture category_name %}{{ category | first }}{% endcapture %}
+            <li class="inline">
+                <a href="{{ site.baseurl }}/{{ category_name |  slugify: 'pretty' }}/">{{ category_name }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
 </header><!-- .section .header -->
-<section class="list">
-    <ul>
-        <li class="inline"><a href="">Creative Office</a></li>
-        <li class="inline"><a href="">Design Lab</a></li>
-        <li class="inline"><a href="">Art Studio</a></li>
-        {% for category in site.categories %}
-        {% capture category_name %}{{ category | first }}{% endcapture %}
-        <li class="inline">
-            <a href="{{ site.baseurl }}/{{ category_name |  slugify: 'pretty' }}/">{{ category_name }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
 
 <div class="grid-flex">
     {% for post in site.posts %}

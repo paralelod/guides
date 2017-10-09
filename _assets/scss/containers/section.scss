@@ -26,16 +26,8 @@
         }
     }    
     .header{
-        max-width: 100%;
-        ul{
-            font-size: 1rem;
-            max-width: $box;
-            margin:auto;
-        }
-        li{
-            margin-bottom:calc(#{$gutter} / 2);
-            display: block
-        }
+        max-width: $box;
+        margin:auto;
     }
     .post{
         @media screen and (max-width: 1000px) {
