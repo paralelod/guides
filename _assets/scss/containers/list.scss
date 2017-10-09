@@ -27,3 +27,10 @@
   display: inline;
   margin-right:calc(#{$gutter} / 2);
 }
+
+@media screen and (max-width: 1000px) {
+  .inline{
+    display: block;
+  }
+
+}
