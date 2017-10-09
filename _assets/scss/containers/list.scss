@@ -25,12 +25,12 @@
  
 .inline{
   display: inline;
-  // margin-right:calc(#{$gutter} / 2);
+  margin-right:calc(#{$gutter} / 2);
 }
 
 @media screen and (max-width: 1000px) {
   .inline{
     display: block;
-    // margin-right: 0;
+    margin-right: 0;
   }
 }
