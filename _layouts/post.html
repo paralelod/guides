@@ -2,11 +2,6 @@
 layout: base/box
 ---
 <div class="post">
-    <header class="section">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.desc }}</p>
-    </header>
-    
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
     <section class="section">

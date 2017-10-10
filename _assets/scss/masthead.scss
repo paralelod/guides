@@ -1,7 +1,31 @@
 .masthead{
     height:100vh;
-    display:block; 
-    background-size:cover;
+    width: 100%; 
+    // background-size:cover;
+    background-position: center;
+    display: flex;
+}
+
+.masthead::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+
+.center-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    z-index: 2;
 }
 
 .masthead-sm{
@@ -17,5 +41,8 @@
         max-width: $box;
         margin: auto;
         padding-top: 75px; 
+        h1{
+            text-align: center;
+        }
     }
 }
