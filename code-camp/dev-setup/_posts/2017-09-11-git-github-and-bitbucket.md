@@ -1,5 +1,5 @@
 ---
-title: "Intro to Git, Github"
+title: "Intro to Git, Github and Bitbucket"
 cover: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"
 desc: "Around 45 words description post interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio"
 notes:
@@ -22,3 +22,14 @@ links:
     url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
   
 ---
+
+- install git with homebrew
+- git basics
+  - init, gitignore
+  - commit
+  - branches 
+  - .... 10 passos p git
+- install github cli
+- github desktop app
+- install bitbucket cli 
+- bitbucket source tree desktop app

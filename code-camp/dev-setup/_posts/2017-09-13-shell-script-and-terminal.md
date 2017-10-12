@@ -22,3 +22,7 @@ links:
     url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
   
 ---
+
+- what's shell script
+- variables
+- loops and conditionals

@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Package Manager"
+title: "Mac Config + Homebrew"
 cover: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"
 desc: "Around 45 words description post interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio"
 notes:
@@ -23,3 +23,13 @@ links:
   
 ---
 
+vamos falar sobre:
+- mac folder structure
+- basics of mac terminal
+- create + config bash_profile
+- oque é bash_rc
+- displaying hidden files
+- install Xcode command line
+- install homebrew
+- homebrew basic commands
+- homebrew cask

@@ -2,13 +2,13 @@
 layout: base/box
 ---
 <div class="sidebar padding-nav">
-    <nav id="filter" class="aside filters">
+    <nav class="aside">
         <div class="nav-wrap">
             <div class="list">
                 <h2>
                     {{ page.title }}
                 </h2>
-                <ul class="filters">
+                <ul id="filter" class="filters">
                     <li >
                         <a href="javascript:void(0)" data-filter="*">
                             All
@@ -29,10 +29,14 @@ layout: base/box
             </div>
         </div>
     </nav>
+    
     <section class="main">
         <div class="grid-isotope">
-            {% for post in site.posts %}
-                {% include card/post.html class="item" %}
+            {% for post in site.posts reversed %}
+                {% capture cat_filter %}{{ page.title | slugify: 'pretty' }}{% endcapture %}
+                {% if post.categories[0] == cat_filter  %}
+                    {% include card/post.html class="item" %}
+                {% endif %}
             {% endfor %}
         </div>
     </section>
