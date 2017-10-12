@@ -1,6 +1,4 @@
-
-{% capture tag_name %}{{ post.tags }}{% endcapture %}
-<article class="card {{ include.class }} {{ tag_name | slugify: 'pretty' }}">
+<article class="card {{ include.class }} {% for cat in post.categories%}{{ cat }} {% endfor %}">
     <a href="{{ site.baseurl }}{{ post.url }}">
         <img src="{{ post.cover }}">
         <div class="card-content">
@@ -11,3 +9,4 @@
         </div><!-- .card-content -->
     </a>
 </article><!-- .card -->
+

@@ -1,24 +1,53 @@
+# Setup
+url: http://lab.diogorusso.com
+baseurl: /guides
+
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:title.html
 # relative_permalinks: true
 
-# Setup
-url: http://lab.diogorusso.com
-baseurl: /guides
-
-#Info
-title: D! Journal
-description: Basic example of a Jekyll site with Sass enabled.
-
-#Lists
-code-camp:
-  - Setup
-  - Databases
-  - Static Websites
-  - Applications
-
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir: _assets/scss
   style: :compressed
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
+#Info
+title: D! Journal
+description: "I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br>and all kinds of RESOURCES to get inspired, learn and have fun."
+
+#Lists
+content:
+  - cat: Art Studio
+    sub:
+      - Raw
+      - Catalogue
+      - Gallery
+      - Events
+  - cat: Code Camp
+    sub:
+      - Setup
+      - Databases
+      - Static Websites
+      - Applications
+  - cat: Creative Office
+    sub:
+      - Venture Design
+      - Product Design
+      - Experience Design
+      - Impact 
+  - cat: Design Lab
+    sub:
+      - Logos
+      - Tipography
+      - Graphics
+      - Interaction
+

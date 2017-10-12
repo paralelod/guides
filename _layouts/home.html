@@ -7,18 +7,19 @@ layout: base/box
         LEARN, BUILD and SHARE
     </h1> -->
     <h2>
-        I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br> 
-        and all kinds of RESOURCES to get inspired, learn and have fun.
+        {{ site.description }}
     </h2>
     <section class="list">
         <ul>
-            <li class="inline"><a href="">Creative Office</a></li>
-            <li class="inline"><a href="">Design Lab</a></li>
-            <li class="inline"><a href="">Art Studio</a></li>
-            {% for category in site.categories %}
+            <!-- {% for category in site.categories %}
             {% capture category_name %}{{ category | first }}{% endcapture %}
             <li class="inline">
                 <a href="{{ site.baseurl }}/{{ category_name |  slugify: 'pretty' }}/">{{ category_name }}</a>
+            </li>
+            {% endfor %} -->
+            {% for item in site.content %}
+            <li class="inline">
+                <a href="{{ site.baseurl }}/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
             </li>
             {% endfor %}
         </ul>

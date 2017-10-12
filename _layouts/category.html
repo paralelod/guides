@@ -4,7 +4,29 @@ layout: base/box
 <div class="sidebar padding-nav">
     <nav id="filter" class="aside filters">
         <div class="nav-wrap">
-        {% include lists/code-camp.html %}
+            <div class="list">
+                <h2>
+                    {{ page.title }}
+                </h2>
+                <ul class="filters">
+                    <li >
+                        <a href="javascript:void(0)" data-filter="*">
+                            All
+                        </a>
+                    </li>
+                    {% for item in site.content %}
+                        {% if item.cat == page.title %}
+                            {% for sub in item.sub %}
+                                <li>
+                                    <a href="javascript:void(0)" data-filter=".{{ sub | slugify: 'pretty' }}">
+                                        {{ sub }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </nav>
     <section class="main">
@@ -15,3 +37,5 @@ layout: base/box
         </div>
     </section>
 </div>
+
+
