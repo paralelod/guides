@@ -7,10 +7,14 @@
 }
 
 .header{
-    margin-bottom: $gutter;
+
     h2{
         margin-bottom: $gutter;
         color: #9c9c9c;
+    }
+    h3{
+        font-family: "proxima-nova-soft";
+        max-width: 750px;
     }
 }
 
@@ -32,6 +36,9 @@
     .post{
         h1, h2, h3, h4, h5, h6 {
             text-align: center;
+        }
+        h3{
+            text-align: left;
         }
     }
 }

@@ -1,15 +1,9 @@
 {% if page.cover != nill %}
-<header class="masthead" style="background:url('{{ page.cover}}'); background-size:cover;">
-    <div class="center-content">
-        <h1>{{ page.title }}</h1>
-        <h3 style="font-family:proxima-nova-soft;">{{ page.desc }}</h3>
-        <a href="#" class="button">Some Action Here</a>
-    </div>
-</header>
-<!-- <img src="{{ page.cover }}"> -->
-<header class="masthead-sm">
-    <img src="{{ page.cover }}">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.desc }}</p>
-</header>
+    <header class="masthead" style="background:url('{{ page.cover}}'); background-size:cover;">
+        <!-- <div class="center-content">
+        </div> -->
+    </header>
+    <header class="masthead-sm">
+        <img src="{{ page.cover }}">
+    </header>
 {% endif %}

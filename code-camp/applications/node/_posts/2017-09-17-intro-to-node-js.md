@@ -1,7 +1,14 @@
 ---
 title: "Intro to Node JS"
-cover: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"
-desc: "Around 45 words description post interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio"
+topics:
+  - Installing Xcode Commandline
+  - Basics of Apple Terminal
+  - Creat and Config Bash Profile
+  - What's Bash RC
+  - Displaying hidden files
+  - Homebrew Installation
+  - Homebrew Basics
+  - Homebrew Cask 
 notes:
   - desc: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
     img: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"

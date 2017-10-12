@@ -19,6 +19,8 @@ defaults:
       type: 'posts'
     values:
       layout: 'post'
+      thumb: "https://i.warosu.org/data/g/img/0549/19/1465123514962.jpg"
+      cover: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"
 
 #Info
 title: D! Journal
@@ -38,16 +40,16 @@ content:
       - Jekyll Sites
       - Databases
       - Applications
-  - cat: Creative Office
-    sub:
-      - Venture Design
-      - Product Design
-      - Experience Design
-      - Impact 
   - cat: Design Lab
     sub:
       - Logos
       - Tipography
       - Graphics
       - Interaction
+  - cat: Creative Office
+    sub:
+      - Venture Design
+      - Product Design
+      - Experience Design
+      - Impact 
 

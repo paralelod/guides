@@ -9,6 +9,7 @@ $gutter: 3rem;
 $box: 85%;
 
 // Base
+@import "utils";
 @import "base";
 @import "type";
 @import "code";

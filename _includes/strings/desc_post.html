@@ -1,0 +1,10 @@
+A small collection organizing findings and learnings, with {{ page.links.size }} LINKS to resources and {{ page.notes.size }} NOTES with sketches and ideas.
+<br><br>
+Key Topics include
+{% for topic in page.topics %} 
+    {% if forloop.last == false %}
+        {{ topic }},
+    {% else %}
+    {{ topic }}.
+    {% endif %}
+{% endfor %}
