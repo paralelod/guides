@@ -35,8 +35,8 @@ content:
   - cat: Code Camp
     sub:
       - Setup
+      - Jekyll Sites
       - Databases
-      - Static Websites
       - Applications
   - cat: Creative Office
     sub:

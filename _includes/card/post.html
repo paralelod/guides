@@ -3,7 +3,12 @@
         <img src="{{ post.cover }}">
         <div class="card-content">
             <small>
-                {{ post.tags }}
+                    {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}
+                {% if test_cat !='' %}
+                    {{ post.categories[2] }}
+                {% else %}
+                    {{ post.categories[1] }}
+                {% endif %}
             </small>
             <h3>{{ post.title | | truncate: 50, '...' }}</h3>
         </div><!-- .card-content -->
