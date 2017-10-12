@@ -3,14 +3,19 @@
         <img src="{{ post.cover }}">
         <div class="card-content">
             <small>
-                    {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}
+                {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}
                 {% if test_cat !='' %}
-                    {{ post.categories[2] }}
+                    {{ post.categories[2] | replace: "-", " " }}
                 {% else %}
-                    {{ post.categories[1] }}
+                    {{ post.categories[1] | replace: "-", " " }}
+                {% endif %}
+                {% capture test_cat %}{{ post.categories[1] }}{% endcapture %}
+                {% if test_cat !='' %}
+                {% else %}
+                    {{ post.categories[0] | replace: "-", " " }}
                 {% endif %}
             </small>
-            <h3>{{ post.title | | truncate: 50, '...' }}</h3>
+            <h3>{{ post.title | truncate: 50, '...' }}</h3>
         </div><!-- .card-content -->
     </a>
 </article><!-- .card -->
