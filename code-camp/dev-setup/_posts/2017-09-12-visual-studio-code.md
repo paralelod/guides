@@ -1,5 +1,6 @@
 ---
 title: "Visual Studio Code"
+cover: ./assets/img/js.jpg
 topics:
   - Installing Xcode Commandline
   - Basics of Apple Terminal

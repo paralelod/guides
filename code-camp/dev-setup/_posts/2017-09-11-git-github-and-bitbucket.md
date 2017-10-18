@@ -1,5 +1,6 @@
 ---
 title: "Intro to Git, Github and Bitbucket"
+cover: ./assets/img/css.jpg
 topics:
   - Installing Xcode Commandline
   - Basics of Apple Terminal
