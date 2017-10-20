@@ -1,6 +1,6 @@
 <article class="card {{ include.class }} {% for cat in post.categories%}{{ cat }} {% endfor %}">
     <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ post.cover }}">
+        <img src="{{site.media}}sample.jpg">
         <div class="card-content">
             <small>
                 {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}

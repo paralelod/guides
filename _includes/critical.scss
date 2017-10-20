@@ -1,12 +1,5 @@
----
-# Front matter comment to ensure Jekyll properly reads file.
----
-
-// font
-//  base colors
-
-$gutter: 3rem;
-$box: 85%;
+// Variables
+@import "variables";
 
 // Base
 @import "utils";
@@ -16,6 +9,7 @@ $box: 85%;
 @import "nav";
 @import "footer";
 @import "masthead";
+
 // Layouts
 @import "layouts/box";
 @import "layouts/fullwidth";
@@ -27,7 +21,3 @@ $box: 85%;
 @import "containers/grid";
 @import "containers/list";
 @import "containers/sidebar";
-
-
-
-

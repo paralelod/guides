@@ -7,16 +7,21 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} {{ site.title }}
     {% endif %}
   </title>
 
-  <!-- CSS -->
+  <!-- inline CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
-
+  <style>
+    {% capture include_to_scssify %}
+      {% include critical.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+ 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
@@ -24,15 +29,9 @@
   <!-- RSS -->
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}atom.xml">
 
-  <script>
-    (function(d) {
-      var config = {
-        kitId: 'rvc4hsl',
-        scriptTimeout: 3000,
-        async: true
-      },
-      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
-    })(document);
-  </script>
+  <!-- typekit -->
+  <script src="https://use.typekit.net/rvc4hsl.js"></script>
+  <script>try{Typekit.load({ async: false });}catch(e){}</script>
+
 
 </head>

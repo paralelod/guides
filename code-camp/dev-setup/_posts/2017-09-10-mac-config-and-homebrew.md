@@ -1,6 +1,6 @@
 ---
 title: "Mac Config and Homebrew Basics"
-cover: "./assets/img/html.jpg"
+cover: "sample.jpg"
 topics:
   - Installing Xcode Commandline
   - Basics of Apple Terminal

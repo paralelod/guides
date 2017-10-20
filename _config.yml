@@ -15,6 +15,9 @@ sass:
   sass_dir: _assets/scss
   style: :compressed
 
+# Media CDN (cloudinary)
+media: http://res.cloudinary.com/diogorusso/image/upload/
+
 defaults:
   -
     scope:
