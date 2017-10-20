@@ -1,13 +1,16 @@
+# Info
+title: D! Journal
+description: "I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br>and all kinds of RESOURCES to get inspired, learn and have fun."
+
 # Setup
 url: http://lab.diogorusso.com
 baseurl: /guides
 
 # Permalinks
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:title.html
 # relative_permalinks: true
 
-# We specify the directory for Jekyll so we can use @imports.
+# Sass
 sass:
   sass_dir: _assets/scss
   style: :compressed
@@ -22,11 +25,7 @@ defaults:
       thumb: "https://i.warosu.org/data/g/img/0549/19/1465123514962.jpg"
       cover: "https://embedwistia-a.akamaihd.net/deliveries/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.jpg"
 
-#Info
-title: D! Journal
-description: "I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br>and all kinds of RESOURCES to get inspired, learn and have fun."
-
-#Lists
+# Content Structure (categories)
 content:
   - cat: Art Studio
     sub:
@@ -53,3 +52,4 @@ content:
       - Experience Design
       - Impact 
 
+exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock]

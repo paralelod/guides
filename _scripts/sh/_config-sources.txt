@@ -1,3 +1,0 @@
-dev
-dist-gh-pages
-dist-html

@@ -1,6 +1,0 @@
-dev
-deploy
-theme_activate
-theme_clone
-theme_delete
-exit
