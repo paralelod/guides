@@ -1,7 +1,13 @@
 .box{
-    padding: 0 1rem;
+    padding: 0 3rem;
     height: 100%;
     position: relative;
     max-width: 1185px;
     margin: 0 auto;    
+}
+
+@media screen and (max-width: 500px) {
+    .box{
+        padding: 0 1rem;
+    }
 }

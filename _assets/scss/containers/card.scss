@@ -1,14 +1,17 @@
+
+$transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
+
 .card {
     position: relative;
     margin: calc(#{$gutter} / 2) calc(#{$gutter} / 2);
     background: white;
     box-shadow: 0 15px 25px rgba(0,0,0,.06);
-    transition: all 250ms;	
+    transition: $transition;	
     &:hover{
         transform: translate(0,-20px);
-        transition:all 250ms;
+        transition:$transition;
         box-shadow: 0 45px 45px rgba(0,0,0,.06);
-        transition: all 250ms;
+        transition: $transition;
     }
     a {
         text-decoration: none;

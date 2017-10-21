@@ -5,7 +5,10 @@
 
     @mixin column($width) {
         flex: 0 1 calc(#{$width} - #{$gutter});
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1000px) and (min-width:500px) {
+            flex: 0 1 calc(50% - #{$gutter}); 
+        }
+        @media screen and (max-width: 500px) {
             flex: 0 1 100%; 
         }
     }
@@ -36,10 +39,11 @@
 }
 
 .grid-isotope{
+    width: 100%;
     .item{
-        width: calc(50% - #{$gutter});
+        width: calc(49.5% - #{$gutter});
         flex-grow: 0;
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 500px) {
             width: 100%;
             margin-left: 0;
             margin-right: 0; 

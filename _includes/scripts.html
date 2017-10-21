@@ -1,0 +1,82 @@
+<!-- scripts -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- isotope -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js" async></script>
+<!-- swipebox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" />
+<!-- D! -->
+<script src="{{site.baseurl}}/assets/script.js" async></script>
+
+
+
+
+
+<!-- List.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+<script>
+    var categoryList = new List('category-list', options);
+    var filterArtStudioRaw = document.getElementById("filter");
+
+    filterArtStudioRaw.addEventListener("click", function() {
+        categoryList.filter(function(item) {
+        if (item.values().city == "Edmonton") {
+            return true;
+        } else {
+            return false;
+        }
+    }); // Only items that have Edmonton as the city.
+  });
+//     var options = {
+//     valueNames: ['name', 'city']
+//   };
+//   var hackerList = new List('hacker-list', options);
+  
+  // Assigning references to the filter buttons
+  var filterCityButton = document.getElementById("filter");
+  var removeFiltersButton = document.getElementById("removeFilters");
+  
+  // When the filter button is clicked. The list is filtered by calling the filter function of the list object and passing in a function that accepts the list items.
+  filterCityButton.addEventListener("click", function() {
+    hackerList.filter(function(item) {
+      if (item.values().city == "Edmonton") {
+        return true;
+      } else {
+        return false;
+      }
+    }); // Only items that have Edmonton as the city.
+  });
+  
+  // When the remove filter button is clicked, the filters are removed by calling the filter function once again with no parameters.
+  removeFiltersButton.addEventListener("click", function() {
+    hackerList.filter();
+  });
+</script>
+
+content:
+- cat: Art Studio
+  sub:
+    - Raw
+    - Catalogue
+    - Gallery
+    - Events
+- cat: Code Camp
+  sub:
+    - Dev Setup
+    - Jekyll Sites
+    - Databases
+    - Applications
+- cat: Design Lab
+  sub:
+    - Logos
+    - Tipography
+    - Graphics
+    - Interaction
+- cat: Creative Office
+  sub:
+    - Venture Design
+    - Product Design
+    - Experience Design
+    - Impact 
