@@ -2,6 +2,8 @@
 layout: base/box
 ---
 <div class="post">
+
+    <!-- header -->
     <section class="section header">
         <h1>{{ page.title }}</h1>
         <h3 style="font-family:proxima-nova-soft;">
@@ -9,6 +11,7 @@ layout: base/box
         </h3>
     </section>
     
+    <!-- content -->
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
     <section class="section">
@@ -16,17 +19,19 @@ layout: base/box
     </section>
     {% endif %}
     
+    <!-- sketches and notes -->
     {% if page.note != "" %}
     <section class="section">
         <h1>Sketches & Notes</h1>
     </section>
-    <section class="grid-flex">
+    <section id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
         {% for note in page.notes %}
             {% include card/note.html %}
         {% endfor %}
     </section>
     {% endif %}
     
+    <!-- links and resources -->
     {% if page.links != "" %}
     <section class="section">
         <h1>Links & Resources</h1>
@@ -37,6 +42,5 @@ layout: base/box
         {% endfor %}
     </section>
     {% endif %}
-</div>
 
-  
+</div>

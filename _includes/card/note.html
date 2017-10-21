@@ -1,8 +1,9 @@
-<article class="card cols-2">
-    <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ note.img }}">
+{% capture note_slug %}{{ note }}{% endcapture %}
+<article class="card cols-2" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <a class="swipebox" title="{{ note }}" href="{{ site.cdn }}{{ note_slug | slugify: 'pretty' }}.jpg">
+        <img src="{{ site.cdn }}{{ note_slug | slugify: 'pretty' }}.jpg">
         <div class="card-content">
-            <p>{{ note.desc }}</p>
-        </div><!-- .card-content -->
+            <p>{{ note }}</p>
+        </div>
     </a>
-</article><!-- .card -->
+</article>

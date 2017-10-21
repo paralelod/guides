@@ -36,6 +36,7 @@ gulp.task('serve', function () {
     gulp.watch('./_assets/js/*.js', ['scripts']);
     gulp.watch([
         '_config.yml',
+        '_config.dev.yml',
         './**/*.html',
         '!./_site/','./**/*.md', 
         './_assets/scss/**/*.*',
