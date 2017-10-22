@@ -1,0 +1,12 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js"></script>
+<script>
+    $(window).lazyLoadXT();
+    // fix for isotope filtering  more: https://isotope.metafizzy.co/events.html#layoutcomplete
+    $.lazyLoadXT.updateEvent+=' layoutComplete'; 
+    $(window).load(function() {
+        $('.preloader').fadeOut();
+        $('.overlay').delay(350).fadeOut('slow');
+        $('body').delay(350).css({'overflow':'visible'})
+    });
+</script>

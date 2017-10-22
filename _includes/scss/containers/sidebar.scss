@@ -1,0 +1,45 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  .aside {
+    width: 275px;
+    position: fixed;
+    height: 100%;
+    display: block;
+    overflow: auto;
+  }
+  .main {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    margin: 0 25px 25px 300px ;
+    max-width: 800px;
+  }
+  
+  
+  @media #{$device-medium-small} {
+    .aside { 
+      position: relative; 
+      width: 100%;
+      height: auto;
+      .nav-wrap{
+        max-width: $box;
+        margin:auto;
+      }
+    }
+    .main{
+      margin: auto;
+      width: $box;
+    }
+  }
+  
+  .post{
+    background: $light;
+    .content{
+      padding: 0 $gutter;
+      margin: auto;
+    }
+  }
+}
+
+

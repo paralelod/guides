@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    {% include preloader.html %}
+    <main class="container">
+        {% include masthead.html %}
+        <div class="box">
+            {{ content}}
+        </div>
+    </main>
+    {% include footer.html %}  
+    {% include scripts/base.html %}
+    {% if page.layout == 'category' %}
+        {% include scripts/isotope.html %}
+    {% endif %}
+    {% if page.layout == 'post' %}
+        {% include scripts/swipebox.html %}
+    {% endif %}
+  </body>
+</html>
+
+

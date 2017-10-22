@@ -1,0 +1,25 @@
+
+// devices
+$device-small:"screen and (max-width: 549px)";
+$device-medium: "screen and (max-width: 1000px) and (min-width:550px)";
+$device-medium-small: "screen and ( max-width: 1000px)";
+$device-large:"min-width: 1001px";
+
+// fonts
+$font-serif: "museo-slab",serif;
+$font-sans-serif: "proxima-nova-soft",sans-serif;
+
+// colors
+$dark: black;
+$mid: rgba( $dark, .5 );
+$mid-light: rgba( $dark, .1 );
+$light: white;
+
+$site-bg: #fbfbfb;
+$nav-bg: rgba( $light, .9 );
+$card-shadow: rgba( $dark, .06 );
+
+
+// layout
+$gutter: 3rem;
+$box: 95%;

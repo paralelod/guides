@@ -1,0 +1,29 @@
+<!-- Short description of your site's subject -->
+<meta name="subject" content="your website's subject">
+
+<!-- Gives a general age rating based on sites content -->
+<meta name="rating" content="General">
+
+<!-- Allows control over how referrer information is passed -->
+<meta name="referrer" content="no-referrer">
+
+<!-- Links to the author of the document -->
+<link rel="author" href="humans.txt">
+
+<!-- Gives information about an author or another person -->
+<link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
+<link rel="me" href="mailto:name@example.com">
+<link rel="me" href="sms:+15035550125">
+
+<!-- Notifies a url when you link to it on your site -->
+<link rel="webmention" href="https://example.com/webmention">
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="author" content="{{ site.author }}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <META NAME="{{ site.description }}">
+
+
+
+  <link rel=”author” href=”https://plus.google.com/116739255173599428138”/>
