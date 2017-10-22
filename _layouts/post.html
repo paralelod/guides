@@ -43,4 +43,13 @@ layout: base/box
     </section>
     {% endif %}
 
+    <section class="section">
+        <h1>Read More</h1>
+    </section>
+    <section class="grid-flex">
+        {% for post in site.posts  limit: 6 %}
+            {% include card/post.html class="cols-3" %}
+        {% endfor %}
+    </section>
+
 </div>
