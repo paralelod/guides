@@ -33,13 +33,21 @@ layout: default
     
     <!-- links and resources -->
     {% if page.links != "" %}
-    <section class="section">
+    <!-- <section class="section">
         <h1>Links & Resources</h1>
-    </section>
+    </section> -->
     <section class="grid-flex">
-        {% for link in page.links %}
-            {% include card/link.html %}
+        {% for topic in page.topics %}
+            <h1>{{ topic.title }}</h1>
+            <section class="grid-flex">
+                {% for link in topic.links %}
+                    {% include card/link.html %}
+                {% endfor %}
+            </section>
         {% endfor %}
+        <!-- {% for link in page.links %}
+            {% include card/link.html %}
+        {% endfor %} -->
     </section>
     {% endif %}
 

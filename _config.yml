@@ -71,24 +71,22 @@ defaults:
         - 023_o3i5iz
         - 023_o3i5iz
       topics:
-        - Installing Xcode Commandline
-        - Basics of Apple Terminal
-        - Creat and Config Bash Profile
-        - What's Bash RC
-        - Displaying hidden files
-        - Homebrew Installation
-        - Homebrew Basics
-        - Homebrew Cask
-      links:
-        - desc: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
-          url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
-        - desc: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
-          url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-        - desc: "Xcode is a large suite of software development tools and libraries from Apple."
-          url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-        - desc: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
-          url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
-        - desc: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
-          url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-
+        - title: Installing Xcode Commandline
+          links: 
+            - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
+              url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
+            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+        - title: Installing Xcode Commandline
+          links: 
+            - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
+              url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
+            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
 

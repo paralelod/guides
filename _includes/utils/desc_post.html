@@ -3,8 +3,8 @@ A small collection organizing findings and learnings, with {{ page.links.size }}
 Key Topics include
 {% for topic in page.topics %} 
     {% if forloop.last == false %}
-        {{ topic }},
+        {{ topic.title }},
     {% else %}
-    {{ topic }}.
+    {{ topic.title }}.
     {% endif %}
 {% endfor %}
