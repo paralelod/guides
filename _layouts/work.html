@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<header class="header padding-nav margin-bottom-x">
+    <h2>
+        {{ site.description }}
+    </h2>
+    <section class="list">
+        <ul>
+            {% for item in site.content %}
+            <li class="inline">
+                <a href="{{ site.baseurl }}/learn/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</header><!-- .section .header -->
+
+<div class="grid-flex">
+    {% for post in site.posts limit:8 %}
+        {% include card/post.html class="cols-2" %}
+    {% endfor %}
+</div>
+
+

@@ -34,7 +34,7 @@ layout: default
         <div class="grid-isotope">
             {% for post in site.posts reversed %}
                 {% capture cat_filter %}{{ page.title | slugify: 'pretty' }}{% endcapture %}
-                {% if post.categories[0] == cat_filter  %}
+                {% if post.categories[1] == cat_filter  %}
                     {% include card/post.html class="item" %}
                 {% endif %}
             {% endfor %}

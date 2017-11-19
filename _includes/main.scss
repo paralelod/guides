@@ -1,3 +1,5 @@
+*:focus {outline: none;}
+
 // Variables
 @import "variables";
 
@@ -9,10 +11,11 @@
 @import "nav";
 @import "footer";
 @import "masthead";
+@import "slick";
+@import "buttons";
 
 // Layouts
-@import "layouts/box";
-@import "layouts/fullwidth";
+@import "layout";
 
 //Containers
 @import "containers/section";
@@ -20,3 +23,7 @@
 @import "containers/grid";
 @import "containers/list";
 @import "containers/sidebar";
+
+// content
+@import "content/bio";
+@import "content/post";

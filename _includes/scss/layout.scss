@@ -1,0 +1,13 @@
+.box{
+    padding: 0 $gutter;
+    height: 100%;
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;    
+}
+
+@media #{$device-small} {
+    .box{
+        padding: 0 1rem;
+    }
+}

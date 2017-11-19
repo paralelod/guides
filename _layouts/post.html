@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.cover != nill %}
+<header class="post-cover">
+    <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
+</header>
+{% endif %}
+
 <div class="post">
 
     <!-- header -->

@@ -1,0 +1,32 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    /* custom */
+    jQuery(document).ready(function($) {            
+                  
+        
+                    $('.vs-img-slider').slick({
+                        infinite: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: true,
+                        dots:true,
+                        // fade: true,
+                        // asNavFor: '.vs-img-pager'
+                    });
+                    $('.vs-img-pager').slick({
+                        infinite: false,
+                        mobileFirst: true,
+                        slidesToShow: 6,
+                        // slidesToScroll: 1,
+                        asNavFor: '.vs-img-slider',
+                        dots: false,                
+                        // variableWidth: true,
+                        focusOnSelect: true
+                    });
+                    // $('.slick-slide:first-child').addClass('active');
+                    // $('.vs-img-pager').on('click', 'img', function(event) {
+                    //     $('.vs-img-pager img').parent('div').removeClass('active');
+                    //     $(this).parent('div').addClass('active');
+                    // });
+                }); 
+</script>

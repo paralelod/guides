@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% include masthead.html %}
+
+{% include content/bio.html %}
+
+{% include content/process.html %}
+
+<div class="box">
+        <div style="text-align:center;">
+                <h1>Build It</h1>
+                <h2>I work and have fun  creating and sharing ideas,resources and tools<br> to inspire and help bringging ideas to life.</h2>
+        </div>
+
+        <div class="grid-flex">
+                {% for post in site.posts limit: 6 %} {% include card/post.html class="cols-2" %} {% endfor %}
+        </div>
+</div>
+      
+      

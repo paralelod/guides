@@ -1,0 +1,8 @@
+{% include scripts/base.html %}
+{% if page.layout == 'category' %}
+    {% include scripts/isotope.html %}
+{% endif %}
+{% include scripts/slick.html %}
+{% if page.layout == 'post' %}
+    {% include scripts/swipebox.html %}
+{% endif %}
