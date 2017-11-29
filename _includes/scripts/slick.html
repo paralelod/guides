@@ -5,28 +5,34 @@
                   
         
                     $('.vs-img-slider').slick({
-                        infinite: false,
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: true,
-                        dots:true,
+                        fade: false,
+                        // infinite: false,
+                        // slidesToShow: 1,
+                        // slidesToScroll: 1,
+                        // arrows: true,
+                        // dots:true,
                         // fade: true,
                         // asNavFor: '.vs-img-pager'
                     });
                     $('.vs-img-pager').slick({
-                        infinite: false,
+                        // infinite: true,
                         mobileFirst: true,
                         slidesToShow: 6,
-                        // slidesToScroll: 1,
+                        slidesToScroll: 1,
                         asNavFor: '.vs-img-slider',
                         dots: false,                
                         // variableWidth: true,
-                        focusOnSelect: true
+                        focusOnSelect: true,
+                        centerMode: false,
                     });
-                    // $('.slick-slide:first-child').addClass('active');
-                    // $('.vs-img-pager').on('click', 'img', function(event) {
-                    //     $('.vs-img-pager img').parent('div').removeClass('active');
-                    //     $(this).parent('div').addClass('active');
-                    // });
+                    
+                    $('.slick-slide:first-child').addClass('active');
+                    $('.vs-img-pager').on('click', 'img', function(event) {
+                        $('.vs-img-pager img').parent('div').removeClass('active');
+                        $(this).parent('div').addClass('active');
+                    });
                 }); 
 </script>

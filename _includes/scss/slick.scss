@@ -331,6 +331,9 @@
 // }
 .vs-img-pager {
     // margin: 0 20px;
+    .slick-track{
+        transform: none !important;
+    }
     background: black;
     
     .process-icon{
@@ -390,3 +393,4 @@
         border-color: transparent transparent transparent black;
     }
 }
+
