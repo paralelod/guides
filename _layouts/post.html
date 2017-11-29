@@ -26,7 +26,7 @@ layout: default
     {% endif %}
     
     <!-- sketches and notes -->
-    {% if page.note != "" %}
+    <!-- {% if page.note != "" %}
     <section class="section">
         <h1>Sketches & Notes</h1>
     </section>
@@ -35,7 +35,7 @@ layout: default
             {% include card/note.html %}
         {% endfor %}
     </section>
-    {% endif %}
+    {% endif %} -->
     
     <!-- links and resources -->
     {% if page.links != "" %}
@@ -45,6 +45,11 @@ layout: default
     <section class="grid-flex">
         {% for topic in page.topics %}
             <h1>{{ topic.title }}</h1>
+            <section id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
+                {% for note in topic.notes %}
+                    {% include card/note.html %}
+                {% endfor %}
+            </section>
             <section class="grid-flex">
                 {% for link in topic.links %}
                     {% include card/link.html %}
