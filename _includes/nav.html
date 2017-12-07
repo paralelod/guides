@@ -1,4 +1,4 @@
-<nav class="nav" role="navigation">
+<!-- <nav class="nav" role="navigation">
         <a href="{{ site.baseurl}}/">
             {% include utils/d-logo.html %}
         </a>
@@ -15,5 +15,19 @@
         <li>
             <a href="">Connect</a>
         </li>
+    </ul>
+</nav> -->
+
+<nav class="nav">
+    <a href="/" class="logo">
+        {% include utils/d-logo.html %}
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="{{ site.baseurl }}/" class="active">About</a></li>
+      <li><a href="{{ site.baseurl }}/work/">Work</a></li>
+      <li><a href="{{ site.baseurl }}/learn/">Learn</a></li>
+      <li><a href="{{ site.baseurl }}/learn/">Connect</a></li>
     </ul>
 </nav>
