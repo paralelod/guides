@@ -48,3 +48,9 @@ flex-flow: row wrap;
         padding-top:1rem; 
     }
 }
+
+@media #{$device-small} {
+    .skill-wrap {
+        width: 100%;
+    }
+}

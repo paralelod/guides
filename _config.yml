@@ -5,7 +5,8 @@
 exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock, README.md]
 
 # Permalinks
-permalink: /:title.html
+# permalink: /:title.html
+permalink: /:categories/:title.html
 # relative_permalinks: true
 
 # Sass
@@ -28,6 +29,9 @@ baseurl: /guides
 # Media CDN (cloudinary)
 cdn: http://res.cloudinary.com/diogorusso/image/upload/
 preloader: https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animations-preloader-gifs-ui-ux-effects-18.gif
+
+# Nanigation
+
 
 # Content Structure (categories - use to build sidebar)
 content:
@@ -56,6 +60,15 @@ content:
       - Experience Design
       - Impact 
 
+work:
+  - cat: "Creative Direction"
+    description: 
+  - cat: "Experience and Product"
+    description:
+  - cat: "Web and Graphics"
+    description:
+  - cat: "Illustration and Artwork"
+    description:
 
 # Post Defaults
 defaults:
@@ -67,15 +80,20 @@ defaults:
       layout: 'post'
       cover: "slide_01_eylrmy.jpg"
       topics:
-        - title: Installing Xcode Commandline
+        - title: Key localization elements
           notes:
             - Display hidden files on mac
             - 023_o3i5iz
             - 023_o3i5iz
           links: 
-            - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
+            - title: "Adapting graphics to meet target markets
+Modifying content to suit the tastes and consumption habits of other markets
+Adapting design and layout to properly display translated text
+"
               url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
-            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+            - title: "Converting to local requirements (such as currencies and units of measure)
+Using proper local formats for dates, addresses, and phone numbers
+Addressing local regulations and legal requirements"
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
             - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"

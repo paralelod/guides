@@ -22,7 +22,7 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
     hr{
         margin: calc(#{$gutter} / 2) 0;
     }
-    .card-content {
+    .content {
         padding: calc(#{$gutter} / 2);
         small{
             color: $mid;
@@ -35,5 +35,21 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
         width:100%;
         text-align:right; 
         color: $mid;
+    }
+}
+.portfolio{
+    position: relative;
+    margin: calc(#{$gutter} / 2) calc(#{$gutter} / 2);
+    a {
+        text-decoration: none;
+    }
+    .content {
+        padding: calc(#{$gutter} / 2);
+        text-align: center;
+        small{
+            color: $mid;
+            text-transform: uppercase;
+            font-size: .75rem;
+          }
     }
 }

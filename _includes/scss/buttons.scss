@@ -30,3 +30,26 @@
       
     }
   }
+
+  .btn-solid{
+    background: black;
+    color: white;
+  }
+
+  .btn-round{
+    border-radius: 100% !important;
+    padding:1.25rem !important;
+    &:hover{
+      background-color: black;
+      color: white;
+      border: solid 1px black;
+      
+    }
+  }
+
+  .btns-social{
+    margin: 3rem 0;
+    a{
+      margin-left: .5rem;
+    }
+  }

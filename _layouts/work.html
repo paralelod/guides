@@ -8,9 +8,9 @@ layout: default
     </h2>
     <section class="list">
         <ul>
-            {% for item in site.content %}
+            {% for item in site.work %}
             <li class="inline">
-                <a href="{{ site.baseurl }}/learn/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
+                <a href="{{ site.baseurl }}/work/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
             </li>
             {% endfor %}
         </ul>

@@ -1,7 +1,7 @@
 <article class="card {{ include.class }} {% for cat in post.categories%}{{ cat }} {% endfor %}">
     <a href="{{ site.baseurl }}{{ post.url }}">
         <img src="{{ site.preloader }}" data-src="{{site.cdn}}/{{ post.cover }}">
-        <div class="card-content">
+        <div class="content">
             <small>
                 {% capture test_cat %}{{ post.categories[3] }}{% endcapture %}
                 {% if test_cat !='' %}
