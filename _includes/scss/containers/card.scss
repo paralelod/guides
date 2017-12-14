@@ -39,17 +39,22 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
 }
 .portfolio{
     position: relative;
-    margin: calc(#{$gutter} / 2) calc(#{$gutter} / 2);
+    margin: calc(#{$gutter} / 3) calc(#{$gutter} / 6);
     a {
         text-decoration: none;
     }
     .content {
         padding: calc(#{$gutter} / 2);
         text-align: center;
+        h3{
+            font-size: 1.4rem;
+            -webkit-margin-before: 0;
+            -webkit-margin-after: .75rem;
+        }
         small{
             color: $mid;
             text-transform: uppercase;
-            font-size: .75rem;
+            font-size: 1.2rem;
           }
     }
 }
