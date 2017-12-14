@@ -370,6 +370,11 @@
       }
   }
 }
+@media #{$device-small} {
+    .vs-img-pager{
+        display: none;
+    }
+}
 .slick-next, .slick-prev {
     z-index: 99;
     &:before {
@@ -393,4 +398,3 @@
         border-color: transparent transparent transparent black;
     }
 }
-
