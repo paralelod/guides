@@ -17,6 +17,21 @@
   }
 }
 
+@media #{$device-small} {
+  .masthead{
+    text-align: center;
+    h1{
+      font-size: 2rem;
+    }
+  
+    h2{
+      font-size: 1.5rem;
+      font-weight: lighter;
+    }
+  }
+}
+
+
 // overlay 
 // .masthead::before {
 //   content:"";

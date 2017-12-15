@@ -50,6 +50,12 @@
 }
 
 @media #{$device-small} {
+    .bio{
+        text-align: center;
+    }
+    .description{
+        width:80%;
+    }
     .skill-wrap {
         width: 100%;
     }
