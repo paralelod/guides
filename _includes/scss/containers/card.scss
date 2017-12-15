@@ -39,7 +39,7 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
 }
 .portfolio{
     position: relative;
-    margin: calc(#{$gutter} / 3) calc(#{$gutter} / 6);
+    margin: calc(#{$gutter} / 3) auto;
     a {
         text-decoration: none;
     }

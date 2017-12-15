@@ -1,10 +1,10 @@
 .grid-flex {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
 
     @mixin column($width) {
         flex: 0 1 calc(#{$width} - #{$gutter});
+        margin: auto;
         @media #{$device-medium} {
             flex: 0 1 calc(50% - #{$gutter}); 
         }
