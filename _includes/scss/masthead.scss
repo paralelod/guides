@@ -5,7 +5,9 @@
   background-position: center;
   display: flex;
   color: white;
-
+  .masthead-wrap{
+    padding: 0 1rem;
+  }
   h1{
     font-size: 3rem;
   }
@@ -20,6 +22,9 @@
 @media #{$device-small} {
   .masthead{
     text-align: center;
+    .masthead-wrap{
+      max-width:375px;
+    }
     h1{
       font-size: 2rem;
     }
