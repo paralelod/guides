@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<div class="post">
-
+<div class="box-sm post">
     <!-- header -->
     <section class="section header">
+        <br>
         <h1>{{ page.title }}</h1>
         <h3 style="font-family:proxima-nova-soft;">
             {% include utils/desc_post.html %}
@@ -46,7 +46,7 @@ layout: default
         {% for topic in page.topics %}
             <h1>{{ topic.title }}</h1>
             <section id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
-                {% for note in topic.notes %}
+                {% for note in topic.notes limit: 2  %}
                     {% include card/note.html %}
                 {% endfor %}
             </section>
@@ -67,8 +67,7 @@ layout: default
     </section>
     <section class="grid-flex">
         {% for post in site.posts  limit: 6 %}
-            {% include card/post.html class="cols-3" %}
+            {% include card/post.html class="cols-2" %}
         {% endfor %}
     </section>
-
 </div>

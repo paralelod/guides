@@ -1,9 +1,8 @@
 .post-cover{
     display: block;
-    // max-width: $box;
     margin: auto;
-    padding-top: 65px; 
     h1{
         text-align: center;
     }
+    padding-bottom: $gutter; 
 }

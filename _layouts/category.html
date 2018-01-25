@@ -1,45 +1,47 @@
 ---
 layout: default
 ---
-<div class="sidebar padding-nav">
-    <nav class="aside">
-        <div class="nav-wrap">
-            <div class="list">
-                <h2>
-                    {{ page.title }}
-                </h2>
-                <ul id="filter" class="filters">
-                    <li >
-                        <a href="javascript:void(0)" data-filter="*">
-                            All
-                        </a>
-                    </li>
-                    {% for item in site.content %}
-                        {% if item.cat == page.title %}
-                            {% for sub in item.sub %}
-                                <li>
-                                    <a href="javascript:void(0)" data-filter=".{{ sub | slugify: 'pretty' }}">
-                                        {{ sub }}
-                                    </a>
-                                </li>
-                            {% endfor %}
-                        {% endif %}
-                    {% endfor %}
-                </ul>
+<div class="box">
+    <div class="sidebar padding-nav">
+        <nav class="aside">
+            <div class="nav-wrap">
+                <div class="list">
+                    <h2>
+                        {{ page.title }}
+                    </h2>
+                    <ul id="filter" class="filters">
+                        <li >
+                            <a href="javascript:void(0)" data-filter="*">
+                                All
+                            </a>
+                        </li>
+                        {% for item in site.content %}
+                            {% if item.cat == page.title %}
+                                {% for sub in item.sub %}
+                                    <li>
+                                        <a href="javascript:void(0)" data-filter=".{{ sub | slugify: 'pretty' }}">
+                                            {{ sub }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    
-    <section class="main">
-        <div class="grid-isotope">
-            {% for post in site.posts reversed %}
-                {% capture cat_filter %}{{ page.title | slugify: 'pretty' }}{% endcapture %}
-                {% if post.categories[1] == cat_filter  %}
-                    {% include card/post.html class="item" %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
+        </nav>
+        
+        <section class="main">
+            <div class="grid-isotope">
+                {% for post in site.posts reversed %}
+                    {% capture cat_filter %}{{ page.title | slugify: 'pretty' }}{% endcapture %}
+                    {% if post.categories[1] == cat_filter  %}
+                        {% include card/post.html class="item" %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
 </div>
 
 

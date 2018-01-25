@@ -5,14 +5,7 @@
     {% include nav.html %}
     {% include preloader.html %}
     <main class="container">
-        {% if page.width=="fullwidth" %}
-            {{ content}}
-        {% else %}
-            <div class="box">
-                {{ content}}
-            </div>
-        {% endif %}
-        
+        {{ content}}
     </main>
     {% include footer.html %}
     {% include scripts/main.html %}  

@@ -84,7 +84,6 @@ defaults:
           notes:
             - Display hidden files on mac
             - 023_o3i5iz
-            - 023_o3i5iz
           links: 
             - title: "Adapting graphics to meet target markets
 Modifying content to suit the tastes and consumption habits of other markets
@@ -99,12 +98,9 @@ Addressing local regulations and legal requirements"
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
             - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
-              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
         - title: Installing Xcode Commandline
           notes:
             - Display hidden files on mac
-            - 023_o3i5iz
             - 023_o3i5iz
           links: 
             - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
