@@ -2,7 +2,6 @@
 layout: default
 ---
 <div class="box-sm post">
-    <!-- header -->
     <section class="section header">
         <br>
         <h1>{{ page.title }}</h1>
@@ -10,38 +9,19 @@ layout: default
             {% include utils/desc_post.html %}
         </h3>
     </section>
-
     {% if page.cover != nill %}
     <header class="post-cover">
         <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
     </header>
     {% endif %}
     
-    <!-- content -->
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
     <section class="section">
         {{ content }}
     </section>
     {% endif %}
-    
-    <!-- sketches and notes -->
-    <!-- {% if page.note != "" %}
-    <section class="section">
-        <h1>Sketches & Notes</h1>
-    </section>
-    <section id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
-        {% for note in page.notes %}
-            {% include card/note.html %}
-        {% endfor %}
-    </section>
-    {% endif %} -->
-    
-    <!-- links and resources -->
     {% if page.links != "" %}
-    <!-- <section class="section">
-        <h1>Links & Resources</h1>
-    </section> -->
     <section class="grid-flex">
         {% for topic in page.topics %}
             <h1>{{ topic.title }}</h1>
@@ -56,12 +36,8 @@ layout: default
                 {% endfor %}
             </section>
         {% endfor %}
-        <!-- {% for link in page.links %}
-            {% include card/link.html %}
-        {% endfor %} -->
     </section>
     {% endif %}
-
     <section class="section">
         <h1>Read More</h1>
     </section>
