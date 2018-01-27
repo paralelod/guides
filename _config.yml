@@ -37,16 +37,16 @@ preloader: https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animat
 content:
   - cat: Art Studio
     sub:
-      - Raw
-      - Catalogue
+      - Studies
       - Gallery
-      - Events
+      - Inspiration
+      - Store
+      # - Events
   - cat: Code Camp
     sub:
-      - Dev Setup
-      - Jekyll Sites
-      - Databases
+      - Webdesign
       - Applications
+      - Playground      
   - cat: Design Lab
     sub:
       - Logos
@@ -58,7 +58,6 @@ content:
       - Venture Design
       - Product Design
       - Experience Design
-      - Impact 
 
 work:
   - cat: "Creative Direction"
@@ -77,7 +76,7 @@ defaults:
       path: ''
       type: 'posts'
     values:
-      layout: 'post'
+      layout: 'post/learn'
       cover: "slide_01_eylrmy.jpg"
       topics:
         - title: Key localization elements

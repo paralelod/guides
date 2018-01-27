@@ -1,4 +1,16 @@
-<article class="portfolio {{ include.class }} {% for cat in post.categories%}{{ cat }} {% endfor %}">
+<article class="portfolio cols-2">
+        <a href="{{ include.url }}">
+            <img src="{{ site.preloader }}" data-src="{{ include.thumb }}">
+            <div class="content">
+                <h3>{{ include.title }}</h3>
+                <small>
+                        {{ include.category }}
+                </small>
+            </div>
+        </a>
+    </article>
+    
+<!-- <article class="portfolio {{ include.class }} {% for cat in post.categories%}{{ cat }} {% endfor %}">
         <a href="{{ site.baseurl }}{{ post.url }}">
             <img src="{{ site.preloader }}" data-src="{{site.cdn}}/{{ post.cover }}">
             <div class="content">
@@ -19,5 +31,5 @@
             </div>
         </a>
     </article>
-    
+     -->
     

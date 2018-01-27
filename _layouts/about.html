@@ -13,9 +13,43 @@ layout: default
         </div>
 
         <div class="grid-flex">
-                {% for post in site.posts limit: 6 %} 
-                        {% include card/portfolio.html class="cols-2" %} 
-                {% endfor %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="LaunchPad UX" 
+                        category="UI/UX, Product Design" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/launchpad.jpg" 
+                %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="World Cup Brazil" 
+                        category="Creative Direction, Film, Photography" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/Coca-Cola_FWC_14.jpg" 
+                %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="Kenner IxD & Video" 
+                        category="Creative Direction, Interaction Design" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/Kenner_Music_case.jpg" 
+                %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="FOODTOPIA xD" 
+                        category="UI/UX, Product Design" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/foodtopia.jpg" 
+                %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="Wordpress for Startups" 
+                        category="UI/UX, Web Design" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/website.jpg" 
+                %}
+                {% include card/portfolio.html 
+                        url="#" 
+                        title="SESC School ID" 
+                        category="Branding, Graphic Design" 
+                        thumb="http://hello.diogorusso.com/lib/imgs/site/grid_featured/img_resp/791/escola_Sesc.jpg" 
+                %}
+                
         </div>
 </div>
       

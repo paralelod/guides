@@ -57,6 +57,27 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
             font-size: 1.2rem;
           }
     }
+
+    $grayscale:100%;
+    $color:0;
+    $no-blur:0;
+    $blur:100%;
+    $saturation:100%;
+    $no-saturation:0;
+
+    img{
+        -webkit-filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+        filter: grayscale($grayscale) blur($no-blur) saturate($saturation);
+
+        -webkit-transition:all 0.3s;
+        -moz-transition:all 0.3s;
+        -o-transition:all 0.3s;
+        transition:all 0.3s;
+    }
+    img:hover{
+        -webkit-filter: grayscale($color) blur($no-blur) saturate($saturation);
+        filter: grayscale($color) blur($no-blur) saturate($saturation);
+    }
 }
 
 .card-link{

@@ -186,19 +186,27 @@
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
-	.nav li {
-	  float: left;
+  @media #{$device-large} {
+		.nav li {
+			float: left;
+		}
+		.nav li a {
+			padding: 20px;
+		}
+		.nav .menu {
+			clear: none;
+			float: right;
+			max-height: none;
+		}
+		.nav .menu-icon {
+			display: none;
+		}
 	}
-	.nav li a {
-	  padding: 20px;
-	}
-	.nav .menu {
-	  clear: none;
-	  float: right;
-	  max-height: none;
-	}
-	.nav .menu-icon {
-	  display: none;
-	}
-  }
+
+@media #{$device-medium-small} {
+		.nav li .active {
+			background: $dark;
+			color: $light;
+			border-bottom: solid 1px;
+		}
+}

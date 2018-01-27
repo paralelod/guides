@@ -3,7 +3,7 @@
 $device-small:"screen and (max-width: 568px)";
 $device-medium: "screen and (max-width: 1000px) and (min-width:569px)";
 $device-medium-small: "screen and ( max-width: 1000px)";
-$device-large:"min-width: 1001px";
+$device-large:"screen and (min-width: 1001px)";
 
 // fonts
 $font-serif: "museo-slab",serif;

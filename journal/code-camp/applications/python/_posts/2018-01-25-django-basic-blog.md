@@ -1,0 +1,3 @@
+---
+title: "Django Basic Blog"
+---

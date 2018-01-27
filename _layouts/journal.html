@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="box">
+    <header class="header padding-nav margin-bottom-x">
+        <h2>
+            {{ site.description }}
+        </h2>
+        <section class="list">
+            <ul>
+                {% for item in site.content %}
+                <li class="inline">
+                    <a href="{{ site.baseurl }}/journal/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </header>
+    <div class="grid-flex">
+        {% assign cat = 'journal' %}
+        {% for post in site.categories[cat] %}
+                {% include card/post.html class="cols-3" %}
+        {% endfor %}
+    </div>
+</div>
+

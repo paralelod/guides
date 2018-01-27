@@ -36,8 +36,11 @@
     -o-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
   }
+.skill-bg{
+    opacity: .5;
+}
 
-  @media #{$device-medium-small} {
+@media #{$device-medium-small} {
     .profile {
         width: 100%;
     }
