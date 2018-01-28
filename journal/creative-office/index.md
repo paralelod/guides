@@ -1,4 +1,4 @@
 ---
-layout: empty-page
+layout: wip
 title: Creative Office
 ---

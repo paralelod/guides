@@ -83,4 +83,5 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
 .card-link{
     font-size: 1.15rem;
     line-height: 1.75;
+    border-top: $mid-light solid;
 }

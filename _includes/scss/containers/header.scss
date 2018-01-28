@@ -1,0 +1,17 @@
+.header{
+
+    h2{
+        margin-bottom: $gutter;
+        color: $mid;
+    }
+    h3{
+        font-family: $font-sans-serif;
+    }
+}
+
+@media #{$device-medium-small} {
+    .header{
+        max-width: $box;
+        margin:auto;
+    }
+}

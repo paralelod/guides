@@ -1,8 +1,26 @@
-.post-cover{
-    display: block;
-    margin: auto;
-    h1{
-        text-align: center;
+
+.learn{
+    .cover{
+        display: block;
+        margin: auto;
+        h1{
+            text-align: center;
+        }
     }
-    padding-bottom: $gutter; 
+    h3{
+        font-family:"proxima-nova-soft";
+    }
 }
+
+@media #{$device-medium-small} {
+    .learn{
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+        }
+        h3{
+            text-align: left;
+        }
+    }
+}
+
+

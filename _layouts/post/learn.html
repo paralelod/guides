@@ -1,20 +1,19 @@
 ---
 layout: default
 ---
-<div class="box-sm post">
+<div class="box-sm learn">
     <section class="section header">
         <br>
         <h1>{{ page.title }}</h1>
-        <h3 style="font-family:proxima-nova-soft;">
+        <h3>
             {% include utils/desc_post.html %}
         </h3>
     </section>
     {% if page.cover != nill %}
-    <header class="post-cover">
+    <header class="cover">
         <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
     </header>
     {% endif %}
-    
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
     <section class="section">
@@ -22,21 +21,24 @@ layout: default
     </section>
     {% endif %}
     {% if page.links != "" %}
-    <section class="grid-flex">
         {% for topic in page.topics %}
-            <h1>{{ topic.title }}</h1>
-            <section id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
-                {% for note in topic.notes limit: 2  %}
-                    {% include card/note.html %}
-                {% endfor %}
-            </section>
-            <section class="grid-flex">
-                {% for link in topic.links %}
-                    {% include card/link.html %}
-                {% endfor %}
+            <section class="section">
+                <h1>{{ topic.title }}</h1>
+                {% if topic.description != nill %}
+                <h3>{{ topic.description }}</h3>
+                {% endif %}
+                <div id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
+                    {% for note in topic.notes limit: 2  %}
+                        {% include card/note.html %}
+                    {% endfor %}
+                </div>
+                <div class="grid-flex">
+                    {% for link in topic.links %}
+                        {% include card/link.html %}
+                    {% endfor %}
+                </div>
             </section>
         {% endfor %}
-    </section>
     {% endif %}
     <section class="section">
         <h1>Read More</h1>

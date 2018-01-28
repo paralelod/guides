@@ -1,4 +1,4 @@
 ---
-layout: empty-page
+layout: wip
 title: Design Lab
 ---

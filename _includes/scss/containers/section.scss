@@ -6,17 +6,7 @@
     }
 }
 
-.header{
 
-    h2{
-        margin-bottom: $gutter;
-        color: $mid;
-    }
-    h3{
-        font-family: $font-sans-serif;
-        max-width: 750px;
-    }
-}
 
 @media #{$device-medium-small} {
     .section{
@@ -29,16 +19,4 @@
             margin: auto;
         }
     }    
-    .header{
-        max-width: $box;
-        margin:auto;
-    }
-    .post{
-        h1, h2, h3, h4, h5, h6 {
-            text-align: center;
-        }
-        h3{
-            text-align: left;
-        }
-    }
 }

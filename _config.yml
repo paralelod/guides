@@ -80,6 +80,7 @@ defaults:
       cover: "journal/v1517095743/django-blog-basic.jpg"
       topics:
         - title: Key localization elements
+          description: "hi I'm a nice description of the post, I should be around 2 lines and u should have fun while writing it :)"
           notes:
             - note_plc
             - note_plc
