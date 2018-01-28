@@ -77,12 +77,12 @@ defaults:
       type: 'posts'
     values:
       layout: 'post/learn'
-      cover: "slide_01_eylrmy.jpg"
+      cover: "journal/v1517095743/django-blog-basic.jpg"
       topics:
         - title: Key localization elements
           notes:
-            - Display hidden files on mac
-            - 023_o3i5iz
+            - note_plc
+            - note_plc
           links: 
             - title: "Adapting graphics to meet target markets
 Modifying content to suit the tastes and consumption habits of other markets
@@ -99,8 +99,8 @@ Addressing local regulations and legal requirements"
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
         - title: Installing Xcode Commandline
           notes:
-            - Display hidden files on mac
-            - 023_o3i5iz
+            - note_plc
+            - note_plc
           links: 
             - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
               url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
