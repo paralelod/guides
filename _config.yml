@@ -79,32 +79,35 @@ defaults:
       layout: 'post/learn'
       cover: "journal/v1517095743/django-blog-basic.jpg"
       topics:
-        - title: Key localization elements
-          description: "hi I'm a nice description of the post, I should be around 2 lines and u should have fun while writing it :)"
+        - topic: Key localization elements
           notes:
-            - note_plc
-            - note_plc
+            - url: note_plc.jpg
+              description: "Python workflow diagram"
+            - url: note_plc.jpg
+              description: "Python workflow diagram"
           links: 
-            - title: "Adapting graphics to meet target markets
-Modifying content to suit the tastes and consumption habits of other markets
-Adapting design and layout to properly display translated text
-"
+            - description: "Adapting graphics to meet target markets Modifying content to suit the tastes and consumption habits of other markets Adapting design and layout to properly display translated text "
               url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
-            - title: "Converting to local requirements (such as currencies and units of measure)
-Using proper local formats for dates, addresses, and phone numbers
-Addressing local regulations and legal requirements"
+            - description: "Converting to local requirements (such as currencies and units of measure) Using proper local formats for dates, addresses, and phone numbers. Addressing local regulations and legal requirements"
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+            - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+            - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
-        - title: Installing Xcode Commandline
+        - topic: Key localization elements
           notes:
-            - note_plc
-            - note_plc
+            - url: note_plc.jpg
+              description: "Python workflow diagram"
+            - url: note_plc.jpg
+              description: "Python workflow diagram"
           links: 
-            - title: "Are you switching to VSCode and looking for some useful extensions? Below is a collection of my favorite VSCode extensions."
+            - description: "Adapting graphics to meet target markets Modifying content to suit the tastes and consumption habits of other markets Adapting design and layout to properly display translated text "
               url: "https://ihatetomatoes.net/collection-of-useful-extensions-for-vscode/"
-            - title: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+            - description: "Converting to local requirements (such as currencies and units of measure) Using proper local formats for dates, addresses, and phone numbers. Addressing local regulations and legal requirements"
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+            - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+            - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
+              url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
+       
 

@@ -2,11 +2,29 @@
 layout: default
 ---
 <div class="box-sm learn">
-    <section class="section header">
+    <section class="section intro">
         <br>
         <h1>{{ page.title }}</h1>
+        <h2>
+            A collection of links to articles,tools and other resources.
+            
+            Key Topics include
+            {% for topic in page.topics %} 
+                {% if forloop.last == false %}
+                    {{ topic.topic }},
+                {% else %}
+                {{ topic.topic }}.
+                {% endif %}
+            {% endfor %}
+        </h2>
         <h3>
-            {% include utils/desc_post.html %}
+            {% for category in page.categories %}
+                {% if forloop.last == false %}
+                    {{ category }},
+                {% else %}
+                    {{ category }}.
+                {% endif %}
+            {% endfor %}
         </h3>
     </section>
     {% if page.cover != nill %}
@@ -23,12 +41,9 @@ layout: default
     {% if page.links != "" %}
         {% for topic in page.topics %}
             <section class="section">
-                <h1>{{ topic.title }}</h1>
-                {% if topic.description != nill %}
-                <h3>{{ topic.description }}</h3>
-                {% endif %}
+                <h1>{{ topic.topic }}</h1>
                 <div id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
-                    {% for note in topic.notes limit: 2  %}
+                    {% for note in topic.notes %}
                         {% include card/note.html %}
                     {% endfor %}
                 </div>

@@ -19,6 +19,9 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
     h3{
         height:55px;
     }
+    p{
+        margin-bottom: $gutter;
+    }
     hr{
         margin: calc(#{$gutter} / 2) 0;
     }
@@ -29,12 +32,6 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
             text-transform: uppercase;
             font-size: .75rem;
           }
-    }
-    .icon-link{
-        display:block;
-        width:100%;
-        text-align:right; 
-        color: $mid;
     }
 }
 .portfolio{
@@ -84,4 +81,12 @@ $transition: box-shadow 250ms ease-in-out, transform 250ms ease-in-out;
     font-size: 1.15rem;
     line-height: 1.75;
     border-top: $mid-light solid;
+
+    .icon-link{
+        text-align:right; 
+        color: $mid;
+        bottom: 1rem;
+        right: 1rem;
+        position: absolute;
+    }
 }

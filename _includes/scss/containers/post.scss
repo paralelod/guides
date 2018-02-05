@@ -1,14 +1,19 @@
 
 .learn{
+    .intro{
+        margin-bottom: $gutter; 
+    }
     .cover{
         display: block;
         margin: auto;
-        h1{
-            text-align: center;
-        }
     }
-    h3{
+    h1,h2,h3{
+        text-align: left;
+        color: $dark;
         font-family:"proxima-nova-soft";
+    }
+    .h2{
+       margin-bottom: $gutter; 
     }
 }
 
@@ -16,9 +21,6 @@
     .learn{
         h1, h2, h3, h4, h5, h6 {
             text-align: center;
-        }
-        h3{
-            text-align: left;
         }
     }
 }
