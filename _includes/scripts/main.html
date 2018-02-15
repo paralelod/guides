@@ -2,7 +2,10 @@
 {% if page.layout == 'category' %}
     {% include scripts/isotope.html %}
 {% endif %}
-{% include scripts/slick.html %}
 {% if page.layout == 'post' %}
     {% include scripts/swipebox.html %}
+{% endif %}
+{% if page.layout == 'about' %}
+    {% include scripts/slick.html %}
+    {% include scripts/type_fx.html %}
 {% endif %}

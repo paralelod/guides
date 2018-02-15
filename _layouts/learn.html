@@ -10,14 +10,14 @@ layout: default
             <ul>
                 {% for item in site.content %}
                 <li class="inline">
-                    <a href="{{ site.baseurl }}/journal/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
+                    <a href="{{ site.baseurl }}/learn/{{ item.cat |  slugify: 'pretty' }}/">{{ item.cat }}</a>
                 </li>
                 {% endfor %}
             </ul>
         </section>
     </header>
     <div class="grid-flex">
-        {% assign cat = 'journal' %}
+        {% assign cat = 'learn' %}
         {% for post in site.categories[cat] %}
                 {% include card/post.html class="cols-3" %}
         {% endfor %}
