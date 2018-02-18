@@ -5,16 +5,21 @@
   background-position: center;
   display: flex;
   color: white;
+  text-align: center;
   .masthead-wrap{
     padding: 0 1rem;
   }
+  a{
+    color: $light;
+    text-decoration: none;
+  }
   h1{
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   h2{
     font-family: "proxima-soft",sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: lighter;
   }
 }
@@ -26,11 +31,11 @@
       max-width:375px;
     }
     h1{
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   
     h2{
-      font-size: 1.5rem;
+      font-size: 2rem;
       font-weight: lighter;
     }
   }
@@ -52,7 +57,7 @@
 
 
 .center-content{
-  max-width: 600px;
+  max-width: 800px;
   // display: flex;
   // flex-direction: column;
   // align-items: center;
@@ -60,3 +65,18 @@
   z-index: 2;
 }
 
+#scroll-arrow {
+  width: 14px;
+  display: block;
+  margin: 10px auto;
+  animation: scroll .35s ease-in alternate infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}

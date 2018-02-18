@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="98px" viewBox="0 0 133 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 47</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M51.999154,8.91454105 C40.1055705,-2.97151368 20.8188473,-2.97151368 8.92214,8.91454105 C-2.9745673,20.8005958 -2.97352602,40.0706956 8.92214,51.9567503 L51.999154,95 L95.0782505,51.9567503 C106.973917,40.071736 106.973917,20.8016362 95.0782505,8.91454105 C83.1836258,-2.97151368 63.8937787,-2.97151368 51.999154,8.91454105 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-47">
+            <rect id="Rectangle" fill="#000000" x="0" y="0" width="133" height="98"></rect>
+            <g id="Group-34" transform="translate(14.000000, 1.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" stroke="#000000">
+                    <g transform="translate(52.933013, 41.250000) rotate(30.000000) translate(-52.933013, -41.250000) translate(-24.066987, -26.750000)">
+                        <path d="M38.807892,131.653323 L112.344423,3.30052315" id="Path-9-Copy-4" fill="none"></path>
+                        <path d="M0.0402684564,68.5230769 L147.758389,68.5230769" id="Path-10-Copy-4" fill="none"></path>
+                        <path d="M38.5302013,2.09230769 L112.389262,130.769231" id="Path-21-Copy-3" fill="none"></path>
+                        <polygon id="Path-22-Copy-18" fill="#F7E71C" fill-rule="evenodd" points="39.5503356 135.679714 77 69.7720212 114.449664 135.679714"></polygon>
+                        <polygon id="Path-22-Copy-19" fill="#F14B4B" fill-rule="evenodd" transform="translate(76.360630, 33.617081) scale(1, -1) translate(-76.360630, -33.617081) " points="38.910966 66.5709273 76.3606305 0.663234962 113.810295 66.5709273"></polygon>
+                        <polygon id="Path-22-Copy-20" fill="#498FE1" fill-rule="evenodd" transform="translate(47.892617, 51.784615) rotate(120.000000) translate(-47.892617, -51.784615) " points="10.442953 84.7384615 47.8926174 18.8307692 85.3422819 84.7384615"></polygon>
+                        <polygon id="Path-22-Copy-21" fill="#50E2C1" fill-rule="evenodd" transform="translate(106.334038, 85.104487) scale(1, -1) rotate(-120.000000) translate(-106.334038, -85.104487) " points="68.884374 118.058333 106.334038 52.1506408 143.783703 118.058333"></polygon>
+                        <polygon id="Path-22-Copy-22" fill="#BD71FF" fill-rule="evenodd" transform="translate(47.476979, 85.667534) rotate(60.000000) translate(-47.476979, -85.667534) " points="10.0273148 118.62138 47.4769793 52.7136881 84.9266437 118.62138"></polygon>
+                        <polygon id="Path-22-Copy-23" fill="#7ED221" fill-rule="evenodd" transform="translate(105.002887, 51.238462) scale(1, -1) rotate(-60.000000) translate(-105.002887, -51.238462) " points="67.5532221 84.1923077 105.002887 18.2846154 142.452551 84.1923077"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

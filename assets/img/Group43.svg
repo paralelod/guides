@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="98px" viewBox="0 0 133 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 43</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-43">
+            <g id="Group-42">
+                <rect id="Rectangle" fill="#000000" x="0" y="0" width="133" height="98"></rect>
+                <g id="Group-33" transform="translate(12.000000, 1.000000)">
+                    <g id="Group-11" transform="translate(8.470588, 8.470588)">
+                        <path d="M24.6404399,79.9004297 L69.6196328,1.04074678" id="Path-9-Copy-4" stroke="#979797"></path>
+                        <path d="M0.941176471,40.9411765 L92.2352941,40.9411765" id="Path-10-Copy-4" stroke="#979797"></path>
+                        <path d="M24.4705882,0 L69.6470588,79.0588235" id="Path-21-Copy-3" stroke="#979797"></path>
+                        <polygon id="Path-22-Copy-18" stroke="#9B9B9B" points="24.4705882 80.9411765 47.5294118 40.4705882 70.5882353 80.9411765"></polygon>
+                        <polygon id="Path-22-Copy-19" stroke="#9B9B9B" transform="translate(47.529412, 20.235294) scale(1, -1) translate(-47.529412, -20.235294) " points="24.4705882 40.4705882 47.5294118 -7.10542736e-14 70.5882353 40.4705882"></polygon>
+                        <polygon id="Path-22-Copy-20" stroke="#9B9B9B" transform="translate(29.647059, 30.588235) rotate(120.000000) translate(-29.647059, -30.588235) " points="6.58823529 50.8235294 29.6470588 10.3529412 52.7058824 50.8235294"></polygon>
+                        <polygon id="Path-22-Copy-21" stroke="#9B9B9B" transform="translate(64.470588, 51.294118) scale(1, -1) rotate(-120.000000) translate(-64.470588, -51.294118) " points="41.4117647 71.5294118 64.4705882 31.0588235 87.5294118 71.5294118"></polygon>
+                        <polygon id="Path-22-Copy-22" stroke="#9B9B9B" transform="translate(29.647059, 50.352941) rotate(60.000000) translate(-29.647059, -50.352941) " points="6.58823529 70.5882353 29.6470588 30.1176471 52.7058824 70.5882353"></polygon>
+                        <polygon id="Path-22-Copy-23" stroke="#9B9B9B" transform="translate(64.470588, 30.588235) scale(1, -1) rotate(-60.000000) translate(-64.470588, -30.588235) " points="41.4117647 50.8235294 64.4705882 10.3529412 87.5294118 50.8235294"></polygon>
+                    </g>
+                    <g id="Group-12">
+                        <g id="Group-9">
+                            <circle id="Oval-15" fill="#50E3C2" cx="78.1176471" cy="87.5294118" r="7.52941176"></circle>
+                            <circle id="Oval-15-Copy" fill="#F8E71C" cx="101.647059" cy="48.9411765" r="7.52941176"></circle>
+                            <circle id="Oval-15-Copy-2" fill="#BD71FF" cx="30.9243697" cy="8.47058824" r="7.52941176"></circle>
+                            <circle id="Oval-15-Copy-3" fill="#4A90E2" cx="31.1484594" cy="88.3921569" r="7.52941176"></circle>
+                            <circle id="Oval-15-Copy-4" fill="#F14B4B" cx="7.52941176" cy="48.627451" r="7.52941176"></circle>
+                            <circle id="Oval-15-Copy-5" fill="#7ED321" cx="78.7301587" cy="7.52941176" r="7.52941176"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

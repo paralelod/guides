@@ -16,12 +16,12 @@
                         dots:true,
                         // fade: true,
                         // asNavFor: '.vs-img-pager'
-                        // adaptiveHeight: false,
+                        adaptiveHeight: false,
                     });
                     $('.vs-img-pager').slick({
                         // infinite: true,
                         mobileFirst: true,
-                        slidesToShow: 6,
+                        slidesToShow: 5,
                         slidesToScroll: 1,
                         asNavFor: '.vs-img-slider',
                         dots: false,                
@@ -36,4 +36,13 @@
                         $(this).parent('div').addClass('active');
                     });
                 }); 
+
+                $(window).load(function() {
+                    $('.slides').on('setPosition', function () {
+                    $(this).find('.slick-slide').height('auto');
+                    var slickTrack = $(this).find('.slick-track');
+                    var slickTrackHeight = $(slickTrack).height();
+                    $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+                    });
+              })
 </script>

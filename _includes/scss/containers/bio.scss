@@ -1,6 +1,11 @@
 .bio {
     display: flex;
     flex-flow: row wrap;
+    text-align: center;
+
+    .description{
+        margin: 3rem 0 3rem 0;
+    }
 
 }
 .bio-wrap {
@@ -28,6 +33,7 @@
 .skill{
     text-align: center;
     position: absolute;
+    opacity: .5;
     top: 50%;
     left:50%;
     -webkit-transform: translateY(-50%) translateX(-50%);
@@ -37,7 +43,7 @@
     transform: translateY(-50%) translateX(-50%);
   }
 .skill-bg{
-    opacity: .5;
+    opacity: .3;
 }
 
 @media #{$device-medium-small} {
@@ -61,6 +67,10 @@
         padding: 1rem;
     }
     .skill-wrap {
-        width: 100%;
+        // width: 100%;
+        min-height:10rem;
+        img{
+            height: 100%;
+        }
     }
 }

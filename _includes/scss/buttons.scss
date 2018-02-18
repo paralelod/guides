@@ -50,6 +50,32 @@
   .btns-social{
     margin: 3rem 0;
     a{
-      margin-left: .5rem;
+      font-size: 4rem;
+      text-decoration: none;
+      transition: all 300ms ease-out;
+      margin: 0 1rem;
+    }
+    a:hover{
+      opacity: 0.5;
+      transition: all 300ms ease-out;
     }
   }
+.button-social{
+  width:56px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 10%;
+  right: 0px;
+  // text-decoration: none;
+  // color: $dark;
+  // display: none;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media #{$device-small} { 
+	.back-to-top{
+		display: none !important; 
+	}
+}

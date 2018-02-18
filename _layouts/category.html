@@ -42,6 +42,18 @@ layout: default
             </div>
         </section>
     </div>
+    <div class="back-to-top">
+        <a href="#top" class="button btn-social page-scroll"><i class="fa fa-angle-up"></i></a>
+        {% if page.next.url %}
+        <br>
+        <a class="button btn-social page-scroll" href="{{page.next.url}}"><i class="fa fa-angle-left"></i></a>
+        {% endif %}
+        {% if page.previous.url %}
+        <br>
+        <a class="button btn-social page-scroll" href="{{page.previous.url}}"><i class="fa fa-angle-right"></i></a>
+        {% endif %}
+    </div>
+    
 </div>
 
 

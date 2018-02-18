@@ -1,5 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script>
     $(window).lazyLoadXT();
     // fix for isotope filtering  more: https://isotope.metafizzy.co/events.html#layoutcomplete
@@ -8,5 +9,16 @@
         $('.preloader').fadeOut();
         $('.overlay').delay(350).fadeOut('slow');
         $('body').delay(350).css({'overflow':'visible'})
+    });
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $(function() {
+        $('a.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top-60.5
+            }, 1000, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
 </script>

@@ -1,6 +1,6 @@
 <nav class="nav">
     <a href="/" class="logo">
-        {% include utils/d-logo.html %}
+        {% include img/d-logo.html %}
     </a>
     <input class="menu-btn" type="checkbox" id="menu-btn">
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -8,7 +8,7 @@
       <li><a href="{{ site.baseurl }}/" {% if page.title == "About" %}class="active"{% endif %}>About</a></li>
       <li><a href="http://work.diogorusso.com" target="_blank">Work</a></li>
       <li><a href="{{ site.baseurl }}/learn/" {% if page.url contains "learn" %}class="active"{% endif %}>Learn</a></li>
-      <li><a href="https://medium.com/@diogorusso" target="_blank">Ideas</a></li>
-      <li><a href="{{ site.baseurl }}/learn/" {% if page.title == "Connect" %}class="active"{% endif %}>Contact</a></li>
+      <!--li><a href="https://medium.com/@diogorusso" target="_blank">Ideas</a></li-->
+      <li><a href="#connect" class="page-scroll">{% include img/heart.html %} Connect</a></li>
     </ul>
 </nav>

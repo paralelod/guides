@@ -1,3 +1,4 @@
+<a id="bio"></a>
 <div class="bio">
         <div class="bio-wrap">
                 <div class="profile">
@@ -7,14 +8,14 @@
                         <div class="skills-wrap">
                                 <div class="skill-wrap">
                                         <div class="skill">
-                                                <img src="{{ site.cdn }}/bio/skill_01_experience.png" alt="">
+                                                {% include img/exp-prod.html %}
                                                 <p>Experience<br>& Product</p>
                                         </div>
                                         <img class="skill-bg" src="{{ site.cdn }}/bio/R_bio_bg.jpg" alt="">
                                 </div>
                                 <div class="skill-wrap">
                                         <div class="skill">
-                                                <img src="{{ site.cdn }}/bio/skill_02_direction.png" alt="">
+                                                {% include img/creat-dir.html %}
                                                 Creative<br>Direction
                                         </div>
                                         <img class="skill-bg" src="{{ site.cdn }}/bio/R_bio_bg.jpg" alt="">
@@ -22,25 +23,25 @@
                         
                                 <div class="skill-wrap">
                                         <div class="skill">
-                                                <img src="{{ site.cdn }}/bio/skill_03_web.png" alt="">
+                                                {% include img/web-graph.html %}
                                                 Web &<br> Graphics
                                         </div>
                                         <img class="skill-bg" src="{{ site.cdn }}/bio/R_bio_bg.jpg" alt="">
                                 </div>
                                 <div class="skill-wrap">
                                         <div class="skill">
-                                                <img src="{{ site.cdn }}/bio/skill_04_graphics.png" alt="">
+                                                        {% include img/illus-art.html %}
                                                 Illustration<br>& Art
                                         </div>
                                         <img class="skill-bg" src="{{ site.cdn }}/bio/R_bio_bg.jpg" alt="">
                                 </div>
                         </div>
                 </div>
-                <div class="description" style="margin: 5rem 0;">
+                <div class="description">
                         <h1>I'm a designer, artist and storyteller</h1>
                         <h2>an optimist dedicated to help bringging ideas to life.</h2>
                         {% include utils/btns-social.html %}
-                        <a href="#bio" class="button btn-solid">full profile</a>       
+                        <!--a href="#bio" class="button btn-solid">full profile</a-->       
                 </div>
         </div>
 </div>

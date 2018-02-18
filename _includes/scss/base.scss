@@ -24,6 +24,10 @@ body {
   background-color: $site-bg;
 }
 
+svg {
+  width:100%;
+  height: auto;
+}
 
 a {
   color: $dark;

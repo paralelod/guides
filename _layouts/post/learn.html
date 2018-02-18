@@ -1,46 +1,49 @@
 ---
 layout: default
 ---
-<div class="box-sm learn">
+<div class="box-sm post-learn">
     <section class="section intro">
-        <br>
         <h1>{{ page.title }}</h1>
         <h2>
-            A collection of links to articles,tools and other resources.
-            
-            Key Topics include
+            I collect and share ARTICLES, TUTORIALS,TOOLS and all kinds of RESOURCES to get inspired, LEARN and have fun.
+            Key Topics in this collection include
             {% for topic in page.topics %} 
                 {% if forloop.last == false %}
-                    {{ topic.topic }},
+                    <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>,
                 {% else %}
-                {{ topic.topic }}.
+                    <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>.
                 {% endif %}
             {% endfor %}
         </h2>
-        <h3>
-            {% for category in page.categories %}
-                {% if forloop.last == false %}
-                    {{ category }},
-                {% else %}
-                    {{ category }}.
-                {% endif %}
-            {% endfor %}
-        </h3>
     </section>
     {% if page.cover != nill %}
     <header class="cover">
         <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
     </header>
     {% endif %}
+    <section class="metadata">
+            <h3> 
+                <span style="opacity:.3;">
+                    diogo russo •
+                    {% for category in page.categories %}
+                        {% if forloop.last == false %}
+                            {{ category }} |
+                        {% else %}
+                            {{ category }}
+                        {% endif %}
+                    {% endfor %}
+                </span>
+            </h3>
+    </section>
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
-    <section class="section">
-        {{ content }}
-    </section>
+        <section class="section">
+            {{ content }}
+        </section>
     {% endif %}
     {% if page.links != "" %}
         {% for topic in page.topics %}
-            <section class="section">
+            <section id="{{topic.topic | slugify}}" class="section">
                 <h1>{{ topic.topic }}</h1>
                 <div id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
                     {% for note in topic.notes %}

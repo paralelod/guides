@@ -1,19 +1,28 @@
 
-.learn{
+.post-learn{
+    padding-top:1rem;
     .intro{
-        margin-bottom: $gutter; 
+        margin-bottom: $gutter;
+        a{
+            padding: 0 .25rem;
+        }
+        a:hover{
+            background: $dark;
+            color: $light;
+        } 
     }
     .cover{
         display: block;
         margin: auto;
     }
-    h1,h2,h3{
+    h2,h3{
         text-align: left;
         color: $dark;
         font-family:"proxima-nova-soft";
+        line-height: 1.5;
     }
-    .h2{
-       margin-bottom: $gutter; 
+    h2{
+       font-size: 1.25rem; 
     }
 }
 
