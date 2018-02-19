@@ -1,18 +1,12 @@
 
 .section{
     padding: $gutter 0 0 0;
-    p{
-        padding-left:calc(#{$gutter} / 2); 
-    }
 }
 
 
 
 @media #{$device-medium-small} {
     .section{
-        h1{
-            margin-bottom: $gutter;
-        }
         p{
             width: $box;
             padding: 0;
