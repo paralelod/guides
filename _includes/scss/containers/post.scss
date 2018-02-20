@@ -10,6 +10,9 @@
         a:hover{
             background: $dark;
             color: $light;
+        }
+        h3{
+            color: $mid;
         } 
     }
     .cover{
@@ -28,7 +31,6 @@
         color: $dark;
         font-family:"proxima-nova-soft";
         line-height: 1.5;
-        color: $mid;
     }
     h2{
        font-size: 1.25rem; 
