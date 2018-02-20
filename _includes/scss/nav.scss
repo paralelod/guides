@@ -2,13 +2,13 @@
 	position: fixed;
 	width: 100%;
 	background: $nav-bg;
-	padding:.25rem 1rem;
+	padding:.5rem;
 	box-shadow: 0px 2px 40px 0px $mid-light;
 	z-index: 999;
 	.container {
 		// max-width:1024px;
 		margin:0 auto;
-		// position:relative;
+		position:relative;
     &::after {
       content:"";
       clear:both;
@@ -114,6 +114,9 @@
 
 	
 	#header .container #topnav {
+		a{
+			text-decoration: none;
+		}
 		width:100%;
 		height:100%;
 		z-index: 100;
@@ -140,7 +143,7 @@
 				transform:translate(28px);
 				transition-duration:0.2s;
 				transition-timing-function: ease-in-out;
-				font-size:48px;
+				font-size:3rem;
 				line-height: 56px;
 	
 				// &:nth-child(6) {

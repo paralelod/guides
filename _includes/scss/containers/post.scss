@@ -5,6 +5,7 @@
         margin-bottom: $gutter;
         a{
             padding: 0 .25rem;
+            color: $mid;
         }
         a:hover{
             background: $dark;
@@ -15,11 +16,19 @@
         display: block;
         margin: auto;
     }
+    .metadata{
+        margin-bottom: $gutter/1.5;
+        color: $mid;
+    }
+    h1{
+        margin: 1rem 0 .5rem 0;
+    }
     h2,h3{
         text-align: left;
         color: $dark;
         font-family:"proxima-nova-soft";
         line-height: 1.5;
+        color: $mid;
     }
     h2{
        font-size: 1.25rem; 
@@ -27,9 +36,12 @@
 }
 
 @media #{$device-medium-small} {
-    .learn{
-        h1, h2, h3, h4, h5, h6 {
+    .post-learn{
+        .metadata, h1, h2, h3, h4, h5, h6 {
             text-align: center;
+        }
+        h1{
+            margin-bottom: $gutter
         }
     }
 }

@@ -15,26 +15,24 @@ layout: default
                 {% endfor %}
             </p>
         </div>
+        <h3>
+            I like to collect LINKS, TOOLS and all kinds of RESOURCES to get inspired, LEARN and have fun. I'm a product designer, I help businesses, individuals and communities craft meaningful experiences. 
+            <br><br>
+            Key Topics in this collection include: 
+            {% for topic in page.topics %} 
+                {% if forloop.last == false %}
+                    <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>,
+                {% else %}
+                    <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>.
+                {% endif %}
+            {% endfor %}
+        </h3>
     </section>
     {% if page.cover != nill %}
     <header class="cover">
         <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
     </header>
     {% endif %}
-    <section class="section">
-            <h3>
-                    I'm a product designer, I help businesses, individuals and communities craft meaningful experiences. I like to collect LINKS, TOOLS and all kinds of RESOURCES to get inspired, LEARN and have fun.
-                    <br><br>
-                    Key Topics in this collection include: 
-                    {% for topic in page.topics %} 
-                        {% if forloop.last == false %}
-                            <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>,
-                        {% else %}
-                            <a href="#{{topic.topic | slugify}}" class="page-scroll">{{ topic.topic }}</a>.
-                        {% endif %}
-                    {% endfor %}
-                </h3>
-    </section>
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
         <section class="section">

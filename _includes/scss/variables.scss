@@ -1,9 +1,9 @@
 
 // devices
-$device-small:"screen and (max-width: 568px)";
-$device-medium: "screen and (max-width: 1000px) and (min-width:569px)";
-$device-medium-small: "screen and ( max-width: 1000px)";
-$device-large:"screen and (min-width: 1001px)";
+$device-small:"screen and (max-width: 768px)";
+$device-medium: "screen and (max-width: 1024px) and (min-width:769px)";
+$device-medium-small: "screen and ( max-width: 1024px)";
+$device-large:"screen and (min-width: 1025px)";
 
 // fonts
 $font-serif: "museo-slab",serif;
@@ -11,7 +11,7 @@ $font-sans-serif: "proxima-soft",sans-serif;
 
 // colors
 $dark: black;
-$mid: rgba( $dark, .4 );
+$mid: rgba( $dark, .6 );
 $mid-light: rgba( $dark, .15 );
 $light: white;
 
@@ -21,5 +21,5 @@ $card-shadow: rgba( $dark, .06 );
 
 
 // layout
-$gutter: 2rem;
+$gutter: 3rem;
 $box: 95%;
