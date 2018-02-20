@@ -20,11 +20,15 @@
         margin: auto;
     }
     .metadata{
+        p{
+            border-left: solid 4px;
+            padding: 0.25rem .75rem;
+        }
         margin-bottom: $gutter/1.5;
         color: $mid;
     }
     h1{
-        margin: 1rem 0 .5rem 0;
+        margin: 1rem 0 .75rem 0;
     }
     h2,h3{
         text-align: left;
@@ -41,6 +45,11 @@
     .post-learn{
         .metadata, h1, h2, h3, h4, h5, h6 {
             text-align: center;
+        }
+        .metadata{
+            p{
+                border-left:none;
+            }
         }
         h1{
             margin-bottom: $gutter
