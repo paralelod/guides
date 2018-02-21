@@ -17,6 +17,13 @@ layout: default
                 Diogo Russo • {{ page.date | date: '%B %d, %Y' }}
             </p>
         </div>
+    </section>
+    {% if page.cover != nill %}
+    <header class="cover">
+        <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
+    </header>
+    {% endif %}
+    <section class="section">
         <h3>
             I like to collect LINKS, TOOLS and all kinds of RESOURCES to get inspired, LEARN and have fun. I'm a product designer, I help businesses, individuals and communities craft meaningful experiences. 
             <br><br>
@@ -30,11 +37,6 @@ layout: default
             {% endfor %}
         </h3>
     </section>
-    {% if page.cover != nill %}
-    <header class="cover">
-        <img src="{{ site.preloader }}" data-src="{{ site.cdn }}{{ page.cover }}">
-    </header>
-    {% endif %}
     {% assign content = page.content | strip_newlines %}
     {% if content != "" %}
         <section class="section">
