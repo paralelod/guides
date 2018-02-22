@@ -231,3 +231,14 @@
 			}
 		}
 	}
+
+	.scroll-line{
+		height: 2px;
+    background: $dark;
+    width: 0%;
+    position: fixed;
+    top: 54px;
+    left: 0;
+	}
+
+	
