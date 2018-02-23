@@ -21,11 +21,11 @@
     }
     .metadata{
         p{
-            border-left: solid 4px;
+            border-left: solid 2px $dark;
             padding: 0.25rem .75rem;
         }
         margin-bottom: $gutter/1.5;
-        color: $mid;
+        // color: $mid;
     }
     h1{
         margin: 1rem 0 .75rem 0;
@@ -41,8 +41,40 @@
     }
 }
 
+
+.pagination {
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    
+    .prev, .next {
+      width: 50%;
+      height: 100px;
+     display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .prev {
+      background: #40424D;
+    }
+    
+    .next {
+      background: #FDDA01;
+    }
+  }
+
 @media #{$device-medium-small} {
     .post-learn{
+        .intro{
+            h1{
+                font-size: 2.5rem;
+                border-bottom: solid 2px;
+                padding-bottom: $gutter/1.5;
+                margin-bottom: $gutter/1.5;
+            }
+        }
         .metadata, h1, h2, h3, h4, h5, h6 {
             text-align: center;
         }
@@ -52,7 +84,7 @@
             }
         }
         h1{
-            margin-bottom: $gutter
+            margin-bottom: $gutter;
         }
     }
 }
