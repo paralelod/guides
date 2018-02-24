@@ -204,6 +204,7 @@
 		#header .container #topnav, #header .container #topnav.reveal {
 			display:table;
 			position:absolute;
+			height:auto;
 			right:1rem;
 			top:0;
 			left:auto;
@@ -280,18 +281,23 @@
   
 }
 
-@media (max-width:640px) {
-  .sticky-social-bar {
-    right: 50%;
-    bottom: 0;
-    top: auto;
-    transform: translateX(50%);
-    width: 100%;
+// @media (max-width:640px) {
+//   .sticky-social-bar {
+//     right: 50%;
+//     bottom: 0;
+//     top: auto;
+//     transform: translateX(50%);
+//     width: 100%;
     
-    .social-item {
-			clear:none;
-			width: 33.3%;
-    }
-  }
-}
+//     .social-item {
+// 			clear:none;
+// 			width: 33.3%;
+//     }
+// 	}
+	
+// 	.scroll-line{
+// 	top:55px;
+// 	}
+
+// }
 	
