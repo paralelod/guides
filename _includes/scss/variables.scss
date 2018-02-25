@@ -1,9 +1,9 @@
 
 // devices
-$device-small:"screen and (max-width: 768px)";
-$device-medium: "screen and (max-width: 1024px) and (min-width:769px)";
-$device-medium-small: "screen and ( max-width: 1024px)";
-$device-large:"screen and (min-width: 1025px)";
+$device-small:"screen and (max-width: 767px)";
+$device-medium: "screen and (max-width: 1023px) and (min-width:768px)";
+$device-medium-small: "screen and ( max-width: 1023px)";
+$device-large:"screen and (min-width: 1024px)";
 
 // fonts
 $font-serif: "museo-slab",serif;

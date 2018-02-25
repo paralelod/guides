@@ -1,11 +1,9 @@
 
 .post-learn{
-    padding-top:$gutter;
     .intro{
         margin-bottom: $gutter;
         a{
             padding: 0 .25rem;
-            color: $mid;
         }
         a:hover{
             background: $dark;
@@ -65,8 +63,26 @@
     }
   }
 
+
+.author header {
+    float: left;
+    width: 80px;
+}
+
+  img.profile {
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+}
+  .author article {
+    margin-left: 50px;
+    min-height: 50px;
+    padding-left: 20px;
+}
+
 @media #{$device-medium-small} {
     .post-learn{
+        padding-top:0;
         .intro{
             h1{
                 font-size: 2.5rem;
@@ -83,6 +99,9 @@
                 border-left:none;
             }
         }
+        .author{
+            margin: auto
+        } 
         h1{
             margin-bottom: $gutter;
         }

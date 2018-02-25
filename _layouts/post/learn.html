@@ -14,7 +14,7 @@ layout: default
                     {% endif %}
                 {% endfor %}
                 <br>
-                Diogo Russo • {{ page.date | date: '%B %d, %Y' }}
+                <a href="">Diogo Russo</a> • {{ page.date | date: '%B %d, %Y' }}
             </p>
         </div>
     </section>
@@ -60,17 +60,77 @@ layout: default
             </section>
         {% endfor %}
     {% endif %}
-    <section class="pagination">
+    <!-- <section class="pagination">
         <div class="prev"><a href="#0">&larr; lorem ipsum dolor sit amet</a></div>
         <div class="next"><a href="#0">lorem ipsum dolor sit amet &rarr;</a></div>
-    </section>
-    <!-- <section class="section">
+    </section> -->
+    <section class="section">
         <h1>Read More</h1>
     </section>
     <section class="grid-flex">
-        {% for post in site.posts  limit: 6 %}
-            {% include card/post.html class="cols-2" %}
-        {% endfor %}
-    </section> -->
+        <article class="card cols-2">
+            <a href="{{ site.baseurl }}{{ page.previous.url }}">
+                <img src="{{ site.preloader }}" data-src="{{site.cdn}}/{{ page.previous.cover }}">
+                <div class="content">
+                    <small>
+                        {% capture test_cat %}{{ page.previous.categories[3] }}{% endcapture %}
+                        {% if test_cat !='' %}
+                            {{ page.previous.categories[3] | replace: "-", " " }}
+                        {% else %}
+                            {{ page.previous.categories[2] | replace: "-", " " }}
+                        {% endif %}
+                        {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}
+                        {% if test_cat !='' %}
+                        {% else %}
+                            {{ page.previous.categories[1] | replace: "-", " " }}
+                        {% endif %}
+                    </small>
+                    <h3>{{ page.previous.title | truncate: 50, '...' }}</h3>
+                </div>
+            </a>
+        </article>
+        <article class="card cols-2">
+                <a href="{{ site.baseurl }}{{ page.next.url }}">
+                    <img src="{{ site.preloader }}" data-src="{{site.cdn}}/{{ page.next.cover }}">
+                    <div class="content">
+                        <small>
+                            {% capture test_cat %}{{ page.next.categories[3] }}{% endcapture %}
+                            {% if test_cat !='' %}
+                                {{ page.next.categories[3] | replace: "-", " " }}
+                            {% else %}
+                                {{ page.next.categories[2] | replace: "-", " " }}
+                            {% endif %}
+                            {% capture test_cat %}{{ post.categories[2] }}{% endcapture %}
+                            {% if test_cat !='' %}
+                            {% else %}
+                                {{ page.next.categories[1] | replace: "-", " " }}
+                            {% endif %}
+                        </small>
+                        <h3>{{ page.next.title | truncate: 50, '...' }}</h3>
+                    </div>
+                </a>
+            </article>
+    </section>
+    <section class="author">
+            <header>
+                <img class="profile" src="http://david.elbe.me//assets/images/profile.png" alt="Author's profile picture">
+            </header>
+            <article>
+                <p>
+                    {% for category in page.categories %}
+                        {% if forloop.last == false %}
+                            {{ category | capitalize  }} •
+                        {% else %}
+                            {{ category | capitalize  }}
+                        {% endif %}
+                    {% endfor %}
+                    <br>
+                    Diogo Russo • {{ page.date | date: '%B %d, %Y' }}
+                </p>
+            </article>
+        </section>
 </div>
+
+
+
 
