@@ -29,7 +29,7 @@ baseurl: /guides
 # Media CDN (cloudinary)
 # cdn: http://res.cloudinary.com/diogorusso/image/upload/
 cdn: /guides/assets/img/
-preloader: guides/assets/preloader.svg
+preloader: /guides/assets/preloader.svg
 
 # Nanigation
 
