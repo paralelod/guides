@@ -21,15 +21,15 @@ sass:
 title: D! Journal
 description: "I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br>and all kinds of RESOURCES to get inspired, learn and have fun."
 
-# Setup
+# Setup 
 url: http://lab.diogorusso.com
 baseurl: /guides
 
 
 # Media CDN (cloudinary)
 # cdn: http://res.cloudinary.com/diogorusso/image/upload/
-cdn: /assets/img/
-preloader: /assets/preloader.svg
+cdn: /guides/assets/img/
+preloader: guides/assets/preloader.svg
 
 # Nanigation
 
