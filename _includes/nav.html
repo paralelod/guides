@@ -4,10 +4,11 @@
         <div id="topnav">
             <ul>
                 <li><a {% if page.title contains "About" %}class="active"{% endif %} href="{{site.baseurl}}/">About</a></li>
-                <li><a href="">Work</a></li>
-                <!-- <li><a href="">Artwork</a></li> -->
-                <li><a  {% if page.url contains "learn" %}class="active"{% endif %} href="{{site.baseurl}}/learn">Journal</a></li>
-                <!-- <li><a href="#">Connect</a></li> -->
+                <li><a href="http://work.diogorusso.com" target="_blank">Work</a></li>
+                <!-- <li><a  {% if page.url contains "work" %}class="active"{% endif %} href="{{site.baseurl}}/work">Work</a></li> -->
+                <li><a  {% if page.url contains "learn" %}class="active"{% endif %} href="{{site.baseurl}}/learn">Learn</a></li>
+                <li><a href="https://medium.com/@diogorusso" target="_blank">Journal</a></li>
+                <li><a href="https://www.linkedin.com/in/diogorusso/?locale=en_US" target="_blank">{% include img/heart.html %} Connect</a></li>
 
             </ul>
         </div><!-- nav -->
