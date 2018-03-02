@@ -11,6 +11,8 @@
         $('body').delay(350).css({'overflow':'visible'})
     });
 
+    $.lazyLoadXT.onload.addClass = 'img-loaded';
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $(function() {
         $('a.page-scroll').bind('click', function(event) {
@@ -46,5 +48,42 @@
             $('.scroll-line').css('width', (scrolled + '%'));
         });
     });
+
+    // auto hide nav
+    function hideNav() {    
+        var lastScrollTop = 0; 
+        $(window).scroll(function(event){
+                var st = $(this).scrollTop();
+                 if (st > lastScrollTop){
+                    $('#header').slideUp();  
+                 } else {
+                   $('#header').slideDown();
+                 }
+                 lastScrollTop = st;
+               
+              });
+        }
+      //check window size
+        var windowWidth = $(window).width();
+      
+          if (windowWidth > 775){
+              hideNav();
+          }
+      
+      //adjust the nav functionality if the window is resized
+      
+            function resizeWindow(){
+              $(window).off('scroll'); // unbind scroll event
+                var windowWidth = $(window).width();
+                if (windowWidth > 775){
+                  hideNav();
+                }           
+                else if (windowWidth <= 775){
+                  //$('#header').hide();
+                  hideNav();
+                } 
+              }
+        
+        $(window).resize(resizeWindow); 
 
 </script>

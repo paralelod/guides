@@ -1,5 +1,5 @@
 #header {
-	// position: fixed;
+	position: fixed;
 	width: 100%;
 	background: $nav-bg;
 	padding:.5rem;
@@ -250,7 +250,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590D85', end
     position: fixed;
     top: 0;
 		left: 0;
-		z-index: 999;
+		z-index: 1000;
 	}
 
 
@@ -289,9 +289,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590D85', end
 }
 
 @media (max-width:1024px) {
-	#header {
-		position: relative;
-	}
+	// #header {
+	// 	position: relative;
+	// }
   .sticky-social-bar {
     right: 50%;
     bottom: 0;
