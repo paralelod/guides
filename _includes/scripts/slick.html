@@ -2,13 +2,12 @@
 <script>
     /* custom */
     jQuery(document).ready(function($) {            
-                  
-        
                     $('.vs-img-slider').slick({
                         slidesToShow: 1,
                         slidesToScroll: 1,
                         arrows: true,
                         fade: false,
+                        lazyLoad: 'ondemand',
                         // infinite: false,
                         // slidesToShow: 1,
                         // slidesToScroll: 1,
@@ -45,4 +44,6 @@
                     $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
                     });
               })
+              
+              
 </script>
