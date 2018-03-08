@@ -1,5 +1,3 @@
-*:focus {outline: none;}
-
 // Variables
 @import "variables";
 
@@ -29,3 +27,5 @@
 @import "containers/bio";
 @import "containers/post";
 @import "containers/process";
+
+*:focus {outline: none;}
