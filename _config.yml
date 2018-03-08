@@ -27,8 +27,8 @@ baseurl: /guides
 
 
 # Media CDN (cloudinary)
-# cdn: http://res.cloudinary.com/diogorusso/image/upload/
-cdn: /guides/assets/img/
+cdn: http://res.cloudinary.com/diogorusso/image/upload/
+# cdn: /guides/assets/img/
 
 # Nanigation
 
