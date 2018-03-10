@@ -35,25 +35,25 @@ cdn: http://res.cloudinary.com/diogorusso/image/upload/
 
 # Content Structure (categories - use to build sidebar)
 content:
-  - cat: Art Studio
+  - cat: Ideas
     sub:
       - Studies
       - Gallery
       - Inspiration
       - Store
       # - Events
-  - cat: Code Camp
+  - cat: Projects
     sub:
       - Webdesign
       - Applications
       - Playground      
-  - cat: Design Lab
+  - cat: Toolkit
     sub:
       - Logos
       - Tipography
       - Graphics
       - Interaction
-  - cat: Creative Office
+  - cat: Learn
     sub:
       - Venture Design
       - Product Design
