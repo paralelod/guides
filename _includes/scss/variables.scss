@@ -1,13 +1,14 @@
 
 // devices
 $device-small:"screen and (max-width: 767px)";
+$device-small-landscape: "screen and (max-width: 767px) and (orientation: landscape)";
 $device-medium: "screen and (max-width: 1023px) and (min-width:768px)";
 $device-medium-small: "screen and ( max-width: 1023px)";
 $device-large:"screen and (min-width: 1024px)";
 
 // fonts
-$font-serif: "Roboto Slab",serif;
-$font-sans-serif: "Varela Round", sans-serif;
+$font-serif: "museo-slab",serif;
+$font-sans-serif: "proxima-soft", sans-serif;
 
 // colors
 $dark: black;
@@ -16,7 +17,7 @@ $mid-light: rgba( $dark, .15 );
 $light: white;
 
 $site-bg: $light; //#FCFCFC;
-$nav-bg: $light;//rgba( $light, .9 );
+$nav-bg: rgba( $light, .9 );
 $card-shadow: rgba( $dark, .06 );
 
 

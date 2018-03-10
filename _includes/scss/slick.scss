@@ -129,7 +129,6 @@
     font-family: 'slick';
     font-weight: normal;
     font-style: normal;
-
     src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/fonts/slick.eot');
     src: url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/fonts/slick.eot') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/fonts/slick.ttf') format('truetype'), url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/fonts/slick.svg#slick') format('svg');
 }
@@ -367,7 +366,13 @@
 }
 @media #{$device-small} {
     .vs-img-pager{
-        display: none;
+        // display: none;
+    .process-pager{
+        font-size: .8rem;
+    }
+    }
+    .slick-dots{
+        display: none !important;
     }
 }
 .slick-next, .slick-prev {
@@ -380,14 +385,14 @@
     }
 }
 .slick-prev {
-
+    left: $gutter/1.5;
     &:before {       
         border-width: 10px 17.3px 10px 0;
         border-color: transparent black transparent transparent;
     }
 }
 .slick-next {
-    right:0;
+    right:$gutter/1.5;
     &:before {       
         border-width: 10px 0 10px 17.3px;
         border-color: transparent transparent transparent black;

@@ -19,7 +19,7 @@
 .step-img-wrap{
     margin:auto;
 }
-@media #{$device-medium-small}{
+@media #{$device-medium}{
     .step-wrap{
         max-width:85%;
     }
@@ -52,15 +52,34 @@
     }
     .step-img-wrap{
         img{
-            // height: 250px;
+            height: 225px;
         }    
     }
     .step-content{
-        max-width:100%;
+        max-width:90%;
         text-align: center;
-        height: 12rem;
+        height: 6rem;
+        padding-top:.5rem; 
         h1{
-            font-size: 1.5rem;
+            font-size: 1.15rem;
+        }
+    } 
+}
+
+@media #{$device-small-landscape} {
+    .step-wrap{
+        max-width:100%;
+    }
+    .step-img-wrap{
+        img{
+            max-height: 200px;
+        }    
+    }
+    .step-content{
+        max-width:55%;
+        text-align: left;
+        h1{
+            font-size: 1.2rem;
         }
     } 
 }
