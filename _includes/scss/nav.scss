@@ -21,7 +21,8 @@
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
-		width: 95%;
+		width: 100%;
+		padding-right: $gutter/3;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
@@ -47,9 +48,15 @@
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
   }
-  
-  .slide-up {
-    -webkit-transform: translateY(-60px);
-        -ms-transform: translateY(-60px);
-            transform: translateY(-60px);
-  }
+
+.slide-up {
+-webkit-transform: translateY(-60px);
+-ms-transform: translateY(-60px);
+	transform: translateY(-60px);
+}
+
+@media #{$device-x-small} {
+	.nav li a {
+		padding: 1.1rem .6rem 0 1rem;
+	}
+}

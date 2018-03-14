@@ -1,5 +1,6 @@
 
 // devices
+$device-x-small:"screen and (max-width: 375px)";
 $device-small:"screen and (max-width: 767px)";
 $device-small-landscape: "screen and (max-width: 767px) and (orientation: landscape)";
 $device-medium: "screen and (max-width: 1023px) and (min-width:768px)";
