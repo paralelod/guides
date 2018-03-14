@@ -2,14 +2,14 @@
 <html lang="en">
   {% include head.html %}
   <body>
-    {% include head/style-non-critical.html %}
     {% include nav.html %}
     {% include preloader.html %}
     <main class="container">
         {{ content}}
     </main>
     {% include footer.html %}
-    {% include script.html %}  
+    {% include script.html %}
+    {% include head/style-non-critical.html %}  
   </body>
 </html>
 
