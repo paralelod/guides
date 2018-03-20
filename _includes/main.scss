@@ -9,23 +9,5 @@
 @import "nav";
 @import "footer";
 @import "masthead";
-@import "slick";
-@import "buttons";
 
-// Layouts
-@import "layout";
 
-//Containers
-@import "containers/section";
-@import "containers/header";
-@import "containers/card";
-@import "containers/grid";
-@import "containers/list";
-@import "containers/sidebar";
-
-// content
-@import "containers/bio";
-@import "containers/post";
-@import "containers/process";
-
-*:focus {outline: none;}
