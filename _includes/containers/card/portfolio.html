@@ -1,0 +1,11 @@
+<article class="portfolio cols-2">
+    <a href="{{ include.url }}" target="_blank" rel="noopener">
+        <img src="{{ site.cdn }}/work/preloader.svg" data-src="{{ site.cdn }}work/{{ include.thumb }}">
+        <div class="content">
+            <h3>{{ include.title }}</h3>
+            <small>
+                {{ include.category }}
+            </small>
+        </div>
+    </a>
+</article>

@@ -1,29 +1,14 @@
-<!-- Short description of your site's subject -->
-<meta name="subject" content="your website's subject">
-
-<!-- Gives a general age rating based on sites content -->
-<meta name="rating" content="General">
-
-<!-- Allows control over how referrer information is passed -->
-<meta name="referrer" content="no-referrer">
-
-<!-- Links to the author of the document -->
-<link rel="author" href="humans.txt">
-
-<!-- Gives information about an author or another person -->
-<link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
-<link rel="me" href="mailto:name@example.com">
-<link rel="me" href="sms:+15035550125">
-
-<!-- Notifies a url when you link to it on your site -->
-<link rel="webmention" href="https://example.com/webmention">
-
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-  <meta name="author" content="{{ site.author }}">
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <META NAME="{{ site.description }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="description" content="{% if page.description %}{{ page.description}}{% else %}{{ site.description }}{% endif %}">
+<meta name="subject" content="{{site.title}}. {{site.description}} ">
+<meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %}{{site.keywords}}">
 
+<meta name="theme-color" content="#000000">
 
+<link rel="icon" sizes="192x192" href="{{site.cdn}}{{site.favicons}}highres-icon.png">
+<link rel="shortcut icon" href="{{ site.cdn }}{{site.favicon}}favicon.ico"> 
 
-  <link rel=”author” href=”https://plus.google.com/116739255173599428138”/>
+<link rel="author" href="humans.txt">
+

@@ -49,12 +49,12 @@ layout: default
                 <h1>{{ topic.topic }}</h1>
                 <div id="notes" class="grid-flex" itemscope itemtype="http://schema.org/ImageGallery">
                     {% for note in topic.notes %}
-                        {% include card/note.html %}
+                        {% include containers/card/note.html %}
                     {% endfor %}
                 </div>
                 <div class="grid-flex">
                     {% for link in topic.links %}
-                        {% include card/link.html %}
+                        {% include containers/card/link.html %}
                     {% endfor %}
                 </div>
             </section>

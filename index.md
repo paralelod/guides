@@ -1,5 +1,5 @@
 ---
 layout: about
 title: About
-cover: "bio/hero_about.jpg"
+cover: "about/cover.jpg"
 ---

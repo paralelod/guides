@@ -1,4 +1,4 @@
 ---
-layout: work
+layout: categories/work
 title: work
 ---

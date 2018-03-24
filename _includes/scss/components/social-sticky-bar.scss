@@ -1,0 +1,53 @@
+
+.sticky-social-bar {
+	position:fixed; right:0; top:50%; transform:translateY(-50%);
+	z-index: 999;
+  
+  .social-item {
+		display:inline-block; float:left; clear:both;
+		text-align: center;
+    
+    a {
+      width:50px; height:50px; font-size:20px; color:white; display:inline-block; text-align:center; line-height:50px;
+    }
+    
+    &.facebook { 
+      background-color:$dark;
+      
+      &:hover { background-color:#33518E; }
+    }
+    &.twitter { 
+      background-color:$dark;
+      
+      &:hover { background-color:#489CDC; }
+    }
+    &.gplus { 
+      background-color:$dark;
+      
+      &:hover { background-color:#CA4539; }
+    }
+  }
+}
+
+@media (max-width:1024px) {
+	// #header {
+	// 	position: relative;
+	// }
+  .sticky-social-bar {
+    right: 50%;
+    bottom: 0;
+    top: auto;
+    transform: translateX(50%);
+    width: 100%;
+    
+    .social-item {
+			clear:none;
+			width: 33.3%;
+    }
+	}
+	
+	// .scroll-line{
+	// top:55px;
+	// }
+
+}

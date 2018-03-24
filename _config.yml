@@ -1,36 +1,28 @@
-
-##### CONFIG  #####
-
-# Exclude
-exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock, README.md]
-
-# Permalinks
-# permalink: /:title.html
-permalink: /:categories/:title.html
-# relative_permalinks: true
-
-# Sass
-sass:
-  sass_dir: _includes/scss
-  style: :compressed
-
-
-##### SITE  #####
-
-# Info
-title: D! Journal
-description: "I collect, create and share  STORIES, IDEAS, TUTORIALS,TOOLS<br>and all kinds of RESOURCES to get inspired, learn and have fun."
-
 # Setup 
 url: http://lab.diogorusso.com
 baseurl: /guides
 
 
+##### SITE  #####
+
+# Info
+author: "Diogo Russo"
+title: "Diogo Russo - Product Design"
+description: "I'm a designer, artist and storyteller, an optimist dedicated to help bringing ideas to life."
+# description: "I like sharing inspiration, resources and insights of what it takes to bring ideas to life."
+keywords: "Diogo Russo, Product Desig, UX Design, Graphic Design, Visual Arts"
+
 # Media CDN (cloudinary)
 cdn: http://res.cloudinary.com/diogorusso/image/upload/
 # cdn: /guides/assets/img/
-
-# Nanigation
+favicons: favicons/
+# apple apple-touch-icon.png 180
+#apple pre compesed apple-touch-icon-precomposed.png 144px
+# safari icon.svg
+#high res icon 192.png +android
+# android 512.png
+#ico  favicon.ico
+# Navigation
 
 
 # Content Structure (categories - use to build sidebar)
@@ -110,4 +102,17 @@ defaults:
             - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
        
+##### CONFIG  #####
 
+# Exclude
+exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock, README.md]
+
+# Permalinks
+# permalink: /:title.html
+permalink: /:categories/:title.html
+# relative_permalinks: true
+
+# Sass
+sass:
+  sass_dir: _includes/scss
+  style: :compressed

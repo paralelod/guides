@@ -1,55 +1,9 @@
 ---
 layout: default
 ---
-{% include masthead.html %}
+{% include containers/masthead/about.html %}
 {% include containers/bio.html %}
 {% include containers/process.html %}
-
-<div class="box">
-        <div style="margin: 4.5rem 0;text-align:center;">
-                <h1>Work & Play</h1>
-                <h2>I have fun inventing projects, making things,<br> sharing resources and ideas.</h2>        
-        </div>
-
-        <div class="grid-flex">
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="LaunchPad UX" 
-                        category="UI/UX, Product Design" 
-                        thumb="launchpad.jpg" 
-                %}
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="World Cup Brazil" 
-                        category="Creative Direction, Film, Photography" 
-                        thumb="Coca-Cola_FWC_14.jpg" 
-                %}
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="Kenner IxD & Video" 
-                        category="Creative Direction, Interaction Design" 
-                        thumb="Kenner_Music_case.jpg" 
-                %}
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="FOODTOPIA xD" 
-                        category="UI/UX, Product Design" 
-                        thumb="foodtopia.jpg" 
-                %}
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="Wordpress for Startups" 
-                        category="UI/UX, Web Design" 
-                        thumb="website.jpg" 
-                %}
-                {% include card/portfolio.html 
-                        url="#" 
-                        title="SESC School ID" 
-                        category="Branding, Graphic Design" 
-                        thumb="escola_Sesc.jpg" 
-                %}
-                
-        </div>
-</div>
+{% include containers/work.html %}
       
       

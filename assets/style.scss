@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Variables
+@import "variables";
+
+// vendor
+// @import "vendor/normalize";
+// @import "vendor/slick-theme";
+// @import "vendor/swipebox";
+@import "vendor/slick";
+
+// Components
+@import "components/buttons";
+@import "components/imgs";
+
+//Containers
+@import "containers/section";
+@import "containers/box";
+@import "containers/card";
+@import "containers/grid";
+@import "containers/list";
+
+
+@import "containers/bio";
+@import "containers/process";
+@import "containers/work";
+
+
+
+
+

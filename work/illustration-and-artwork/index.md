@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: categories/sub-category
 title: Code Camp
 sections:
     - "Setup"
