@@ -1,4 +1,4 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/UpUp/1.0.0/upup.min.js"></script>
+<script src="{{site.url}}{{site.baseurl}}upup.js"></script>
 <script>
   UpUp.start({
     'content-url': '/index.html', // show this when the user is offline
@@ -17,6 +17,6 @@
       '{{site.cdn}}about/process/step_3.jpg',
       '{{site.cdn}}about/process/step_4.jpg',
     ],
-    'service-worker-url': 'https://cdnjs.cloudflare.com/ajax/libs/UpUp/1.0.0/upup.sw.min.js'
+    'service-worker-url': '{{site.url}}{{site.baseurl}}upup.sw.js'
   });
 </script>
