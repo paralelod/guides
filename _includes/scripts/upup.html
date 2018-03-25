@@ -1,13 +1,13 @@
-<script src="upup.js"></script>
+<script src="./upup.js"></script>
 <script>
   UpUp.start({
-    'content-url': '/index.html', // show this when the user is offline
+    'content-url': './index.html', // show this when the user is offline
     'assets': [                 // define additional assets needed while offline:
       'https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js',
       'https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js',
       'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
       'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js',
-      'assets/style.css',
+      './assets/style.css',
       '{{site.cdn}}about/cover.jpg',
       '{{site.cdn}}about/bio/diogorusso.jpg',
       '{{site.cdn}}about/bio/skill.bg',
@@ -17,6 +17,6 @@
       '{{site.cdn}}about/process/step_3.jpg',
       '{{site.cdn}}about/process/step_4.jpg',
     ],
-    'service-worker-url': 'upup.sw.js'
+    'service-worker-url': './upup.sw.js'
   });
 </script>
