@@ -13,7 +13,7 @@ description: "I'm a designer, artist and storyteller, an optimist dedicated to h
 keywords: "Diogo Russo, Product Desig, UX Design, Graphic Design, Visual Arts"
 
 # Media CDN (cloudinary)
-cdn: http://res.cloudinary.com/diogorusso/image/upload/
+cdn: https://res.cloudinary.com/diogorusso/image/upload/
 # cdn: /guides/assets/img/
 favicons: favicons/
 # apple apple-touch-icon.png 180
