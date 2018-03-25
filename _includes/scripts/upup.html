@@ -2,7 +2,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/UpUp/1.0.0/upup.min.js"></script>
 <script>
 UpUp.start({
-  'content-url': 'offline.html',
+  'content-url': '{{site.url}}{{site.baseurl}}/index.html',
   'assets': ['/img/logo.png', '/css/style.css', 'headlines.json'],
   'service-worker-url': '{{site.url}}{{site.baseurl}}/sw.js'
 });
