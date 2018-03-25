@@ -1,6 +1,6 @@
 <script>
     // Register the ServiceWorker
-navigator.serviceWorker.register('{{site.url}}{{site.baseurl}}/sw.js', { scope: '/' }).then(function(registration) {
+navigator.serviceWorker.register('{{site.url}}{{site.baseurl}}/sw.js', { scope: '/' },{ insecure: true }).then(function(registration) {
   // The service worker has been registered!
   console.log('Service Worker registered successfully.');
 });
