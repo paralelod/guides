@@ -1,7 +1,6 @@
 <script>
     // Register the ServiceWorker
-navigator.serviceWorker.register('{{site.url}}{{site.baseurl}}/sw.js', {
-   { scope: '/' })
+navigator.serviceWorker.register('{{site.url}}{{site.baseurl}}/sw.js', { scope: '/' })
         .then(function (registration)
         {
           console.log('Service worker registered successfully');
