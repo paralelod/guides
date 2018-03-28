@@ -219,12 +219,12 @@
       }
   }
 }
+
 @media #{$device-small} {
     .process-pager-slider{
-        // display: none;
-    .process-pager{
-        font-size: .8rem;
-    }
+        .process-pager{
+            font-size: .8rem;
+        }
     }
     .slick-dots{
         display: none !important;
@@ -278,17 +278,14 @@
     margin:auto;
 }
 @media #{$device-medium}{
-    .step-wrap{
+    .step-wrap{ 
         max-width:85%;
     }
     .step-content{
-        max-width:60%;
-        padding: 1rem;
-    }
-    .step-img-wrap{
-        img{
-            height: 300px;
-        }    
+        max-width: 55%;
+        h1{
+            font-size: 1.5rem;
+        }
     }
 }
 
