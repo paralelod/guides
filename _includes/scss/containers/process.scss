@@ -323,7 +323,8 @@
 
 @media #{$device-small-landscape} {
     .step-wrap{
-        max-width:100%;
+        max-width:75%;
+        flex-wrap: unset;
     }
     .step-img-wrap{
         img{
