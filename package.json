@@ -1,5 +1,5 @@
 {
-  "name": "Jellypack",
+  "name": "Diogo Russo",
   "version": "0.0.0",
   "description": "Diogo Russo's JellyKit",
   "keywords": [
@@ -11,12 +11,12 @@
     "start": "gulp"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-clean": "^0.3.2",
+    "gulp-clean": "^0.4.0",
     "gulp-cloudinary": "0.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-shell": "^0.6.3",
+    "gulp-shell": "^0.6.5",
     "gulp-uglify": "^3.0.0"
   }
 }
