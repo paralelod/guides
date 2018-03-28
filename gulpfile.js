@@ -14,10 +14,7 @@ gulp.task('serve', function () {
         https: true,
         server: {
             baseDir: '_site/',
-            middleware: function (req, res, next) {
-                res.setHeader('Access-Control-Allow-Origin', '*');
-                next();
-              }
+            
         }
     });
     // Reloads page when some of the already built files changed:
