@@ -4,4 +4,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 package-lock.json
+npm-debug.log
 Gemfile.lock
