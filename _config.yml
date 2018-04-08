@@ -14,8 +14,8 @@ keywords: "Diogo Russo, Product Desig, UX Design, Graphic Design, Visual Arts"
 cdn: //res.cloudinary.com/diogorusso/image/upload/
 # cdn: /guides/assets/img/
 profile: about/bio/diogorusso.jpg
-ico: favicon.ico
-svg: favicons/favsvg.svg
+ico: favicon.ico #root folder
+svg: favicons/svgfav.svg
 512x512: favicons/icon-512x512.png
 310x310: favicons/icon-310x310.png
 192x192: favicons/icon-192x192.png
