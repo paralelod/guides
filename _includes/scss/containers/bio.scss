@@ -63,18 +63,15 @@
     }
 }
 
-@media #{$device-small}{
-    
-}
 
 @media #{$device-small} {
     .bio{
         text-align: center;
-    }
-    .description{
-        max-width:375px;
-        margin: 1rem 0 3rem 0;
-        padding: 1rem;
+        .description{
+            max-width:375px;
+            margin: 1rem 0 3rem 0;
+            padding: 1rem;
+        }
     }
     .skill-wrap {
         // width: 100%;
