@@ -15,7 +15,7 @@ cdn: https://res.cloudinary.com/diogorusso/image/upload/
 # cdn: /guides/assets/img/
 profile: about/bio/diogorusso.jpg
 ico: favicons/favicon.ico
-svg: favicons/favicon.svg
+svg: favicons/favsvg.svg
 512x512: favicons/icon-512x512.png
 310x310: favicons/icon-310x310.png
 192x192: favicons/icon-192x192.png
