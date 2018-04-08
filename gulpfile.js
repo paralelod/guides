@@ -1,6 +1,13 @@
 var gulp = require('gulp');
+var clean = require('gulp-clean');
 var shell = require('gulp-shell');
 var browserSync = require('browser-sync').create();
+
+
+gulp.task('clean', function () {
+    return gulp.src('_site/', {read: false})
+        .pipe(clean());
+});
 
 gulp.task('jekyll', shell.task(['bundle exec jekyll build --config "_config.yml,_config.dev.yml"']));
 
@@ -32,6 +39,7 @@ gulp.task('serve', function () {
 
 gulp.task('default', 
     [
+        'clean',
         'jekyll', 
         'serve'
     ]
