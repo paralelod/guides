@@ -1,9 +1,7 @@
-# Setup 
+# Url
 url: https://lab.diogorusso.com
 baseurl: /guides
 
-
-##### SITE  #####
 
 # Info
 author: "Diogo Russo"
@@ -15,15 +13,17 @@ keywords: "Diogo Russo, Product Desig, UX Design, Graphic Design, Visual Arts"
 # Media CDN (cloudinary)
 cdn: https://res.cloudinary.com/diogorusso/image/upload/
 # cdn: /guides/assets/img/
-favicons: favicons/
-# apple apple-touch-icon.png 180
-#apple pre compesed apple-touch-icon-precomposed.png 144px
-# safari icon.svg
-#high res icon 192.png +android
-# android 512.png
-#ico  favicon.ico
-# Navigation
-
+profile: about/bio/diogorusso.jpg
+ico: favicons/favicon.ico
+svg: favicons/favicon.svg
+512x512: favicons/icon-512x512.png
+310x310: favicons/icon-310x310.png
+192x192: favicons/icon-192x192.png
+180x180: favicons/icon-180x180.png
+150x150: favicons/icon-150x150.png
+144x144: favicons/icon-144x144.png
+70x70: favicons/icon-70x70.png
+310x150: favicons/icon-310x150.png
 
 # Content Structure (categories - use to build sidebar)
 content:
