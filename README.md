@@ -2,5 +2,4 @@
 
 "I'm a designer, artist and storyteller, an optimist dedicated to help bringing ideas to life."
 
-Made with Jekyll
-
+![powered by Jekyll](https://img.shields.io/badge/powered_by-Jekyll-blue.svg)
