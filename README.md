@@ -1,15 +1,6 @@
-# Example Jekyll site
+# [Diogo Russo - Product Design](https://www.diogorusso.com)
 
-You're looking at a simple Jekyll site built to show folks how to use Sass with Jekyll. It's open sourced under the MIT license and can be download from [the GitHub project](https://github.com/mdo/jekyll-example).
+"I'm a designer, artist and storyteller, an optimist dedicated to help bringing ideas to life."
 
-### Usage
+Made with Jekyll
 
-Read the [Using Sass with Jekyll](http://markdotto.com/2014/09/25/sass-and-jekyll/) post.
-
-### Support
-
-**No support is provided with this project.** It is solely meant as a one-time download to accompany the aforementioned blog post.
-
-### License
-
-Released under MIT by @mdo.

@@ -2,6 +2,19 @@
 url: https://lab.diogorusso.com
 baseurl: /guides
 
+# Exclude
+exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock, README.md]
+
+# Permalinks
+# permalink: /:title.html
+permalink: /:categories/:title.html
+# relative_permalinks: true
+
+# Sass
+sass:
+  sass_dir: _includes/scss
+  style: :compressed
+
 
 # Info
 author: "Diogo Russo"
@@ -25,7 +38,7 @@ svg: favicon.svg #root folder
 70x70: favicons/icon-70x70.png
 310x150: favicons/icon-310x150.png
 
-# Content Structure (categories - use to build sidebar)
+# Content Structure
 content:
   - cat: Ideas
     sub:
@@ -51,6 +64,7 @@ content:
       - Product Design
       - Experience Design
 
+# Work Structure
 work:
   - cat: "Creative Direction"
     description: 
@@ -102,17 +116,30 @@ defaults:
             - description: "VSCode tutorial that will walk your through the VSCode interface and introduce handy keyboard shortcuts."
               url: "https://www.youtube.com/watch?v=5irqj-YVo4M&list=PLkEZWD8wbltm8T3mS7SMCpT6WlnyIP50T"
        
-##### CONFIG  #####
-
-# Exclude
-exclude: [gulpfile, package.json,package-lock.json, node_modules,Gemfile,Gemfile.lock, README.md]
-
-# Permalinks
-# permalink: /:title.html
-permalink: /:categories/:title.html
-# relative_permalinks: true
-
-# Sass
-sass:
-  sass_dir: _includes/scss
-  style: :compressed
+# Social Profiles
+social:
+  - title: linkedin
+    url: 
+  - title: twitter
+    url:
+  - title: facebook
+    url:
+  # - title: tumblr
+  #   url:
+  - title: behance
+    url:
+  - title: pinterest
+    url:
+  - title: instagram
+    url:
+  - title: medium
+    url:
+  - title: codepen
+    url:
+  - title: github
+    url:
+  - title: dockerhub
+    url:
+  # - title: vimeo
+  # - title: slideshare
+  # - title: google+
