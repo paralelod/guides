@@ -69,8 +69,12 @@
         text-align: center;
         .description{
             max-width:375px;
-            margin: 1rem 0 3rem 0;
-            padding: 1rem;
+            margin: 0.75rem 0 3rem 0;
+            padding: 0 1rem;
+            h1{
+                -webkit-margin-before: 0;
+                -webkit-margin-after: 0;
+            }
         }
     }
     .skill-wrap {
