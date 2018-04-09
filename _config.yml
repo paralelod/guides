@@ -119,27 +119,27 @@ defaults:
 # Social Profiles
 social:
   - title: linkedin
-    url: 
-  - title: twitter
-    url:
-  - title: facebook
-    url:
+    url: "https://www.linkedin.com/in/diogorusso/?locale=en_US"
+  - title: behance
+    url: "https://www.behance.net/diogorusso"
+  - title: instagram
+    url: "https://www.instagram.com/diogorusso/"
+  # - title: twitter
+  #   url:
+  # - title: facebook
+  #   url:
   # - title: tumblr
   #   url:
-  - title: behance
-    url:
-  - title: pinterest
-    url:
-  - title: instagram
-    url:
-  - title: medium
-    url:
-  - title: codepen
-    url:
-  - title: github
-    url:
-  - title: dockerhub
-    url:
+  # - title: pinterest
+  #   url:
+  # - title: medium
+  #   url:
+  # - title: codepen
+  #   url:
+  # - title: github
+  #   url:
+  # - title: dockerhub
+  #   url:
   # - title: vimeo
   # - title: slideshare
   # - title: google+
