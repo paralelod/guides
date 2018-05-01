@@ -64,7 +64,7 @@
 
 .arrow-wrap{
   position:absolute; 
-  bottom:5%; 
+  bottom:10%; 
   left:50%; 
   transform:translateX(-50%); 
   opacity:.5;
@@ -79,6 +79,15 @@
     transform: translate3d(0,-600px,0);
   }
 }
+
+@keyframes scrollSmall {
+  0% {
+    transform: translate3d(400px,0,0);
+  }
+  100% {
+    transform: translate3d(0,-400px,0);
+  }
+}
 // overlay
 .masthead::before {
   content:"";
@@ -86,7 +95,7 @@
   height: 1000%;
   position: absolute;
   background-position: center center;
-    background-size: 600px;
+  background-size: 600px;
   top: 0;
   left: -600px;
   width: 1000%;
@@ -104,7 +113,7 @@
   z-index: 2;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%) translateX(-50%);
 }
 
@@ -127,6 +136,7 @@
 @media #{$device-small} {
   .center-content{
     width:95%;
+    top:40%;
   }
   .masthead{
     text-align: center;
@@ -139,9 +149,15 @@
       font-weight: lighter;
     }
   }
+  .masthead::before {
+    background: url(./assets/img/about/hero-sm.png);
+    animation: scrollSmall 15s linear infinite;
+    background-size: 400px;
+    left: -400px;
+  }
   .arrow-wrap{
     position:absolute; 
-    bottom:10%; 
+    bottom:15%; 
     left:50%; 
     transform:translateX(-50%); 
     opacity:.5;
@@ -150,7 +166,8 @@
 
 @media #{$device-small-landscape} {
   .center-content{
-    width:55%;
+    width:50%;
+    top:45%;
   }
   .masthead{
     text-align: center;
