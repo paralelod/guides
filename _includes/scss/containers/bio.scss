@@ -51,17 +51,10 @@
     margin:-6px;
 }
 
-@media #{$device-small} {
-    .profile {
-        width: 100%;
-    }
-    .skills{
-        width: 100%;
-    }
-    .skill{
-        padding-top:1rem; 
-    }
+.d-sign{
+    width:185px;
 }
+
 
 
 @media #{$device-small} {
@@ -77,6 +70,17 @@
             }
         }
     }
+
+    .profile {
+        width: 100%;
+    }
+    .skills{
+        width: 100%;
+    }
+    .skill{
+        padding-top:1rem; 
+    }
+
     .skill-wrap {
         // width: 100%;
         min-height:10rem;
@@ -87,4 +91,9 @@
     .skill-bg{
         min-height:11rem;
      }
+
+     .d-sign{
+        width:125px;
+    }
 }
+
