@@ -1,19 +1,12 @@
 .masthead{
   height:100vh;
   width: 100%; 
-  background-size:cover;
-  background: linear-gradient(310deg, #5e06a0, #f11a04);
-  background-size: 200% 200%;
-  background-position: center;
   display: flex;
   color: white;
   text-align: center;
-  -webkit-animation: AnimationName 12s ease infinite;
-  -moz-animation: AnimationName 12s ease infinite;
-  -o-animation: AnimationName 12s ease infinite;
-  animation: AnimationName 12s ease infinite;
   overflow: hidden;
   position: relative;
+  @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
  
   .masthead-wrap{
     padding: 0 1rem;
@@ -33,25 +26,15 @@
   }
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 17%}
-    50%{background-position:100% 84%}
-    100%{background-position:0% 17%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 17%}
-    50%{background-position:100% 84%}
-    100%{background-position:0% 17%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:0% 17%}
-    50%{background-position:100% 84%}
-    100%{background-position:0% 17%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 17%}
-    50%{background-position:100% 84%}
-    100%{background-position:0% 17%}
+.masthead::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  opacity: .35;
+  width: 200%;
+  height: 200%;
+  @include scrollBgDiagonalAnim (600px, 'http://res.cloudinary.com/diogorusso/image/upload/about/cover.png',scrollBgDiagonalAnim);
 }
 
 
@@ -59,52 +42,17 @@
   width: 14px;
   display: block;
   margin: 10px auto;
-  animation: scroll .35s ease-in alternate infinite;
+  animation: bounceArrow .35s ease-in alternate infinite;
 }
 
 .arrow-wrap{
   position:absolute; 
   bottom:10%; 
   left:50%; 
-  transform:translateX(-50%); 
+  @include translate(-50%, 0);
   opacity:.5;
   z-index: 3;
 }
-
-@keyframes scrollGood {
-  0% {
-    transform: translate3d(600px,0,0);
-  }
-  100% {
-    transform: translate3d(0,-600px,0);
-  }
-}
-
-@keyframes scrollSmall {
-  0% {
-    transform: translate3d(350px,0,0);
-  }
-  100% {
-    transform: translate3d(0,-350px,0);
-  }
-}
-// overlay
-.masthead::before {
-  content:"";
-  // display: block;
-  height: 1000%;
-  position: absolute;
-  background-position: center center;
-  background-size: 600px;
-  top: 0;
-  left: -600px;
-  width: 1000%;
-  z-index: 1;
-  background: url(./assets/img/about/hero.png);
-  opacity: .35;
-  animation: scrollGood 15s linear infinite;
-}
-
 
 .center-content{
   width:60%;
@@ -113,30 +61,18 @@
   position: absolute;
   left: 50%;
   top: 45%;
-  transform: translateY(-50%) translateX(-50%);
+  @include translate(-50%, -50%);
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(10px);
-  }
-}
 
 @media #{$device-medium} {
   .masthead-wrap{
-    width:80%;
+    width:70%;
   }
 }
 
 
 @media #{$device-small} {
-  .center-content{
-    width:95%;
-    top:40%;
-  }
   .masthead{
     text-align: center;
     h1{
@@ -149,18 +85,19 @@
     }
   }
   .masthead::before {
-    background: url(./assets/img/about/hero-sm.png);
-    opacity: .45;
-    animation: scrollSmall 15s linear infinite;
-    background-size: 350px;
-    left: -350px;
+    @include scrollBgDiagonalAnim (325px, 'http://res.cloudinary.com/diogorusso/image/upload/about/cover-sm.png',scrollBgDiagonalAnimSmall);
+    opacity: .4;
   }
   .arrow-wrap{
     position:absolute; 
     bottom:15%; 
     left:50%; 
-    transform:translateX(-50%); 
+    @include translate(-50%, 0);
     opacity:.5;
+  }
+  .center-content{
+    width:95%;
+    top:40%;
   }
 }
 
@@ -183,8 +120,6 @@
   .arrow-wrap{
     position:absolute; 
     bottom:3.5rem; 
-    left:50%; 
-    transform:translateX(-50%); 
     opacity:.5;
   }
 

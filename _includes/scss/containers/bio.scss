@@ -29,19 +29,13 @@
 .skill-wrap {
     width: 100%;
     position: relative;
-    // background: #f3f3f3;
 }
 .skill{
     text-align: center;
     position: absolute;
-    // opacity: .5;
     top: 50%;
     left:50%;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -moz-transform: translateY(-50%) translateX(-50%);
-    -ms-transform:translateY(-50%) translateX(-50%);
-    -o-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
+    @include translate(-50%, -50%);
 }
 .skill-bg{
    width: 100%;
@@ -62,11 +56,11 @@
         text-align: center;
         .description{
             max-width:375px;
-            margin: 0.75rem 0 3rem 0;
+            margin: $gutter/2 0 $gutter 0;
             padding: 0 1rem;
             h1{
-                -webkit-margin-before: 0;
-                -webkit-margin-after: 0;
+                @include vendor-prefix('margin-before',0);
+                @include vendor-prefix('margin-after',0);
             }
         }
     }
