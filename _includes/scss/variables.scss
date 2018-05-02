@@ -87,7 +87,7 @@ $box: 95%;
     background: linear-gradient(310deg, $color1, $color2);
     background-size: 200% 200%;
     background-position: center;
-    @include vendor-prefix('animation', $animationName '12s ease infinite' );
+    // @include vendor-prefix('animation', $animationName '12s ease infinite' );
 }
 
 
@@ -125,14 +125,12 @@ $box: 95%;
     background: url($bgUrl);
     left:-$bgSize;
     background-position: -$bgSize;
-    animation: $animation 15s linear infinite;
+    // animation: $animation 15s linear infinite;
   
 }
 
 
-.mundinho{
-    @include translate(-50%, 25%)
-}
+
 
 // // rotate
 // @mixin rotate ($deg) {
