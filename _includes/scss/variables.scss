@@ -125,14 +125,12 @@ $box: 95%;
     background: url($bgUrl);
     left:-$bgSize;
     background-position: -$bgSize;
-    animation: $animation 15s linear infinite;
+    // animation: $animation 15s linear infinite;
   
 }
 
 
-.mundinho{
-    @include translate(-50%, 25%)
-}
+
 
 // // rotate
 // @mixin rotate ($deg) {
