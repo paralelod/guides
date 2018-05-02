@@ -125,12 +125,9 @@ $box: 95%;
     background: url($bgUrl);
     left:-$bgSize;
     background-position: -$bgSize;
-    // animation: $animation 15s linear infinite;
+    animation: $animation 15s linear infinite;
   
 }
-
-
-
 
 // // rotate
 // @mixin rotate ($deg) {
