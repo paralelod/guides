@@ -101,7 +101,6 @@ $box: 95%;
   }
 
 
-
 @include keyframes(scrollBgDiagonalAnim) {
     0% {
         transform: translate3d(600px, 0, 0);
@@ -125,9 +124,10 @@ $box: 95%;
     background: url($bgUrl);
     left:-$bgSize;
     background-position: -$bgSize;
-    animation: $animation 15s linear infinite;
+    // animation: $animation 15s linear infinite;
   
 }
+
 
 // // rotate
 // @mixin rotate ($deg) {
