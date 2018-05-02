@@ -34,7 +34,7 @@
   opacity: .35;
   width: 200%;
   height: 200%;
-  @include scrollBgDiagonalAnim (600px, 'http://res.cloudinary.com/diogorusso/image/upload/about/cover.png',scrollBgDiagonalAnim);
+  @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
 }
 
 
@@ -85,7 +85,7 @@
     }
   }
   .masthead::before {
-    @include scrollBgDiagonalAnim (325px, 'http://res.cloudinary.com/diogorusso/image/upload/about/cover-sm.png',scrollBgDiagonalAnimSmall);
+    @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
     opacity: .4;
   }
   .arrow-wrap{
