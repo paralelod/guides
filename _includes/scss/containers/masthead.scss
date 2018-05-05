@@ -37,7 +37,9 @@
   opacity: .25;
   width: 200%;
   height: 200%;
-  @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
+  background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+  background-position: center;
+  // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
 }
 
 
@@ -88,7 +90,8 @@
     }
   }
   .masthead::before {
-    @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
+    // @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
+    background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
     opacity: .3;
   }
   .arrow-wrap{

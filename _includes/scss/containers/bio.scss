@@ -58,10 +58,10 @@
             max-width:375px;
             margin: $gutter/2 0 $gutter 0;
             padding: 0 1rem;
-            h1{
-                @include vendor-prefix('margin-before',0);
-                @include vendor-prefix('margin-after',0);
-            }
+            // h1{
+            //     @include vendor-prefix('margin-before',0);
+            //     @include vendor-prefix('margin-after',0);
+            // }
         }
     }
 

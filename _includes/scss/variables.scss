@@ -91,36 +91,43 @@ $box: 95%;
 // }
 
 
-
-
-
-
-@include keyframes(scrollBgDiagonalAnim) {
+@include keyframes(bounceArrow) {
     0% {
-        transform: translate3d(600px, 0, 0);
-    }
-    100% {
-        transform: translate3d(0, -600px, 0);
-    }
-}
-@include keyframes(scrollBgDiagonalAnimSmall) {
-    0% {
-        transform: translate3d(325px, 0, 0);
-    }
-    100% {
-        transform: translate3d(0, -325px, 0);
-    }
-}
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(10px);
+      }
+  }
 
-@mixin scrollBgDiagonalAnim ($bgSize,$bgUrl,$animation){
-    will-change: transform;
-    background-size: $bgSize;
-    background: url($bgUrl);
-    left:-$bgSize;
-    background-position: -$bgSize;
-    // animation: $animation 15s linear infinite;
+
+
+// @include keyframes(scrollBgDiagonalAnim) {
+//     0% {
+//         transform: translate3d(600px, 0, 0);
+//     }
+//     100% {
+//         transform: translate3d(0, -600px, 0);
+//     }
+// }
+// @include keyframes(scrollBgDiagonalAnimSmall) {
+//     0% {
+//         transform: translate3d(325px, 0, 0);
+//     }
+//     100% {
+//         transform: translate3d(0, -325px, 0);
+//     }
+// }
+
+// @mixin scrollBgDiagonalAnim ($bgSize,$bgUrl,$animation){
+//     will-change: transform;
+//     background-size: $bgSize;
+//     background: url($bgUrl);
+//     left:-$bgSize;
+//     background-position: -$bgSize;
+//     // animation: $animation 15s linear infinite;
   
-}
+// }
 
 
 
