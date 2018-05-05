@@ -1,6 +1,6 @@
 <div class="btns-social">
         {% for item in site.social %}
-                <a href="{{item.url}}"  target="_blank">
+                <a href="{{item.url}}"  target="_blank" rel="noopener">
                         {% assign title = item.title %}
                         {% include img/social/{{title}}.html %}
                 </a>
