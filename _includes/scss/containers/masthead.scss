@@ -34,7 +34,6 @@
   opacity: .25;
   width: 200%;
   height: 200%;
-  @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
   @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
 }
 
