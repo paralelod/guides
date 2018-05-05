@@ -20,6 +20,7 @@
   }
   h1{
     font-size: 3rem;
+    text-shadow: #400050 4px 6px 9px;
   }
 
   h2{
@@ -37,7 +38,14 @@
   opacity: .25;
   width: 200%;
   height: 200%;
-  background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+  // background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+  background: repeating-radial-gradient(
+    circle,
+    purple,
+    purple 10px,
+    #4b026f 10px, 
+    #4b026f 20px
+  );
   background-position: center;
   // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
 }
@@ -82,6 +90,7 @@
     text-align: center;
     h1{
       font-size: 2rem;
+      text-shadow: #400050 3px 4px 5px;
     }
   
     h2{
@@ -89,11 +98,11 @@
       font-weight: lighter;
     }
   }
-  .masthead::before {
+  // .masthead::before {
     // @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
-    background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
-    opacity: .3;
-  }
+    // background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
+    // opacity: .3;
+  // }
   .arrow-wrap{
     position:absolute; 
     bottom:15%; 
