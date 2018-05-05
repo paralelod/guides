@@ -6,7 +6,10 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
+  background: linear-gradient(310deg, #5e06a0, #f11a04);
+  background-size: 200% 200%;
+  background-position: center;
+  // @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
  
   .masthead-wrap{
     padding: 0 1rem;

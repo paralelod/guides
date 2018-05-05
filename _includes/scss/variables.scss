@@ -75,20 +75,20 @@ $box: 95%;
 }
 
 // use of keyframes mixin
-@include keyframes(gradientAnim) {
-    0%{background-position:0% 17%}
-    50%{background-position:100% 84%}
-    100%{background-position:0% 17%}
-  }
+// @include keyframes(gradientAnim) {
+//     0%{background-position:0% 17%}
+//     50%{background-position:100% 84%}
+//     100%{background-position:0% 17%}
+//   }
 
-@mixin bgGradientAnim ($color1, $color2, $animationName){
-    will-change: background-position;
-    background-size:cover;
-    background: linear-gradient(310deg, $color1, $color2);
-    background-size: 200% 200%;
-    background-position: center;
-    // @include vendor-prefix('animation', $animationName '12s ease infinite' );
-}
+// @mixin bgGradientAnim ($color1, $color2, $animationName){
+//     will-change: background-position;
+//     background-size:cover;
+//     background: linear-gradient(310deg, $color1, $color2);
+//     background-size: 200% 200%;
+//     background-position: center;
+//     // @include vendor-prefix('animation', $animationName '12s ease infinite' );
+// }
 
 
 @include keyframes(bounceArrow) {
