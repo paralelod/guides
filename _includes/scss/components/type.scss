@@ -20,4 +20,22 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-
+.wf-loading {
+  h1, h2,h3,h4,h5,h6,p,small,.process-pager,.txt {transition
+  :all 2s; opacity:0;};
+  h3{transition
+    :all 2s; opacity:1;};
+  h2{visibility: hidden};
+  p{visibility: hidden};
+  small{visibility: hidden};
+  .process-pager{visibility: hidden};
+  .txt{visibility: hidden};
+}
+.wf-active{ 
+  h1, h2,h3,h4,h5,h6,p,small,.process-pager,.txt {transition
+    :all 2s; opacity:1;};
+}
+.wf-inactive { 
+  h1, h2,h3,h4,h5,h6,p,small,.process-pager,.txt {transition
+    :all 2s; opacity:1;};
+}
