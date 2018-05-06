@@ -6,8 +6,15 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(310deg,#5e06a0, #f11a04);
-  background-size: 150% 150%;
+  background: 
+    linear-gradient(
+      310deg,
+      rgba(241, 4, 37, 0.92), 
+      rgba(60, 0, 105, 0.95)
+      ), 
+      url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png') repeat
+  ;
+  // background-size: 150% 150%;
   background-position: center;
   z-index: 1;
   // @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
@@ -29,19 +36,19 @@
     font-family: $font-sans-serif;
     font-size: 2rem;
     font-weight: 200;
-    text-shadow: #400050 4px 6px 9px;
+    text-shadow: #400050 3px 3px 3px;
   }
 }
 
-.masthead::before {
-  content:"";
-  position: absolute;
-  top: 0;
-  z-index: 2;
-  opacity: .25;
-  width: 100%;
-  height: 100%;
-  background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+// .masthead::before {
+//   content:"";
+//   position: absolute;
+//   top: 0;
+//   z-index: 2;
+//   opacity: .3;
+//   width: 100%;
+//   height: 100%;
+//   background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
   // background: repeating-radial-gradient(
   //   circle,
   //   purple,
@@ -49,26 +56,25 @@
   //   #4b026f 10px, 
   //   #4b026f 20px
   // );
-  background-position: center;
+  // background-position: center;
   // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
-}
+// }
 
-.masthead-overlay{
-  background: repeating-radial-gradient(
-    circle,
-    purple 5px,
-    #4b026f 25px, 
-    #4b026f 15px
-  );
-  opacity: .15;
-  background-size: 200% 200%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  display: block;
-}
+// .masthead-overlay{
+//   background: repeating-radial-gradient(
+//     purple 5px,
+//     #4b026f 25px, 
+//     #4b026f 15px
+//   );
+//   opacity: .3;
+//   background-size: 200% 200%;
+//   position: absolute;
+//   top: 0;
+//   width: 100%;
+//   height: 100vh;
+//   z-index: 1;
+//   display: block;
+// }
 
 #scroll-arrow {
   width: 14px;
@@ -113,9 +119,8 @@
     }
   
     h2{
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       font-weight: 300;
-      text-shadow: #400050 2px 3px 3px;
     }
   }
   .masthead::before {
@@ -157,13 +162,13 @@
     }
   
     h2{
-      font-size: 1rem;
-      font-weight: lighter;
+      font-size: 1.1rem;
+      // font-weight: lighter;
     }
   }
   .arrow-wrap{
     position:absolute; 
-    bottom:3.5rem; 
+    bottom:2.15rem; 
     opacity:.5;
   }
 
