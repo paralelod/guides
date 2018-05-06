@@ -56,10 +56,9 @@
 .masthead-overlay{
   background: repeating-radial-gradient(
     circle,
-    purple,
-    purple 10px,
-    #4b026f 10px, 
-    #4b026f 20px
+    purple 5px,
+    #4b026f 25px, 
+    #4b026f 15px
   );
   opacity: .15;
   background-size: 200% 200%;
@@ -127,11 +126,11 @@
   .masthead-overlay{
     background: repeating-radial-gradient(
       circle,
-      purple,
       purple 10px,
-      #4b026f 23px, 
-      #4b026f 24px
+      #4b026f 25px, 
+      #4b026f 25px
     );
+    background-size: 200% 200%;
   }
   .arrow-wrap{
     position:absolute; 
