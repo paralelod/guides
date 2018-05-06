@@ -14,7 +14,7 @@ var merge = require('merge2');
 var buffer = require('gulp-buffer');
 
 gulp.task('clean', function () {
-    return gulp.src(['_site/','assets/script.js'], {read: false})
+    return gulp.src(['_site/','assets/js/'], {read: false})
         .pipe(clean());
 });
 
@@ -39,7 +39,7 @@ gulp.task('js', function() {
       .pipe(buffer())                                               
       .pipe(concat('script.js'))
       .pipe(uglify())
-      .pipe(gulp.dest('assets/'));
+      .pipe(gulp.dest('assets/js/'));
 });
 
 
