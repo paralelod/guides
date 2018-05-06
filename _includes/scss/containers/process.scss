@@ -145,10 +145,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-// .slick-dots li.slick-active button:before {
-//     opacity: .75;
-//     color: black;
-// }
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
 
 // /* custom slick */
 .process-pager-slider {
