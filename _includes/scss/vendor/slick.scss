@@ -21,14 +21,14 @@
     padding: 0
 }
 
-.slick-list:focus {
-    outline: 0
-}
+// .slick-list:focus {
+//     outline: 0
+// }
 
-.slick-list.dragging {
-    cursor: pointer;
-    cursor: hand
-}
+// .slick-list.dragging {
+//     cursor: pointer;
+//     cursor: hand
+// }
 
 .slick-slider .slick-list,
 .slick-slider .slick-track {
@@ -89,9 +89,9 @@
     display: block
 }
 
-.slick-loading .slick-slide {
-    visibility: hidden
-}
+// .slick-loading .slick-slide {
+//     visibility: hidden
+// }
 
 .slick-vertical .slick-slide {
     display: block;
@@ -99,8 +99,8 @@
     border: 1px solid transparent
 }
 
-.slick-arrow.slick-hidden {
-    display: none
-}
+// .slick-arrow.slick-hidden {
+//     display: none
+// }
 
 /*# sourceMappingURL=slick.min.css.map */
