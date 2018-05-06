@@ -124,6 +124,15 @@
     background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
     // opacity: .3;
   }
+  .masthead-overlay{
+    background: repeating-radial-gradient(
+      circle,
+      purple,
+      purple 10px,
+      #4b026f 23px, 
+      #4b026f 24px
+    );
+  }
   .arrow-wrap{
     position:absolute; 
     bottom:15%; 
