@@ -11,41 +11,41 @@
         }
     }
     
-    .cols-1{
-        @include column("100%");
-    }
+    // .cols-1{
+    //     @include column("100%");
+    // }
     
     .cols-2{
         @include column("50%");
     }
     
-    .cols-3{
-        @include column("33%");
-    }
+    // .cols-3{
+    //     @include column("33%");
+    // }
     
-    .cols-4{
-        @include column("25%");
-    }
+    // .cols-4{
+    //     @include column("25%");
+    // }
     
-    .cols-5{
-        @include column("20%");
-    }
+    // .cols-5{
+    //     @include column("20%");
+    // }
     
-    .cols-6{
-        @include column("16%");
-    }
+    // .cols-6{
+    //     @include column("16%");
+    // }
 }
 
-.grid-isotope{
-    width: 100%;
-    .item{
-        width: calc(49.5% - #{$gutter});
-        flex-grow: 0;
-        @media #{$device-small} {
-            width: 100%;
-            margin-left: 0;
-            margin-right: 0; 
-        }
-    }
-}
+// .grid-isotope{
+//     width: 100%;
+//     .item{
+//         width: calc(49.5% - #{$gutter});
+//         flex-grow: 0;
+//         @media #{$device-small} {
+//             width: 100%;
+//             margin-left: 0;
+//             margin-right: 0; 
+//         }
+//     }
+// }
 

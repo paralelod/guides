@@ -19,32 +19,6 @@
       
     }
   }
-  
-  .btn-light{
-    color: #fff;
-    &:hover{
-      background-color: white;
-      color: black;
-      border: solid 1px white;
-      
-    }
-  }
-
-  .btn-solid{
-    background: black;
-    color: white;
-  }
-
-  .btn-round{
-    border-radius: 100% !important;
-    padding:1.25rem !important;
-    &:hover{
-      background-color: black;
-      color: white;
-      border: solid 1px black;
-      
-    }
-  }
 
   .btns-social{
     margin: 3rem 0;
@@ -62,19 +36,47 @@
       width: $gutter;
     }
   }
+
+
+  // .btn-light{
+  //   color: #fff;
+  //   &:hover{
+  //     background-color: white;
+  //     color: black;
+  //     border: solid 1px white;
+      
+  //   }
+  // }
+
+  // .btn-solid{
+  //   background: black;
+  //   color: white;
+  // }
+
+  // .btn-round{
+  //   border-radius: 100% !important;
+  //   padding:1.25rem !important;
+  //   &:hover{
+  //     background-color: black;
+  //     color: white;
+  //     border: solid 1px black;
+      
+  //   }
+  // }
+
 // .button-social{
 //   width:56px;
 // }
-.back-to-top {
-  position: fixed;
-  bottom: 10%;
-  right: 0px;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
+// .back-to-top {
+//   position: fixed;
+//   bottom: 10%;
+//   right: 0px;
+//   padding-left: 0.5rem;
+//   padding-right: 0.5rem;
+// }
 
-@media #{$device-small} { 
-	.back-to-top{
-		display: none !important; 
-	}
-}
+// @media #{$device-small} { 
+// 	.back-to-top{
+// 		display: none !important; 
+// 	}
+// }
