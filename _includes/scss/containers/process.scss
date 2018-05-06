@@ -186,6 +186,22 @@
     }
 }
 
+.step1{
+    background:#50E3C2;
+}
+.step2{
+    background:#F8E71C;
+}
+.step3{
+    background:#BD71FF;
+}
+.step4{
+    background:#4A90E2;
+}
+.step5{
+    background:#f14b4b;
+}
+
 @media #{$device-small} {
     .process-pager-slider {
         .process-pager {

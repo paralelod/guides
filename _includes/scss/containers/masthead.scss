@@ -6,14 +6,7 @@
   text-align: center;
   overflow: hidden;
   position: relative;
-  background: 
-    linear-gradient(
-      310deg,
-      rgba(241, 4, 37, 0.9), 
-      rgba(60, 0, 105, 0.9)
-      ), 
-      url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png') repeat
-  ;
+  @include mastheadAboutBg;
   // background-size: 150% 150%;
   background-position: center;
   z-index: 1;
@@ -29,7 +22,7 @@
   }
   h1{
     font-size: 3rem;
-    text-shadow: #400050 4px 6px 9px;
+    text-shadow: #50002c 4px 6px 13px;
   }
 
   h2{
@@ -40,41 +33,22 @@
   }
 }
 
-// .masthead::before {
-//   content:"";
-//   position: absolute;
-//   top: 0;
-//   z-index: 2;
-//   opacity: .3;
-//   width: 100%;
-//   height: 100%;
-//   background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
-  // background: repeating-radial-gradient(
-  //   circle,
-  //   purple,
-  //   purple 10px,
-  //   #4b026f 10px, 
-  //   #4b026f 20px
-  // );
-  // background-position: center;
-  // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
-// }
-
-// .masthead-overlay{
-//   background: repeating-radial-gradient(
-//     purple 5px,
-//     #4b026f 25px, 
-//     #4b026f 15px
-//   );
-//   opacity: .3;
-//   background-size: 200% 200%;
-//   position: absolute;
-//   top: 0;
-//   width: 100%;
-//   height: 100vh;
-//   z-index: 1;
-//   display: block;
-// }
+.masthead::before {
+  content:"";
+  background: repeating-radial-gradient(
+    purple 5px,
+    #4b026f 25px, 
+    #4b026f 15px
+  );
+  opacity: .15;
+  background-size: 200% 200%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  display: block;
+}
 
 #scroll-arrow {
   width: 14px;
@@ -112,6 +86,7 @@
 
 @media #{$device-small} {
   .masthead{
+    @include mastheadAboutBgSmall;
     text-align: center;
     h1{
       font-size: 2rem;
@@ -123,11 +98,12 @@
       font-weight: 300;
     }
   }
-  .masthead::before {
+  // .masthead::before {
     // @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
-    background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
+
+    // background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
     // opacity: .3;
-  }
+  // }
   .masthead-overlay{
     background: repeating-radial-gradient(
       circle,
