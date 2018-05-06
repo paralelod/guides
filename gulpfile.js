@@ -13,17 +13,10 @@ var merge = require('merge2');
 
 var buffer = require('gulp-buffer');
 
-
-
-//script paths
-// var jsFiles = 'assets/scripts/**/*.js',
-//     jsDest = 'dist/scripts';
-
-// gulp.task('scripts', function() {
-//     return gulp.src(jsFiles)
-//         .pipe(concat('scripts.js'))
-//         .pipe(gulp.dest(jsDest));
-// });
+gulp.task('clean', function () {
+    return gulp.src(['_site/','assets/script.js'], {read: false})
+        .pipe(clean());
+});
 
 
 gulp.task('js', function() {
@@ -45,19 +38,10 @@ gulp.task('js', function() {
     return merge(jquery,jQeasing, lazyLoad, slickSlider,myScripts)                                      
       .pipe(buffer())                                               
       .pipe(concat('script.js'))
-      //uglify
+      .pipe(uglify())
       .pipe(gulp.dest('assets/'));
-  });
-
-
-
-//js 0 - request  1-concat 2-uglify
-
-
-gulp.task('clean', function () {
-    return gulp.src('_site/', {read: false})
-        .pipe(clean());
 });
+
 
 gulp.task('jekyll', shell.task(['bundle exec jekyll build --config "_config.yml,_config.dev.yml"']));
 
@@ -90,6 +74,7 @@ gulp.task('serve', function () {
 gulp.task('default', 
     [
         'clean',
+        'js',
         'jekyll', 
         'serve'
     ]
