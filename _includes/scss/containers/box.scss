@@ -16,18 +16,18 @@
     @include box(1440px)    
 }
 
-.box-sm{
-    @include box(840px)    
-}
+// .box-sm{
+//     @include box(840px)    
+// }
 
 
 @media #{$device-small} {
     .box{
         padding: 0 1rem;
     }
-    .box-sm{
-        padding: 0 1rem;    
-    }
+    // .box-sm{
+    //     padding: 0 1rem;    
+    // }
 }
 
 // .padding-nav{
