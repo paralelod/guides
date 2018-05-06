@@ -34,12 +34,15 @@ gulp.task('js', function() {
     var lazyLoady = request('https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js') 
     .pipe(source('lazyLoad.js'));   
 
-    var slickSlider = request('https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js') 
-      .pipe(source('slickSlider.js'));
+    var jQeasing = request('https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js') 
+      .pipe(source('jQeasing.js'));
+
+    var slickSlider = request('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js') 
+    .pipe(source('slickSlider.js'));
 
     var myScripts =  gulp.src('_includes/scripts/js/**/*.js');                                 
   
-    return merge(jquery, lazyLoady, slickSlider,myScripts)                                      
+    return merge(jquery,jQeasing, lazyLoady, slickSlider,myScripts)                                      
       .pipe(buffer())                                               
       .pipe(concat('script.js'))
       //uglify
