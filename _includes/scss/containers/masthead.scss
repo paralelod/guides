@@ -7,12 +7,14 @@
   overflow: hidden;
   position: relative;
   background: linear-gradient(310deg,#5e06a0, #f11a04);
-  background-size: 200% 200%;
+  background-size: 150% 150%;
   background-position: center;
+  z-index: 1;
   // @include bgGradientAnim(#5e06a0, #f11a04, 'gradientAnim');
  
   .masthead-wrap{
     padding: 0 1rem;
+    z-index: 3;
   }
   a{
     color: $light;
@@ -27,6 +29,7 @@
     font-family: $font-sans-serif;
     font-size: 2rem;
     font-weight: 200;
+    text-shadow: #400050 4px 6px 9px;
   }
 }
 
@@ -34,11 +37,23 @@
   content:"";
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   opacity: .25;
-  width: 200%;
-  height: 200%;
-  // background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+  width: 100%;
+  height: 100%;
+  background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png');
+  // background: repeating-radial-gradient(
+  //   circle,
+  //   purple,
+  //   purple 10px,
+  //   #4b026f 10px, 
+  //   #4b026f 20px
+  // );
+  background-position: center;
+  // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
+}
+
+.masthead-overlay{
   background: repeating-radial-gradient(
     circle,
     purple,
@@ -46,10 +61,15 @@
     #4b026f 10px, 
     #4b026f 20px
   );
-  background-position: center;
-  // @include scrollBgDiagonalAnim (600px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover.png',scrollBgDiagonalAnim);
+  opacity: .15;
+  background-size: 200% 200%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  display: block;
 }
-
 
 #scroll-arrow {
   width: 14px;
@@ -95,14 +115,15 @@
   
     h2{
       font-size: 1.5rem;
-      font-weight: lighter;
+      font-weight: 200;
+      text-shadow: #400050 3px 4px 5px;
     }
   }
-  // .masthead::before {
+  .masthead::before {
     // @include scrollBgDiagonalAnim (325px, 'https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png',scrollBgDiagonalAnimSmall);
-    // background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
+    background: url('https://res.cloudinary.com/diogorusso/image/upload/about/about-cover-sm.png');
     // opacity: .3;
-  // }
+  }
   .arrow-wrap{
     position:absolute; 
     bottom:15%; 
