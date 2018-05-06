@@ -31,7 +31,7 @@ gulp.task('js', function() {
     var jquery = request('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js') 
       .pipe(source('jquery.js'));
 
-    var lazyLoady = request('https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js') 
+    var lazyLoad = request('https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.min.js') 
     .pipe(source('lazyLoad.js'));   
 
     var jQeasing = request('https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js') 
@@ -42,7 +42,7 @@ gulp.task('js', function() {
 
     var myScripts =  gulp.src('_includes/scripts/js/**/*.js');                                 
   
-    return merge(jquery,jQeasing, lazyLoady, slickSlider,myScripts)                                      
+    return merge(jquery,jQeasing, lazyLoad, slickSlider,myScripts)                                      
       .pipe(buffer())                                               
       .pipe(concat('script.js'))
       //uglify

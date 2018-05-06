@@ -1,4 +1,3 @@
-{% comment %} <script async>
 
 //author: Gregory Schier http://codepen.io/gschier/pen/jkivt
 
@@ -60,4 +59,3 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
   
-</script> {% endcomment %}
