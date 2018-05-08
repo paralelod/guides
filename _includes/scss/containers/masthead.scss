@@ -22,7 +22,7 @@
   }
   h1{
     font-size: 3rem;
-    text-shadow: #50002c 4px 6px 13px;
+    text-shadow: #50002c 4px 6px 9px;
   }
 
   h2{
@@ -33,22 +33,22 @@
   }
 }
 
-.masthead::before {
-  content:"";
-  background: repeating-radial-gradient(
-    purple 5px,
-    #4b026f 25px, 
-    #4b026f 15px
-  );
-  opacity: .15;
-  background-size: 200% 200%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 1;
-  display: block;
-}
+// .masthead::before {
+//   content:"";
+//   background: repeating-radial-gradient(
+//     purple 5px,
+//     #4b026f 25px, 
+//     #4b026f 15px
+//   );
+//   opacity: .15;
+//   background-size: 200% 200%;
+//   position: absolute;
+//   top: 0;
+//   width: 100%;
+//   height: 100vh;
+//   z-index: 1;
+//   display: block;
+// }
 
 #scroll-arrow {
   width: 14px;
